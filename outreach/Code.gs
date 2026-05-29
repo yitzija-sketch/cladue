@@ -68,6 +68,131 @@ const LABELS = ['Hot Lead', 'Replied', 'No Interest', 'Future Follow Up', 'Needs
 // ==================================================================
 
 
+// ===================== MENU + SETTINGS (friendly UI) =====================
+// Adds an "Outreach" menu to the spreadsheet so you control everything with
+// clicks instead of running functions by hand.
+
+function onOpen() {
+  SpreadsheetApp.getUi().createMenu('📨 Outreach')
+    .addItem('▶  Start automation (go live)', 'menuStart')
+    .addItem('⏸  Stop automation',            'menuStop')
+    .addSeparator()
+    .addItem('✉️  Send a batch now',           'menuSendNow')
+    .addItem('📥  Check for replies now',      'menuCheckNow')
+    .addItem('🗂  Send digest now',            'menuDigestNow')
+    .addSeparator()
+    .addItem('🧪  Toggle TEST mode',           'menuToggleDryRun')
+    .addItem('⚙️  Create / reset Settings tab', 'menuMakeSettings')
+    .addItem('🏷  Create Gmail labels',         'menuMakeLabels')
+    .addItem('📧  Send me a test email',        'sendTestToSelf')
+    .addItem('📊  Show status',                 'menuStatus')
+    .addToUi();
+}
+
+function menuStart() {
+  applySettings_();
+  setupAll();
+  ui_().alert('Automation is LIVE.\n\nGoogle will now:\n• send up to ' + CONFIG.MAX_PER_RUN +
+    ' email(s) every ' + CONFIG.SEND_EVERY_MIN + ' min (' + CONFIG.BIZ_START_HOUR + ':00–' +
+    CONFIG.BIZ_END_HOUR + ':00)\n• check replies every ' + CONFIG.REPLY_CHECK_EVERY_MIN + ' min\n• email a digest at ' +
+    CONFIG.DIGEST_HOUR + ':00\n\nTEST mode is ' + (CONFIG.DRY_RUN ? 'ON (nothing actually sends)' : 'OFF (sending for real)') + '.');
+}
+function menuStop()  { stopAll();  toast_('Automation stopped. No more auto-sends.'); }
+function menuSendNow()  { applySettings_(); sendBatch();            toast_('Ran a send batch — see Status / Logs.'); }
+function menuCheckNow() { applySettings_(); checkRepliesAndReport(); toast_('Checked for replies.'); }
+function menuDigestNow(){ applySettings_(); sendDailyDigest();       toast_('Sent the digest (if any replies queued).'); }
+function menuMakeLabels(){ ensureLabels_(); toast_('Gmail labels created.'); }
+
+function menuToggleDryRun() {
+  const props = PropertiesService.getScriptProperties();
+  const cur = props.getProperty('DRY_RUN_OVERRIDE');
+  const next = (cur === 'false') ? 'true' : 'false';   // default treated as true
+  props.setProperty('DRY_RUN_OVERRIDE', next);
+  writeSetting_('DRY_RUN', next === 'true');
+  ui_().alert('TEST mode is now ' + (next === 'true'
+    ? 'ON — the system logs what it WOULD do but sends nothing.'
+    : 'OFF — the system will send real emails.'));
+}
+
+function menuStatus() {
+  applySettings_();
+  const sheet = mustSheet_(); const last = sheet.getLastRow();
+  const counts = { '':0, SENT:0, REPLIED:0, SKIP:0, UNSUB:0, ERROR:0, OTHER:0 };
+  if (last > 1) sheet.getRange(2, COL.STATUS, last-1, 1).getValues().forEach(function(r){
+    const s = String(r[0]||'').trim().toUpperCase();
+    if (counts[s] === undefined) counts.OTHER++; else counts[s]++;
+  });
+  const live = ScriptApp.getProjectTriggers().length > 0;
+  ui_().alert('Outreach status\n\n' +
+    'Automation: ' + (live ? 'RUNNING' : 'stopped') + '\n' +
+    'TEST mode:  ' + (CONFIG.DRY_RUN ? 'ON' : 'OFF') + '\n\n' +
+    'Not yet sent: ' + counts[''] + '\n' +
+    'Sent:         ' + counts.SENT + '\n' +
+    'Replied:      ' + counts.REPLIED + '\n' +
+    'Suppressed:   ' + (counts.UNSUB + counts.SKIP) + '\n' +
+    'Errors:       ' + counts.ERROR);
+}
+
+function menuMakeSettings() { createSettingsSheet_(); toast_('Settings tab ready — edit values there.'); }
+
+/** Keys that can be controlled from the Settings tab, with their default + help. */
+const SETTING_DEFS = [
+  ['DRY_RUN',        true,  'TEST mode. TRUE = log only, no real sends. Set FALSE to go live.'],
+  ['MAX_PER_RUN',    2,     'Max emails sent per run.'],
+  ['SEND_EVERY_MIN', 10,    'Minutes between send runs.'],
+  ['BIZ_START_HOUR', 9,     'Earliest send hour (0-23).'],
+  ['BIZ_END_HOUR',   17,    'Latest send hour (0-23).'],
+  ['FROM_ALIAS',     '',    'Blank = default address. Or a verified send-as alias.'],
+  ['FROM_NAME',      'Yitzi Jachimowitz', 'Display name on outgoing mail.'],
+  ['REPORT_TO',      'yitzi@eretzltd.com', 'Where reply alerts + digest go.'],
+  ['DIGEST_HOUR',    18,    'Hour the nightly digest is sent (0-23).'],
+  ['RECENT_REPLY_DAYS', 120,'If they replied within this many days, do not cold-email.'],
+];
+
+function createSettingsSheet_() {
+  const ss = SpreadsheetApp.getActive();
+  let s = ss.getSheetByName('Settings');
+  if (!s) s = ss.insertSheet('Settings');
+  s.clear();
+  s.getRange(1,1,1,3).setValues([['Setting','Value','What it does']]).setFontWeight('bold');
+  const rows = SETTING_DEFS.map(function(d){ return [d[0], d[1], d[2]]; });
+  s.getRange(2,1,rows.length,3).setValues(rows);
+  s.setColumnWidth(1,180); s.setColumnWidth(2,160); s.setColumnWidth(3,520);
+  s.setFrozenRows(1);
+}
+
+/** Read the Settings tab (if present) and override CONFIG before each run. */
+function applySettings_() {
+  const ss = SpreadsheetApp.getActive();
+  const s = ss.getSheetByName('Settings');
+  if (s && s.getLastRow() > 1) {
+    const vals = s.getRange(2,1,s.getLastRow()-1,2).getValues();
+    vals.forEach(function(r){
+      const key = String(r[0]).trim(); if (!(key in CONFIG)) return;
+      CONFIG[key] = coerce_(CONFIG[key], r[1]);
+    });
+  }
+  // A menu toggle can override DRY_RUN regardless of the sheet.
+  const ov = PropertiesService.getScriptProperties().getProperty('DRY_RUN_OVERRIDE');
+  if (ov === 'true' || ov === 'false') CONFIG.DRY_RUN = (ov === 'true');
+}
+
+function coerce_(current, value) {
+  if (typeof current === 'boolean') return String(value).toLowerCase() === 'true' || value === true;
+  if (typeof current === 'number')  { const n = Number(value); return isNaN(n) ? current : n; }
+  return String(value);
+}
+function writeSetting_(key, value) {
+  const s = SpreadsheetApp.getActive().getSheetByName('Settings');
+  if (!s || s.getLastRow() < 2) return;
+  const keys = s.getRange(2,1,s.getLastRow()-1,1).getValues();
+  for (let i=0;i<keys.length;i++) if (String(keys[i][0]).trim()===key) { s.getRange(i+2,2).setValue(value); return; }
+}
+function ui_()    { return SpreadsheetApp.getUi(); }
+function toast_(m){ SpreadsheetApp.getActive().toast(m, 'Outreach', 6); }
+// =========================================================================
+
+
 /** Install every trigger at once. Run this one function after testing. */
 function setupAll() {
   removeAll_();
@@ -89,6 +214,7 @@ function removeAll_() {
 // =========================== SENDER ===========================
 
 function sendBatch() {
+  applySettings_();
   if (!inBusinessWindow_()) return;
   const sheet = mustSheet_();
   const lastRow = sheet.getLastRow();
@@ -214,6 +340,7 @@ function buildMessage_(template, r) {
 // ====================== REPLY MONITOR ======================
 
 function checkRepliesAndReport() {
+  applySettings_();
   if (!inBusinessWindow_()) return;
   const tz = Session.getScriptTimeZone();
   const sheet = mustSheet_();
@@ -275,6 +402,7 @@ function checkRepliesAndReport() {
 
 /** Nightly recap of every reply since the last digest. */
 function sendDailyDigest() {
+  applySettings_();
   const props = PropertiesService.getScriptProperties();
   const digest = safeJson_(props.getProperty('DIGEST_QUEUE'), []);
   if (!digest.length) { Logger.log('Digest: nothing to send.'); return; }

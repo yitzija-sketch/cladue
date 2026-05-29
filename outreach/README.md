@@ -40,21 +40,42 @@ unsubscribe, remove me, stop, do not contact*. Edit the keyword lists in CONFIG.
 - `recipients.csv` — your 49 prospects with **To, Name, Company, Domain, Kind,
   Subject, Body** + tracking columns.
 
-## Setup (one time)
+## Setup (one time — then it's all buttons)
 1. New Google Sheet → File → Import → upload `recipients.csv` → "Replace current
    sheet". Rename the tab to **`Outreach`**. (Keep the header row.)
 2. Extensions → Apps Script. Replace the default file with `Code.gs`. Save.
-3. Edit `CONFIG`:
-   - `FROM_ALIAS` — `''` for default, or `'yitzi@eretzltd.com'` if it's a verified
-     send-as alias in Gmail (Settings → Accounts → "Send mail as").
-   - Pace: `MAX_PER_RUN`, `SEND_EVERY_MIN`, `BIZ_*`. Keywords: `HOT_KEYWORDS`/`COLD_KEYWORDS`.
-   - Leave **`DRY_RUN: true`** for now.
-4. Test: run `sendTestToSelf` (grant permissions), then run `sendBatch` and
-   `sendDailyDigest` while DRY_RUN is true — check View → Logs to see decisions.
-5. Go live: set **`DRY_RUN: false`**, then run **`setupAll()`** once. Done — Google
-   runs all three jobs on schedule. To stop everything: run `stopAll()`.
+3. Back on the sheet, **reload the page**. A new **📨 Outreach** menu appears.
+4. From the menu, click **⚙️ Create / reset Settings tab** — gives you a plain
+   table to set pace, hours, From alias, etc. with no code.
+5. Click **📧 Send me a test email** (grant permissions when asked) to confirm sending works.
+6. Leave **TEST mode ON**, click **✉️ Send a batch now** and **📊 Show status**
+   to preview what it would do (it sends nothing in test mode).
+7. When happy: menu → **🧪 Toggle TEST mode** (turns it OFF), then **▶ Start
+   automation**. Done — Google runs everything on schedule.
 
-## Day-to-day controls (in the sheet)
+To pause anytime: menu → **⏸ Stop automation**.
+
+## The 📨 Outreach menu
+| Click | Does |
+|-------|------|
+| ▶ Start automation | Installs the schedules and goes live |
+| ⏸ Stop automation | Removes all schedules |
+| ✉️ Send a batch now | Runs one send cycle immediately |
+| 📥 Check for replies now | Scans + reports replies now |
+| 🗂 Send digest now | Sends the recap now |
+| 🧪 Toggle TEST mode | Flip send-for-real on/off |
+| ⚙️ Create / reset Settings tab | Builds the no-code settings table |
+| 🏷 Create Gmail labels | Makes the Hot Lead / Replied / … labels |
+| 📧 Send me a test email | Verifies sending |
+| 📊 Show status | Counts of sent / replied / suppressed |
+
+## Settings tab (no code)
+Edit values in the **Settings** tab and they apply on the next run: `DRY_RUN`
+(TEST mode), `MAX_PER_RUN`, `SEND_EVERY_MIN`, `BIZ_START_HOUR`, `BIZ_END_HOUR`,
+`FROM_ALIAS`, `FROM_NAME`, `REPORT_TO`, `DIGEST_HOUR`, `RECENT_REPLY_DAYS`.
+(Anything not in the tab keeps the default in `CONFIG`.)
+
+## Day-to-day controls (in the Outreach tab)
 - `SKIP` in **Status** = never email this row.
 - Future date in **ScheduledFor** = hold until then.
 - Clear **Status** = eligible to send again.
