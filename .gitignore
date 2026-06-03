@@ -1,0 +1,5 @@
+# Source uploads & scratch parsing artifacts (not project deliverables)
+*.pdf
+report17_*.json
+report17_owners.json
+report17_new.json
