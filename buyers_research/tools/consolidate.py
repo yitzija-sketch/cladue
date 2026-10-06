@@ -490,8 +490,24 @@ def consolidate():
     raw, bad = read_parts('B_deals')
     report['B_raw_rows'] = len(raw)
     report['B_unparseable_blocks'] = dict(bad)
+    # manual exclusions flagged by later research passes: parts/_runs/EXCLUDE_B.jsonl rows {address, town, reason}
+    excl = {}
+    excl_path = os.path.join(PARTS, '_runs', 'EXCLUDE_B.jsonl')
+    if os.path.exists(excl_path):
+        for line in open(excl_path, encoding='utf-8'):
+            line = line.strip()
+            if line:
+                try:
+                    e = json.loads(line)
+                    excl[(addr_key(e.get('address')), s(e.get('town')).upper())] = s(e.get('reason'))
+                except json.JSONDecodeError:
+                    pass
     groups = defaultdict(list)
     for r in raw:
+        ek = (addr_key(r.get('address')), s(r.get('town')).upper())
+        if ek in excl:
+            rejected.append({'file': 'B', 'part': r.get('_part'), 'reason': f'excluded by later pass ({excl[ek]})', 'row': json.dumps({k: s(v) for k, v in r.items()})[:800]})
+            continue
         d, n1 = norm_date(r.get('date'))
         sd, n2 = norm_date(r.get('source_date'))
         r['date'], r['source_date'] = d, sd
