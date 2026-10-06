@@ -3,6 +3,7 @@ SEAGIS PROPERTY GROUP,Seagis Property Group,developer-holder,yes,6,10,0,23
 SITEX GROUP,Sitex Group,developer-holder,yes,5,1,0,12
 THOR EQUITIES GROUP,Thor Equities Group,developer-holder,yes,3,5,0,12
 FAROPOINT,Faropoint,closed-end PE,yes,1,7,0,10
+VENTURE ONE REAL ESTATE,Venture One Real Estate,closed-end PE,yes,0,8,0,9
 EVERWEST REAL ESTATE INVESTORS,EverWest Real Estate Investors,other,yes,2,3,0,8
 REALTERM,Realterm,closed-end PE,yes,1,5,0,8
 VELOCITY VENTURE PARTNERS,"Velocity Venture Partners, LLC",closed-end PE,yes,1,4,0,7
@@ -15,8 +16,12 @@ MARCUS PARTNERS,Marcus Partners,closed-end PE,yes,1,3,0,6
 OLIVER STREET CAPITAL,Oliver Street Capital,closed-end PE,yes,0,5,0,6
 RIVER WALK,River Walk LLC,other,yes,2,1,0,6
 TREETOP COMPANIES,Treetop Companies,family office,yes,0,5,0,6
+TURNBRIDGE EQUITIES,Turnbridge Equities,developer-holder,yes,1,3,0,6
+WHARTON INDUSTRIAL WHARTON EQUITY PARTNERS,Wharton Industrial (Wharton Equity Partners),closed-end PE,yes,0,5,0,6
 WOODMONT INDUSTRIAL PARTNERS,Woodmont Industrial Partners,developer-holder,yes,1,3,0,6
+CAMBER REAL ESTATE PARTNERS,Camber Real Estate Partners,closed-end PE,yes,0,4,0,5
 CBRE INVESTMENT MANAGEMENT,CBRE Investment Management,open-end fund,yes,0,4,0,5
+COHEN ASSET MANAGEMENT,"Cohen Asset Management, Inc.",closed-end PE,yes,0,4,0,5
 PENWOOD REAL ESTATE,Penwood Real Estate,closed-end PE,yes,1,2,0,5
 PROLOGIS,"Prologis, Inc.",REIT,yes,0,4,0,5
 SAGARD REAL ESTATE,Sagard Real Estate,open-end fund,yes,0,4,0,5
@@ -24,7 +29,6 @@ ARES INDUSTRIAL REAL ESTATE INCOME TRUST,Ares Industrial Real Estate Income Trus
 ARES MANAGEMENT REAL ESTATE ARES INDUSTRIAL REIT LEGACY BLACK CREEK,Ares Management Real Estate (Ares Industrial REIT / legacy Black Creek),open-end fund,yes,0,3,0,4
 BROOKFIELD ASSET MANAGEMENT LOGISTICS,Brookfield Asset Management (Logistics),closed-end PE,yes,0,3,0,4
 BROOKFIELD REAL ESTATE INCOME TRUST,Brookfield Real Estate Income Trust Inc.,REIT,yes,0,3,0,4
-CAMBER REAL ESTATE PARTNERS,Camber Real Estate Partners,other,yes,0,3,0,4
 CLARION PARTNERS LION INDUSTRIAL TRUST,Clarion Partners (Lion Industrial Trust),open-end fund,yes,0,3,0,4
 CREATION EQUITY,Creation Equity,developer-holder,yes,1,1,0,4
 CRITERION GROUP,Criterion Group LLC,IOS specialist,yes,0,3,0,4
@@ -36,17 +40,21 @@ INNOVATIVE INDUSTRIAL PROPERTIES,"Innovative Industrial Properties, Inc.",REIT,y
 LIBERTY PROPERTY TRUST,,,no,2,0,0,4
 LINK INDUSTRIAL PROPERTIES,,,no,2,0,0,4
 LINK LOGISTICS REAL ESTATE,Link Logistics Real Estate,open-end fund,yes,0,3,0,4
+NOVAYA REAL ESTATE VENTURES,Novaya Real Estate Ventures,closed-end PE,yes,0,3,0,4
 OXFORD PROPERTIES GROUP,Oxford Properties Group,other,yes,0,3,0,4
 PGIM REAL ESTATE,PGIM Real Estate,open-end fund,yes,0,3,0,4
 PRINCIPAL REAL ESTATE INVESTORS,Principal Real Estate Investors,open-end fund,yes,0,3,0,4
 RIDGECUT ROAD,Ridgecut Road,IOS specialist,yes,0,3,0,4
+ROCKEFELLER GROUP,Rockefeller Group,developer-holder,yes,0,3,0,4
 TACONIC PARTNERS,Taconic Partners,developer-holder,yes,1,1,0,4
 TERRENO REALTY CORPORATION,Terreno Realty Corporation,REIT,yes,0,3,0,4
-TURNBRIDGE EQUITIES,Turnbridge Equities,developer-holder,yes,1,1,0,4
 ADVANCE REALTY INVESTORS,Advance Realty Investors,developer-holder,yes,0,2,0,3
 ALTERRA IOS,Alterra IOS,IOS specialist,yes,0,2,0,3
 AMERICOLD REALTY TRUST,"Americold Realty Trust, Inc.",REIT,yes,0,2,0,3
 BARINGS REAL ESTATE,Barings Real Estate,open-end fund,yes,0,2,0,3
+CROW HOLDINGS INDUSTRIAL CROW HOLDINGS DEVELOPMENT,Crow Holdings Industrial / Crow Holdings Development,developer-holder,yes,0,2,0,3
+DERMODY PROPERTIES,Dermody Properties,developer-holder,yes,0,2,0,3
+FORSGATE INDUSTRIAL PARTNERS,Forsgate Industrial Partners,developer-holder,yes,0,2,0,3
 FREEZPAK LOGISTICS,FreezPak Logistics,owner-user,yes,0,2,0,3
 GENESIS,Genesis LLC,other,yes,0,2,0,3
 GLP CAPITAL PARTNERS GCP,GLP Capital Partners (GCP),closed-end PE,yes,0,2,0,3
@@ -57,6 +65,8 @@ MAPLETREE INVESTMENTS,Mapletree Investments,developer-holder,yes,0,2,0,3
 NUVEEN REAL ESTATE,Nuveen Real Estate,open-end fund,yes,0,2,0,3
 ONE LIBERTY PROPERTIES,"One Liberty Properties, Inc.",REIT,yes,1,0,0,3
 OUTPOST,Outpost,IOS specialist,yes,0,2,0,3
+PENWOOD REAL ESTATE INVESTMENT MANAGEMENT,"Penwood Real Estate Investment Management, LLC",closed-end PE,yes,0,2,0,3
+SAGARD REAL ESTATE FORMERLY EVERWEST REAL ESTATE INVESTORS,Sagard Real Estate (formerly EverWest Real Estate Investors),other,yes,0,2,0,3
 SCANNELL PROPERTIES,Scannell Properties,developer-holder,yes,0,2,0,3
 STAG INDUSTRIAL,"STAG Industrial, Inc.",REIT,yes,0,2,0,3
 STONEMONT FINANCIAL GROUP,Stonemont Financial Group,closed-end PE,yes,0,2,0,3
@@ -67,25 +77,32 @@ BENTALLGREENOAK,,,no,1,0,0,2
 BGO BENTALLGREENOAK,BGO (BentallGreenOak),open-end fund,yes,0,1,0,2
 BLACKSTONE REAL ESTATE BREIT BREP,Blackstone Real Estate (BREIT / BREP),open-end fund,yes,0,1,0,2
 BRENNAN INVESTMENT GROUP,Brennan Investment Group,closed-end PE,yes,0,1,0,2
+BRIDGE INDUSTRIAL,Bridge Industrial,developer-holder,yes,0,1,0,2
 BRIDGE LOGISTICS PROPERTIES,,,no,1,0,0,2
 BROOKFIELD ASSET MANAGEMENT INDUSTRIAL IOS,Brookfield Asset Management (industrial/IOS),open-end fund,yes,0,1,0,2
 CATALYST INVESTMENT PARTNERS,Catalyst Investment Partners,IOS specialist,yes,0,1,0,2
+CERVENKA DEVELOPMENT PARTNERS,Cervenka Development Partners,developer-holder,yes,0,1,0,2
 COARE INDUSTRIAL,COARE Industrial,IOS specialist,yes,0,1,0,2
 COLUMBIA STORAGE GROUP,,,no,1,0,0,2
+COMMERCIAL REALTY GROUP,Commercial Realty Group,developer-holder,yes,0,1,0,2
 CPP INVESTMENTS,CPP Investments,other,yes,0,1,0,2
-CROW HOLDINGS INDUSTRIAL CROW HOLDINGS DEVELOPMENT,Crow Holdings Industrial / Crow Holdings Development,developer-holder,yes,0,1,0,2
 DAVCO GROUP,Davco Group,other,yes,0,1,0,2
 DAVCO GROUP SHOLOM DAVIDOWITS,,,no,1,0,0,2
 DAYBREAK EXPRESS,,,no,1,0,0,2
 DEUGEN INVESTMENT GROUP,Deugen Investment Group,other,yes,0,1,0,2
+DH PROPERTY HOLDINGS DHPH,"DH Property Holdings, LLC (DHPH)",developer-holder,yes,0,1,0,2
+DRA ADVISORS,DRA Advisors LLC,closed-end PE,yes,0,1,0,2
 DUKE REALTY,,,no,1,0,0,2
 EAST CAPITAL PARTNERS,East Capital Partners,other,yes,0,1,0,2
 ELION PARTNERS,Elion Partners,closed-end PE,yes,0,1,0,2
 EQT EXETER,EQT Exeter,open-end fund,yes,0,1,0,2
+FEDERAL BUSINESS CENTERS,Federal Business Centers,developer-holder,yes,0,1,0,2
 FUJIPOLY AMERICA,,,no,1,0,0,2
 GLADSTONE COMMERCIAL CORPORATION,Gladstone Commercial Corporation,REIT,yes,0,1,0,2
 GOLDMAN SACHS ASSET MANAGEMENT REAL ESTATE,Goldman Sachs Asset Management (Real Estate),closed-end PE,yes,0,1,0,2
 GOODMAN GROUP GOODMAN NORTH AMERICA,Goodman Group (Goodman North America),developer-holder,yes,0,1,0,2
+HARTZ MOUNTAIN INDUSTRIES,"Hartz Mountain Industries, Inc.",developer-holder,yes,0,1,0,2
+HILLWOOD,Hillwood,developer-holder,yes,0,1,0,2
 HINES,Hines,closed-end PE,yes,0,1,0,2
 HINES GLOBAL INCOME TRUST,"Hines Global Income Trust, Inc.",REIT,yes,0,1,0,2
 HINES U S PROPERTY RECOVERY FUND,Hines U.S. Property Recovery Fund,closed-end PE,yes,0,1,0,2
@@ -94,19 +111,21 @@ INDUSTRIAL OUTDOOR VENTURES,Industrial Outdoor Ventures,IOS specialist,yes,0,1,0
 INVESCO REAL ESTATE INCOME TRUST,Invesco Real Estate Income Trust Inc.,REIT,yes,0,1,0,2
 INVESTCORP,Investcorp,closed-end PE,yes,0,1,0,2
 IVANHO CAMBRIDGE LA CAISSE,Ivanhoé Cambridge (La Caisse),other,yes,0,1,0,2
-IVY REALTY,Ivy Realty,other,yes,0,1,0,2
+IVY REALTY,Ivy Realty,closed-end PE,yes,0,1,0,2
 J P MORGAN REAL ESTATE INCOME TRUST,"J.P. Morgan Real Estate Income Trust, Inc.",REIT,yes,0,1,0,2
 JADIAN IOS JIOS,Jadian IOS (JIOS),IOS specialist,yes,0,1,0,2
 KISS PRODUCTS,,,no,1,0,0,2
 LBA LOGISTICS LBA REALTY,LBA Logistics (LBA Realty),open-end fund,yes,0,1,0,2
+LEGACY REAL ESTATE DEVELOPERS,Legacy Real Estate Developers,other,yes,0,1,0,2
+MATRIX DEVELOPMENT GROUP,Matrix Development Group,developer-holder,yes,0,1,0,2
 MORGAN STANLEY REAL ESTATE INVESTING,Morgan Stanley Real Estate Investing,closed-end PE,yes,0,1,0,2
 MT FREEHOLD BPD,MT Freehold BPD,other,yes,0,1,0,2
 NORGES BANK INVESTMENT MANAGEMENT,Norges Bank Investment Management,other,yes,0,1,0,2
 NORTHBRIDGE PARTNERS,"NorthBridge Partners, LLC",closed-end PE,yes,0,1,0,2
 NORTHPATH INVESTMENTS,Northpath Investments,other,yes,0,1,0,2
 OAK STREET REAL ESTATE CAPITAL,Oak Street Real Estate Capital,closed-end PE,yes,0,1,0,2
+ONYX EQUITIES,Onyx Equities,developer-holder,yes,0,1,0,2
 PEAKSTONE REALTY TRUST,Peakstone Realty Trust,REIT,yes,0,1,0,2
-PENWOOD REAL ESTATE INVESTMENT MANAGEMENT,"Penwood Real Estate Investment Management, LLC",closed-end PE,yes,0,1,0,2
 PGIM PRIVATE REAL ESTATE FUND,"PGIM Private Real Estate Fund, Inc.",REIT,yes,0,1,0,2
 PROPERTY RESERVE,"Property Reserve, Inc.",other,yes,0,1,0,2
 PSP INVESTMENTS,PSP Investments,other,yes,0,1,0,2
@@ -117,15 +136,25 @@ SHAWNEE TRANSPORTATION,,,no,1,0,0,2
 SILVERMAN GROUP,The Silverman Group,family office,yes,0,1,0,2
 TAURUS INVESTMENT HOLDINGS,Taurus Investment Holdings,other,yes,0,1,0,2
 THOR,,,no,1,0,0,2
+THOR EQUITIES,Thor Equities,developer-holder,yes,0,1,0,2
+TRAMMELL CROW COMPANY,Trammell Crow Company,developer-holder,yes,0,1,0,2
+TULFRA REAL ESTATE,Tulfra Real Estate,developer-holder,yes,0,1,0,2
 VISION REAL ESTATE PARTNERS,Vision Real Estate Partners,developer-holder,yes,0,1,0,2
 W P CAREY,W. P. Carey Inc.,REIT,yes,0,1,0,2
+WESTERN BUILDING CO,Western Building Co.,other,yes,0,1,0,2
 ABU DHABI INVESTMENT AUTHORITY ADIA,Abu Dhabi Investment Authority (ADIA),other,yes,0,0,0,1
+ADLER DEVELOPMENT,Adler Development,developer-holder,yes,0,0,0,1
 AFFINIUS CAPITAL,Affinius Capital,other,yes,0,0,0,1
 AIC VENTURES AIC INDUSTRIAL,AIC Ventures (AIC Industrial),closed-end PE,yes,0,0,0,1
+ALFIERI,Alfieri,developer-holder,yes,0,0,0,1
 ALPINE INCOME PROPERTY TRUST,"Alpine Income Property Trust, Inc.",REIT,yes,0,0,0,1
+APOLLO GLOBAL MANAGEMENT REAL ESTATE,Apollo Global Management (Real Estate),closed-end PE,yes,0,0,0,1
 APOLLO REALTY INCOME SOLUTIONS,"Apollo Realty Income Solutions, Inc.",REIT,yes,0,0,0,1
 ARCADIA COLD,Arcadia Cold,owner-user,yes,0,0,0,1
+ATLANTIC REALTY DEVELOPMENT,Atlantic Realty Development,developer-holder,yes,0,0,0,1
+ATLANTIC REALTY DEVELOPMENT CORPORATION,Atlantic Realty Development Corporation,developer-holder,yes,0,0,0,1
 BAY GROVE CAPITAL,Bay Grove Capital LLC,other,yes,0,0,0,1
+BERGER ORGANIZATION,Berger Organization,developer-holder,yes,0,0,0,1
 BERGMAN REAL ESTATE GROUP,Bergman Real Estate Group,developer-holder,yes,0,0,0,1
 BKM CAPITAL PARTNERS,BKM Capital Partners,closed-end PE,yes,0,0,0,1
 BLACKSTONE REAL ESTATE INCOME TRUST,"Blackstone Real Estate Income Trust, Inc.",REIT,yes,0,0,0,1
@@ -136,8 +165,10 @@ CABOT PROPERTIES,Cabot Properties,closed-end PE,yes,0,0,0,1
 CANTOR FITZGERALD INCOME TRUST,"Cantor Fitzgerald Income Trust, Inc.",REIT,yes,0,0,0,1
 CAPITAL SQUARE 1031,"Capital Square 1031, LLC",other,yes,0,0,0,1
 CARDINAL INDUSTRIAL,Cardinal Industrial,other,yes,0,0,0,1
+CERBERUS CAPITAL MANAGEMENT,Cerberus Capital Management,closed-end PE,yes,0,0,0,1
 CHICAGO ATLANTIC,Chicago Atlantic,other,yes,0,0,0,1
 COLUMBIA PACIFIC ADVISORS,Columbia Pacific Advisors,closed-end PE,yes,0,0,0,1
+COREONE INDUSTRIAL,CoreOne Industrial,developer-holder,yes,0,0,0,1
 COVE CAPITAL INVESTMENTS,"Cove Capital Investments, LLC",other,yes,0,0,0,1
 CUBESMART,CubeSmart,REIT,yes,0,0,0,1
 DAIWA HOUSE INDUSTRY,Daiwa House Industry,developer-holder,yes,0,0,0,1
@@ -145,13 +176,18 @@ DEKA IMMOBILIEN,Deka Immobilien,open-end fund,yes,0,0,0,1
 DREAM INDUSTRIAL REIT,Dream Industrial REIT,REIT,yes,0,0,0,1
 DWS GROUP RREEF RREEF PROPERTY TRUST,DWS Group / RREEF (RREEF Property Trust),open-end fund,yes,0,0,0,1
 EASTGROUP PROPERTIES,"EastGroup Properties, Inc.",REIT,yes,0,0,0,1
+EASTMAN COMPANIES,Eastman Companies,developer-holder,yes,0,0,0,1
+EDISON PROPERTIES,Edison Properties,developer-holder,yes,0,0,0,1
 ELMTREE FUNDS,ElmTree Funds,closed-end PE,yes,0,0,0,1
 ESR GROUP,ESR Group,developer-holder,yes,0,0,0,1
 ESSENTIAL PROPERTIES REALTY TRUST,"Essential Properties Realty Trust, Inc.",REIT,yes,0,0,0,1
 FIRST INDUSTRIAL REALTY TRUST,"First Industrial Realty Trust, Inc.",REIT,yes,0,0,0,1
+FORTRESS INVESTMENT GROUP,Fortress Investment Group,closed-end PE,yes,0,0,0,1
 FORTRESS INVESTMENT GROUP IOS STRATEGY,Fortress Investment Group (IOS strategy),closed-end PE,yes,0,0,0,1
 FORTRESS NET LEASE REIT,Fortress Net Lease REIT,REIT,yes,0,0,0,1
 FOUR SPRINGS CAPITAL TRUST,Four Springs Capital Trust,REIT,yes,0,0,0,1
+FOUR SPRINGS CAPITAL TRUST RENAMED PILOTHOUSE,Four Springs Capital Trust (renamed Pilothouse),REIT,yes,0,0,0,1
+GARDEN HOMES,Garden Homes,family office,yes,0,0,0,1
 GARDEN STATE COLD STORAGE,Garden State Cold Storage,owner-user,yes,0,0,0,1
 GIC,GIC,other,yes,0,0,0,1
 GLOBAL NET LEASE,"Global Net Lease, Inc.",REIT,yes,0,0,0,1
@@ -161,7 +197,10 @@ GTJ REIT,"GTJ REIT, Inc.",REIT,yes,0,0,0,1
 HACKMAN CAPITAL PARTNERS,Hackman Capital Partners,other,yes,0,0,0,1
 HAMPSHIRE COMPANIES,The Hampshire Companies,closed-end PE,yes,0,0,0,1
 HANA ALTERNATIVE ASSET MANAGEMENT,Hana Alternative Asset Management,other,yes,0,0,0,1
+HARBOR GROUP INTERNATIONAL,Harbor Group International,closed-end PE,yes,0,0,0,1
 HEITMAN,Heitman,open-end fund,yes,0,0,0,1
+HELLER INDUSTRIAL PARKS,"Heller Industrial Parks, Inc.",developer-holder,yes,0,0,0,1
+HUGO NEU CORPORATION,Hugo Neu Corporation,developer-holder,yes,0,0,0,1
 IGIS ASSET MANAGEMENT,IGIS Asset Management,other,yes,0,0,0,1
 INLAND PRIVATE CAPITAL CORPORATION,Inland Private Capital Corporation,other,yes,0,0,0,1
 IRON MOUNTAIN INCORPORATED,Iron Mountain Incorporated,REIT,yes,0,0,0,1
@@ -172,10 +211,12 @@ KAJIMA CORPORATION,Kajima Corporation,developer-holder,yes,0,0,0,1
 KAPLAN COMPANIES,Kaplan Companies,developer-holder,yes,0,0,0,1
 KARIS COLD,Karis Cold,developer-holder,yes,0,0,0,1
 KKR REAL ESTATE SELECT TRUST,KKR Real Estate Select Trust Inc.,REIT,yes,0,0,0,1
+KUSHNER COMPANIES,Kushner Companies,family office,yes,0,0,0,1
 LARKEN ASSOCIATES,Larken Associates,developer-holder,yes,0,0,0,1
 LASALLE INVESTMENT MANAGEMENT,LaSalle Investment Management,open-end fund,yes,0,0,0,1
 LCN CAPITAL PARTNERS,LCN Capital Partners,closed-end PE,yes,0,0,0,1
 LINCOLN EQUITIES GROUP,Lincoln Equities Group,developer-holder,yes,0,0,0,1
+LINCOLN PROPERTY COMPANY,Lincoln Property Company,developer-holder,yes,0,0,0,1
 LINEAGE,"Lineage, Inc.",REIT,yes,0,0,0,1
 LINK LOGISTICS IOS,Link Logistics (IOS),REIT,yes,0,0,0,1
 LXP INDUSTRIAL TRUST,LXP Industrial Trust,REIT,yes,0,0,0,1
@@ -188,6 +229,7 @@ MIRAE ASSET,Mirae Asset,other,yes,0,0,0,1
 MITSUBISHI ESTATE NEW YORK,Mitsubishi Estate New York,other,yes,0,0,0,1
 MITSUI FUDOSAN AMERICA,Mitsui Fudosan America,other,yes,0,0,0,1
 MODIV INDUSTRIAL,"Modiv Industrial, Inc.",REIT,yes,0,0,0,1
+MOUNTAIN DEVELOPMENT,Mountain Development Corp.,developer-holder,yes,0,0,0,1
 NETSTREIT,NETSTREIT Corp.,REIT,yes,0,0,0,1
 NEWCOLD,NewCold,owner-user,yes,0,0,0,1
 NEWLAKE CAPITAL PARTNERS,"NewLake Capital Partners, Inc.",REIT,yes,0,0,0,1
@@ -196,6 +238,7 @@ PALMER LOGISTICS,Palmer Logistics,owner-user,yes,0,0,0,1
 PATRIZIA SE,Patrizia SE,other,yes,0,0,0,1
 PIMCO PRIME REAL ESTATE EX ALLIANZ REAL ESTATE,PIMCO Prime Real Estate (ex Allianz Real Estate),other,yes,0,0,0,1
 PLYMOUTH INDUSTRIAL REIT,"Plymouth Industrial REIT, Inc.",REIT,yes,0,0,0,1
+PRISM CAPITAL PARTNERS,Prism Capital Partners,developer-holder,yes,0,0,0,1
 READYSPACES,ReadySpaces,owner-user,yes,0,0,0,1
 REALCOLD,RealCold,other,yes,0,0,0,1
 REALTY INCOME CORPORATION,Realty Income Corporation,REIT,yes,0,0,0,1
@@ -205,19 +248,20 @@ ROCKPOINT GROUP ROCKPOINT INDUSTRIAL,Rockpoint Group (Rockpoint Industrial),clos
 RUSSO DEVELOPMENT,Russo Development,developer-holder,yes,0,0,0,1
 SAXUM REAL ESTATE,Saxum Real Estate,developer-holder,yes,0,0,0,1
 SCULPTOR DIVERSIFIED REAL ESTATE INCOME TRUST,"Sculptor Diversified Real Estate Income Trust, Inc.",REIT,yes,0,0,0,1
-SEALY AND COMPANY,Sealy & Company,other,yes,0,0,0,1
+SEALY AND COMPANY,Sealy & Company,closed-end PE,yes,0,0,0,1
 SHINHAN FINANCIAL GROUP,Shinhan Financial Group,other,yes,0,0,0,1
 SIGNATURE ACQUISITIONS,Signature Acquisitions,other,yes,0,0,0,1
+STARWOOD CAPITAL GROUP,Starwood Capital Group,closed-end PE,yes,0,0,0,1
 STARWOOD REAL ESTATE INCOME TRUST,"Starwood Real Estate Income Trust, Inc.",REIT,yes,0,0,0,1
 STOCKBRIDGE CAPITAL GROUP,Stockbridge Capital Group,open-end fund,yes,0,0,0,1
 STORE CAPITAL,STORE Capital,REIT,yes,0,0,0,1
+STREAM REALTY PARTNERS,Stream Realty Partners,developer-holder,yes,0,0,0,1
 THACKERAY PARTNERS,Thackeray Partners,closed-end PE,yes,0,0,0,1
 TIMBER HILL GROUP,Timber Hill Group LLC,IOS specialist,yes,0,0,0,1
 TPG ANGELO GORDON,TPG Angelo Gordon,closed-end PE,yes,0,0,0,1
 TPG ANGELO GORDON NET LEASE REAL ESTATE,TPG Angelo Gordon Net Lease Real Estate,closed-end PE,yes,0,0,0,1
 TRANSPORT PROPERTIES,Transport Properties,IOS specialist,yes,0,0,0,1
 TRITEN REAL ESTATE PARTNERS,Triten Real Estate Partners,IOS specialist,yes,0,0,0,1
-TULFRA REAL ESTATE,Tulfra Real Estate,developer-holder,yes,0,0,0,1
 UBS REALTY INVESTORS,UBS Realty Investors,open-end fund,yes,0,0,0,1
 UNION INVESTMENT REAL ESTATE,Union Investment Real Estate,open-end fund,yes,0,0,0,1
 VERTICAL COLD STORAGE,Vertical Cold Storage,owner-user,yes,0,0,0,1

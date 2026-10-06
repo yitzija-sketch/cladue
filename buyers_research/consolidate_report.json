@@ -1,22 +1,22 @@
 {
- "A_raw_rows": 248,
+ "A_raw_rows": 325,
  "A_unparseable_blocks": {},
- "A_rows": 212,
- "A_with_stated_criteria": 103,
+ "A_rows": 256,
+ "A_with_stated_criteria": 111,
  "A_by_type": {
-  "developer-holder": 34,
-  "closed-end PE": 41,
+  "developer-holder": 62,
+  "closed-end PE": 54,
   "open-end fund": 24,
-  "family office": 2,
-  "REIT": 47,
-  "other": 43,
+  "family office": 4,
+  "REIT": 48,
   "IOS specialist": 13,
+  "other": 43,
   "owner-user": 8
  },
  "A_nj_active": {
-  "yes": 122,
-  "unknown": 76,
-  "no": 14
+  "yes": 148,
+  "unknown": 93,
+  "no": 15
  },
  "B_raw_rows": 99,
  "B_unparseable_blocks": {},
@@ -98,7 +98,7 @@
   "2024": 35,
   "2025": 73
  },
- "rank_rows": 225,
+ "rank_rows": 269,
  "top_30_active": [
   [
    "SEAGIS PROPERTY GROUP",
@@ -119,6 +119,11 @@
    "FAROPOINT",
    10,
    1
+  ],
+  [
+   "VENTURE ONE REAL ESTATE",
+   9,
+   0
   ],
   [
    "EVERWEST REAL ESTATE INVESTORS",
@@ -181,12 +186,32 @@
    0
   ],
   [
+   "TURNBRIDGE EQUITIES",
+   6,
+   1
+  ],
+  [
+   "WHARTON INDUSTRIAL WHARTON EQUITY PARTNERS",
+   6,
+   0
+  ],
+  [
    "WOODMONT INDUSTRIAL PARTNERS",
    6,
    1
   ],
   [
+   "CAMBER REAL ESTATE PARTNERS",
+   5,
+   0
+  ],
+  [
    "CBRE INVESTMENT MANAGEMENT",
+   5,
+   0
+  ],
+  [
+   "COHEN ASSET MANAGEMENT",
    5,
    0
   ],
@@ -224,31 +249,6 @@
    "BROOKFIELD REAL ESTATE INCOME TRUST",
    4,
    0
-  ],
-  [
-   "CAMBER REAL ESTATE PARTNERS",
-   4,
-   0
-  ],
-  [
-   "CLARION PARTNERS LION INDUSTRIAL TRUST",
-   4,
-   0
-  ],
-  [
-   "CREATION EQUITY",
-   4,
-   1
-  ],
-  [
-   "CRITERION GROUP",
-   4,
-   0
-  ],
-  [
-   "DEUGEN DEVELOPMENT",
-   4,
-   1
   ]
  ],
  "buyers_in_B_not_in_A": [
