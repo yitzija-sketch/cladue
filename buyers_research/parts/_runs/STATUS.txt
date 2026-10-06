@@ -1,13 +1,13 @@
-# checkpoint 2026-10-06T18:38:29Z
+# checkpoint 2026-10-06T18:48:35Z
 # part file -> bytes / lines written so far
 buyers_research/parts/A_buyers/A1_public_reits.jsonl 45489 bytes 28 lines
 buyers_research/parts/A_buyers/A2_institutional_core.jsonl 66371 bytes 42 lines
-buyers_research/parts/A_buyers/A3_national_pe_valueadd.jsonl 0 bytes 0 lines
-buyers_research/parts/A_buyers/A4_nynj_private_operators.jsonl 32540 bytes 19 lines
+buyers_research/parts/A_buyers/A3_national_pe_valueadd.jsonl 30779 bytes 19 lines
+buyers_research/parts/A_buyers/A4_nynj_private_operators.jsonl 50124 bytes 27 lines
 buyers_research/parts/A_buyers/A5_nj_developer_holders.jsonl 0 bytes 0 lines
-buyers_research/parts/A_buyers/A6_ios_truck.jsonl 23741 bytes 14 lines
-buyers_research/parts/A_buyers/A7_cold_lastmile_smallbay.jsonl 29560 bytes 19 lines
-buyers_research/parts/A_buyers/A8_netlease_slb_foreign.jsonl 0 bytes 0 lines
+buyers_research/parts/A_buyers/A6_ios_truck.jsonl 64701 bytes 34 lines
+buyers_research/parts/A_buyers/A7_cold_lastmile_smallbay.jsonl 68941 bytes 42 lines
+buyers_research/parts/A_buyers/A8_netlease_slb_foreign.jsonl 37810 bytes 30 lines
 buyers_research/parts/A_buyers/A9_nontraded_reit_dst.jsonl 0 bytes 0 lines
 buyers_research/parts/B_deals/B_geo_bergen.jsonl 0 bytes 0 lines
 buyers_research/parts/B_deals/B_geo_hudson_essex.jsonl 0 bytes 0 lines
