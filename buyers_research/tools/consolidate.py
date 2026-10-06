@@ -143,16 +143,46 @@ TOWN_COUNTY = {
 _SUFFIX_RE = re.compile(r'\b(L\.?\s?L\.?\s?C\.?|L\.?\s?P\.?|L\.?\s?L\.?\s?P\.?)\b', re.I)
 
 
-def name_key(name):
-    """UPPERCASE, punctuation removed, LLC/INC/LP/CORP/THE removed, single-spaced."""
+_ALIASES = None
+
+
+def load_aliases():
+    global _ALIASES
+    if _ALIASES is None:
+        _ALIASES = {}
+        p = os.path.join(PARTS, '_runs', 'ALIASES.json')
+        if os.path.exists(p):
+            try:
+                raw = json.load(open(p, encoding='utf-8'))
+                _ALIASES = {k: v for k, v in raw.items() if not k.startswith('_')}
+            except json.JSONDecodeError:
+                _ALIASES = {}
+    return _ALIASES
+
+
+_UNNAMED_RE = re.compile(r'\b(UNNAMED|UNDISCLOSED|PRIVATE INVESTOR|PRIVATE BUYER|PRIVATE EQUITY FIRM|JOINT VENTURE|LOCAL PARTNERS|INVESTMENT GROUP UNNAMED|BUYER NOT|NOT DISCLOSED|N A)\b')
+
+
+def name_key(name, apply_alias=True):
+    """UPPERCASE, parentheticals dropped, punctuation removed, LLC/INC/LP/CORP/THE removed, single-spaced,
+    then mapped through parts/_runs/ALIASES.json so JV labels / former names join to one canonical buyer."""
     if not name:
         return ''
     s = str(name).upper()
+    s = re.sub(r'\([^)]*\)', ' ', s)          # drop "(incl. legacy Duke Realty)", "(JIOS)", "(JV with ...)"
+    s = re.sub(r'\b(PER|VIA) TRADED CO\b', ' ', s)
     s = _SUFFIX_RE.sub(lambda m: m.group(0).replace('.', '').replace(' ', ''), s)
     s = s.replace('&', ' AND ')
     s = re.sub(r'[^A-Z0-9 ]+', ' ', s)
     toks = [t for t in s.split() if t not in {'LLC', 'INC', 'LP', 'LLP', 'CORP', 'THE'}]
-    return ' '.join(toks)
+    key = ' '.join(toks)
+    if apply_alias:
+        key = load_aliases().get(key, key)
+    return key
+
+
+def is_unnamed(key):
+    return bool(key) and bool(_UNNAMED_RE.search(key))
 
 
 _ADDR_SUB = [
@@ -634,8 +664,9 @@ def consolidate():
     # ---------------- activity ranking (B deal counts + A nj_deal_count_seen + C entity counts)
     deal_counts = Counter()
     for r in b_rows:
-        if r.get('buyer_name_key') and not s(r.get('address')).upper().startswith('PORTFOLIO'):
-            deal_counts[r['buyer_name_key']] += 1
+        k = r.get('buyer_name_key')
+        if k and not is_unnamed(k) and not s(r.get('address')).upper().startswith('PORTFOLIO'):
+            deal_counts[k] += 1
     a_by_key = {r['name_key']: r for r in a_rows}
     ent_counts = Counter(r['name_key'] for r in c_rows)
     keys = set(deal_counts) | set(a_by_key) | set(ent_counts)
