@@ -1,21 +1,22 @@
 {
- "A_raw_rows": 122,
+ "A_raw_rows": 248,
  "A_unparseable_blocks": {},
- "A_rows": 117,
- "A_with_stated_criteria": 49,
+ "A_rows": 212,
+ "A_with_stated_criteria": 103,
  "A_by_type": {
-  "developer-holder": 19,
-  "closed-end PE": 15,
-  "open-end fund": 19,
-  "REIT": 28,
-  "other": 21,
-  "IOS specialist": 9,
-  "owner-user": 6
+  "developer-holder": 34,
+  "closed-end PE": 41,
+  "open-end fund": 24,
+  "family office": 2,
+  "REIT": 47,
+  "other": 43,
+  "IOS specialist": 13,
+  "owner-user": 8
  },
  "A_nj_active": {
-  "yes": 78,
-  "unknown": 31,
-  "no": 8
+  "yes": 122,
+  "unknown": 76,
+  "no": 14
  },
  "B_raw_rows": 99,
  "B_unparseable_blocks": {},
@@ -97,11 +98,11 @@
   "2024": 35,
   "2025": 73
  },
- "rank_rows": 131,
+ "rank_rows": 225,
  "top_30_active": [
   [
    "SEAGIS PROPERTY GROUP",
-   19,
+   23,
    6
   ],
   [
@@ -111,8 +112,13 @@
   ],
   [
    "THOR EQUITIES GROUP",
-   11,
+   12,
    3
+  ],
+  [
+   "FAROPOINT",
+   10,
+   1
   ],
   [
    "EVERWEST REAL ESTATE INVESTORS",
@@ -120,9 +126,19 @@
    2
   ],
   [
-   "FAROPOINT",
+   "REALTERM",
    8,
    1
+  ],
+  [
+   "VELOCITY VENTURE PARTNERS",
+   7,
+   1
+  ],
+  [
+   "BAIN CAPITAL REAL ESTATE",
+   6,
+   0
   ],
   [
    "CENTERPOINT PROPERTIES",
@@ -130,19 +146,44 @@
    0
   ],
   [
+   "DALFEN INDUSTRIAL",
+   6,
+   0
+  ],
+  [
+   "DENHOLTZ PROPERTIES",
+   6,
+   1
+  ],
+  [
    "INVESCO REAL ESTATE",
    6,
    0
   ],
   [
-   "REALTERM",
+   "MARCUS PARTNERS",
    6,
    1
+  ],
+  [
+   "OLIVER STREET CAPITAL",
+   6,
+   0
   ],
   [
    "RIVER WALK",
    6,
    2
+  ],
+  [
+   "TREETOP COMPANIES",
+   6,
+   0
+  ],
+  [
+   "WOODMONT INDUSTRIAL PARTNERS",
+   6,
+   1
   ],
   [
    "CBRE INVESTMENT MANAGEMENT",
@@ -165,12 +206,22 @@
    0
   ],
   [
+   "ARES INDUSTRIAL REAL ESTATE INCOME TRUST",
+   4,
+   1
+  ],
+  [
    "ARES MANAGEMENT REAL ESTATE ARES INDUSTRIAL REIT LEGACY BLACK CREEK",
    4,
    0
   ],
   [
    "BROOKFIELD ASSET MANAGEMENT LOGISTICS",
+   4,
+   0
+  ],
+  [
+   "BROOKFIELD REAL ESTATE INCOME TRUST",
    4,
    0
   ],
@@ -195,59 +246,9 @@
    0
   ],
   [
-   "DENHOLTZ PROPERTIES",
-   4,
-   1
-  ],
-  [
    "DEUGEN DEVELOPMENT",
    4,
    1
-  ],
-  [
-   "ELBERON DEVELOPMENT GROUP",
-   4,
-   1
-  ],
-  [
-   "IDI LOGISTICS",
-   4,
-   0
-  ],
-  [
-   "INNOVATIVE INDUSTRIAL PROPERTIES",
-   4,
-   0
-  ],
-  [
-   "LIBERTY PROPERTY TRUST",
-   4,
-   2
-  ],
-  [
-   "LINK INDUSTRIAL PROPERTIES",
-   4,
-   2
-  ],
-  [
-   "LINK LOGISTICS REAL ESTATE",
-   4,
-   0
-  ],
-  [
-   "MARCUS PARTNERS",
-   4,
-   1
-  ],
-  [
-   "OXFORD PROPERTIES GROUP",
-   4,
-   0
-  ],
-  [
-   "PGIM REAL ESTATE",
-   4,
-   0
   ]
  ],
  "buyers_in_B_not_in_A": [
@@ -260,7 +261,6 @@
   "COLUMBIA STORAGE GROUP",
   "REXING",
   "DUKE REALTY",
-  "ARES INDUSTRIAL REAL ESTATE INCOME TRUST",
   "DAYBREAK EXPRESS",
   "THOR",
   "FUJIPOLY AMERICA",
