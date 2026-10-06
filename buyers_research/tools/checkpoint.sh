@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # Auto-checkpoint for the NJ buyer research run.
-# Every INTERVAL seconds: copy the workflow scripts + agent journals into the repo, snapshot part-file
-# row counts, and commit + push anything new under buyers_research/ so progress survives a credit lapse.
+# Every INTERVAL seconds: snapshot the session's workflow scripts and agent journals into the repo,
+# record part-file row counts, and commit + push anything new under buyers_research/ so progress
+# survives a credit lapse. Only files under buyers_research/ and NOTICE_buyers_research.md are staged.
 # Usage: bash buyers_research/tools/checkpoint.sh [interval_seconds]
 REPO=/home/user/cladue
 BRANCH=claude/nj-industrial-buyer-research-v4j2sy
@@ -13,8 +14,9 @@ INTERVAL="${1:-600}"
 while true; do
   sleep "$INTERVAL"
   cd "$REPO" || exit 1
-  mkdir -p buyers_research/parts/_runs buyers_research/tools/workflows
-  cp -f "$SCRIPTS"/*.js buyers_research/tools/workflows/ 2>/dev/null
+  mkdir -p buyers_research/parts/_runs buyers_research/tools/workflows/_session_scripts
+  # session copies of scripts go to a separate folder so the canonical (edited) scripts are never clobbered
+  cp -f "$SCRIPTS"/*.js buyers_research/tools/workflows/_session_scripts/ 2>/dev/null
   for d in "$WFDIR"/wf_*; do
     [ -d "$d" ] || continue
     rid=$(basename "$d")
@@ -23,12 +25,12 @@ while true; do
   done
   {
     echo "# checkpoint $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-    echo "# part file -> rows written so far"
+    echo "# part file -> bytes / lines written so far"
     for f in buyers_research/parts/*/*.jsonl; do
-      [ -f "$f" ] && echo "$f $(wc -l < "$f")"
+      [ -f "$f" ] && echo "$f $(wc -c < "$f") bytes $(wc -l < "$f") lines"
     done
   } > buyers_research/parts/_runs/STATUS.txt
-  git add -A buyers_research >/dev/null 2>&1
+  git add -A buyers_research NOTICE_buyers_research.md >/dev/null 2>&1
   if ! git diff --cached --quiet 2>/dev/null; then
     git commit -q -m "checkpoint: research parts $(date -u +%Y-%m-%dT%H:%MZ)
 

@@ -36,12 +36,23 @@ const SCHEMA = {
 const TARGETS = (args && args.targets) || []
 if (!TARGETS.length) throw new Error('args.targets required')
 
-function promptFor(t) {
+function promptForBase(t) {
   const out = '/home/user/cladue/buyers_research/parts/V_verify/' + t.key + '.jsonl'
   return RULES + `\n\nTARGET: workstream ${t.workstream}. Read the part file ${t.source} (JSONL, one row per line). ${t.selection} Check up to ${t.sample} rows.` +
     `\n\nOUTPUT FILE (absolute path, JSONL): ${out}` +
     '\n\nWhen done, return the structured summary: part_file, rows_checked, claims_checked, confirmed, refuted, unverifiable, worst_problems, notes.'
 }
+
+
+// --- budget / continuation block appended to every agent prompt (args.search_cap, args.leads[key]) ---
+function extra(key) {
+  const cap = (args && args.search_cap) || 25
+  const leads = (args && args.leads && args.leads[key]) || ''
+  return '\n\nSEARCH BUDGET: you may run AT MOST ' + cap + ' WebSearch calls in total - count them. The pool is shared by every agent in this turn and exceeding your share starves the others. Plan your full query list first, run the highest-value queries first, and stop when you reach the cap or when WebSearch replies that the budget is used up - then Write your file immediately.' +
+    '\n\nCONTINUING PRIOR WORK: if the output file already exists, Read it first and keep every existing row (correct only obvious errors); your final Write must contain the union of existing and new rows, deduped. Do not re-search items that already have complete rows unless they appear in the leads below.' +
+    (leads ? '\n\nLEADS / GAPS FROM THE PREVIOUS PASS (start with these): ' + leads : '')
+}
+function promptFor(x) { return promptForBase(x) + extra(x.key) }
 
 phase('Verify')
 log('Verification: ' + TARGETS.length + ' part files')

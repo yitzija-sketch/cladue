@@ -43,13 +43,35 @@ numeric SF/price/cap-rate, in-scope county/years) and writes the deliverable CSV
 
 ## 2. Searches run / blocked / not found
 
-(filled in from agent summaries at each checkpoint — see section 4 for the latest)
+**Round 1 (2026-10-06 18:10–18:35Z, 29 agents):** ~200 WebSearch calls in total before the per-turn budget
+(200 calls per turn, shared by every agent) was exhausted; each agent completed 0–16 searches.
+Publication sweeps that did run: roi-nj.com, njbiz.com, re-nj.com, commercialobserver.com, globest.com,
+therealdeal.com, bisnow.com, rebusinessonline.com, connectcre.com, traded.co, cushmanwakefield.com,
+cbre.com, lee-associates.com, savills.us, sec.gov (Terreno Schedule III), fund sites of the first ~60 seed
+buyers. **Not reached in round 1:** brokerage newsrooms (JLL, Colliers, Newmark, Avison Young, NAI, Kislak,
+M&M, SVN, Meridian, Bussel, Cronheim…), PRNewswire/BusinessWire, town-by-town sweeps, product sweeps
+(IOS, cold, sale-leaseback, land), REIT disclosure slices, D3–D6 brokerages, A3/A4/A5/A8/A9 buyer groups.
+Per-slice gap lists (undated leads, URLs surfaced without numbers, seed buyers never searched) are in
+`parts/_runs/LEADS.json` and the run journals under `parts/_runs/wf_*/journal.jsonl`.
 
-## 3. Counts per file
+Blocked: WebFetch/curl to every external host (network policy); WebSearch beyond 200 calls/turn.
+No paywalled or login content was used. Nobody was contacted.
 
-(filled in by the consolidation step)
+## 3. Counts per file (latest consolidation)
+
+| File | Rows | Notes |
+|---|---|---|
+| buyers_stated.csv | 100 buyers | 49 with stated criteria; 63 NJ-active, 8 confirmed not NJ, 29 unknown |
+| deals_public_2019_2024.csv | 90 | 2019: 21, 2020: 12, 2022: 37, 2023: 9, undated: 11; 46 with price, 67 with SF, 0 cap rates, 4 SPV names |
+| buyer_entities.csv | 0 | Workstream C not yet run (needs search budget) |
+| market_buyer_mix.csv | 141 | mostly fundamentals; 8 cap-rate and 7 $/SF rows (Lee & Associates 2024–25) |
+| rejected_rows.csv | 7 | B rows with neither address nor town |
 
 ## 4. Checkpoint notes
 
-* 2026-10-06 ~18:30Z — Workflows A (2), B (2), D (1) launched; consolidation tool written; auto-checkpoint
-  loop started (commits + pushes `buyers_research/` every ~10 minutes).
+* 2026-10-06 ~18:15Z — Workflows A (2), B (2), D (1) launched (29 agents); consolidation tool written;
+  auto-checkpoint loop started (commits + pushes `buyers_research/` every ~10 minutes).
+* 2026-10-06 ~18:35Z — Round 1 complete. **Discovered the 200-searches-per-turn cap**; nine part files are
+  empty. Re-planned into ≈185-search batches (`TURN_PLAN.md`); scripts patched with per-agent caps,
+  append-to-existing-file behaviour and carry-forward leads. First CSVs produced. NOTICE file added at repo
+  root confirming nothing outside `buyers_research/` was touched.

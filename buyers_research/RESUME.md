@@ -19,6 +19,14 @@ Everything the run has produced is in this folder and is committed/pushed every 
 | `tools/checkpoint.sh` | The auto-commit loop |
 | `RESEARCH_LOG.md` | Running log: setup findings, method, blocked items, counts |
 
+## KEY CONSTRAINT (read before launching anything)
+
+WebSearch is capped at **200 calls per turn, shared by all agents in the turn**; page fetches are
+blocked by network policy, so WebSearch is the only web access. Run at most ~7 agents per turn with
+`args.search_cap` set so the total stays ≈185, and follow `TURN_PLAN.md` batch by batch. Each new
+message from the user (or a scheduled `send_later` message) starts a new turn and resets the budget.
+Raising `CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION` in the environment's variables (new session) lifts it.
+
 ## Pipeline and status checklist
 
 Mark-up is updated at each checkpoint (see `RESEARCH_LOG.md` §4 for timestamps).
@@ -31,11 +39,16 @@ Mark-up is updated at each checkpoint (see `RESEARCH_LOG.md` §4 for timestamps)
    Runs: `wf_44d93a53-519` (`B_year_2019, B_year_2020, B_year_2021, B_geo_bergen, B_geo_hudson_essex, B_geo_union_passaic, B_reit_industrial`)
    and `wf_b9057fc4-86b` (`B_year_2022, B_year_2023, B_year_2024, B_geo_middlesex, B_geo_somerset_morris, B_geo_mercer_monmouth_burlington, B_reit_netlease_cold`).
 3. [launched] **D** market stats — 6 groups, run `wf_6358b68b-1ad`, script `tools/workflows/nj-market-d-*.js`.
-4. [pending] **A-expansion** — run `python3 -I tools/consolidate.py`, read `buyers_in_B_not_in_A` in
-   `consolidate_report.json`, and run A-style agents on those names (write to `parts/A_buyers/AX_<n>.jsonl`).
-5. [pending] **C** entities — take the top ~100 of `buyer_activity_rank.csv`, batch 4–5 buyers per agent,
-   write `parts/C_entities/C_<n>.jsonl` (script `tools/workflows/nj-entities-c-*.js` once written).
-6. [pending] **V** verification — skeptic agents per part file; write `parts/V_verify/V_<part>.jsonl`.
+   **Round-1 result (budget-starved):** A1 (28 rows), A2 (39), A6 (14), A7 (19) written; A3, A4, A5, A8, A9
+   empty → TURN_PLAN batch 1. B: 2019 (22), 2020 (12), 2022 (51), 2023 (14) written; 2021, 2024, all six
+   geo slices and both REIT slices empty → batches 2–4. D: D1 (45), D2 (96) written; D3–D6 empty → batch 4.
+4. [pending] **A-expansion** — `buyers_in_B_not_in_A` in `consolidate_report.json` (26 names after round 1,
+   e.g. Seagis, Thor Equities, Turnbridge, Penwood, Taconic, Woodmont, Velocity, Marcus Partners, Bridge
+   Logistics Properties) → A-style agents writing `parts/A_buyers/AX_<n>.jsonl` (TURN_PLAN batch 5).
+   To pass custom groups to `nj-buyers-a.js`, add them to `ALL_GROUPS` in the script (key `AX_<n>`).
+5. [pending] **C** entities — top ~100 of `buyer_activity_rank.csv`, 5 buyers per agent, script
+   `tools/workflows/nj-entities-c.js` with `args.batches=[{key:'C_01',buyers:[{name,type,context}]}]` (batches 6–9).
+6. [pending] **V** verification — `tools/workflows/nj-verify-v.js` with `args.targets` (batches 10–11).
 7. [pending] **Consolidate** — `python3 -I tools/consolidate.py` → `buyers_stated.csv`,
    `deals_public_2019_2024.csv`, `buyer_entities.csv`, `market_buyer_mix.csv`, `buyer_activity_rank.csv`,
    `rejected_rows.csv`, `consolidate_report.json`.

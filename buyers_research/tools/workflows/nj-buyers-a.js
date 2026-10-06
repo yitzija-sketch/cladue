@@ -6,7 +6,7 @@ export const meta = {
 
 const RULES = `You are a research subagent for a New Jersey industrial real-estate broker (tenant-rep / investment sales). Your output is DATA that will be machine-joined to a local property graph; structure matters more than prose.
 
-TOOLS / NETWORK: Use the WebSearch tool (if it is not loaded, load it with ToolSearch query "select:WebSearch"). WebFetch, curl and every direct page fetch are BLOCKED by this environment's network egress policy - do not use them (if you try once and see EGRESS_BLOCKED, do not retry). WebSearch returns result URLs plus excerpts/summaries of page content; extract facts ONLY from what those results actually state, and attribute each fact to the result URL whose title/content carries it. Use mode "extended" for niche, deal-specific, older or criteria-page queries and "standard" for simple lookups. Use the allowed_domains parameter to sweep one site at a time (e.g. ["roi-nj.com"], ["sec.gov"], ["re-nj.com"], a fund's own domain). Run MANY searches (aim for 50-90), vary wording. You have a large budget; be exhaustive before you stop. Write a first version of your output file about halfway through your searching and overwrite it with the complete version at the end, so nothing is lost if you run out of room.
+TOOLS / NETWORK: Use the WebSearch tool (if it is not loaded, load it with ToolSearch query "select:WebSearch"). WebFetch, curl and every direct page fetch are BLOCKED by this environment's network egress policy - do not use them (if you try once and see EGRESS_BLOCKED, do not retry). WebSearch returns result URLs plus excerpts/summaries of page content; extract facts ONLY from what those results actually state, and attribute each fact to the result URL whose title/content carries it. Use mode "extended" for niche, deal-specific, older or criteria-page queries and "standard" for simple lookups. Use the allowed_domains parameter to sweep one site at a time (e.g. ["roi-nj.com"], ["sec.gov"], ["re-nj.com"], a fund's own domain). Vary wording across queries. Your WebSearch call cap is stated at the end of this prompt and is a hard limit. Write a first version of your output file about halfway through your searching and overwrite it with the complete version at the end, so nothing is lost if you run out of room.
 
 HARD RULES:
 1. Public free web only. No logins, accounts, forms, CAPTCHAs, paywalls. Never contact anyone.
@@ -69,12 +69,23 @@ const A_SCHEMA = {
   required: ['part_file', 'rows_written', 'rows_with_stated_criteria', 'buyers_covered', 'new_buyers_seen', 'searches_run', 'blocked', 'not_found', 'notes'],
 }
 
-function promptFor(g) {
+function promptForBase(g) {
   const path = '/home/user/cladue/buyers_research/parts/A_buyers/' + g.key + '.jsonl'
   return RULES + '\n\n' + A_TASK + '\n\nYOUR GROUP: ' + g.label + '.\nSEED LIST (verify each; do not trust): ' + g.seeds +
     '\n\nOUTPUT FILE (absolute path, JSONL): ' + path + '\nFIELDS (every row, in this order): ' + A_FIELDS +
     '\n\nWhen done, return the structured summary: part_file, rows_written, rows_with_stated_criteria, buyers_covered (names), new_buyers_seen (names of active NJ industrial buyers you noticed but did not write), searches_run, blocked (sites/queries that failed), not_found (seed buyers you could not source), notes (one paragraph of what you searched and what was thin).'
 }
+
+
+// --- budget / continuation block appended to every agent prompt (args.search_cap, args.leads[key]) ---
+function extra(key) {
+  const cap = (args && args.search_cap) || 25
+  const leads = (args && args.leads && args.leads[key]) || ''
+  return '\n\nSEARCH BUDGET: you may run AT MOST ' + cap + ' WebSearch calls in total - count them. The pool is shared by every agent in this turn and exceeding your share starves the others. Plan your full query list first, run the highest-value queries first, and stop when you reach the cap or when WebSearch replies that the budget is used up - then Write your file immediately.' +
+    '\n\nCONTINUING PRIOR WORK: if the output file already exists, Read it first and keep every existing row (correct only obvious errors); your final Write must contain the union of existing and new rows, deduped. Do not re-search items that already have complete rows unless they appear in the leads below.' +
+    (leads ? '\n\nLEADS / GAPS FROM THE PREVIOUS PASS (start with these): ' + leads : '')
+}
+function promptFor(x) { return promptForBase(x) + extra(x.key) }
 
 phase('Buy boxes')
 log('Workstream A: ' + GROUPS.length + ' buyer-type groups')

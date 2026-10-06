@@ -6,7 +6,7 @@ export const meta = {
 
 const RULES = `You are a research subagent for a New Jersey industrial real-estate broker (tenant-rep / investment sales). Your output is DATA that will be machine-joined to a local property graph; structure matters more than prose.
 
-TOOLS / NETWORK: Use the WebSearch tool (if it is not loaded, load it with ToolSearch query "select:WebSearch"). WebFetch, curl and every direct page fetch are BLOCKED by this environment's network egress policy - do not use them (if you try once and see EGRESS_BLOCKED, do not retry). WebSearch returns result URLs plus excerpts/summaries of page content; extract facts ONLY from what those results actually state, and attribute each fact to the result URL whose title/content carries it. Use mode "extended" for deal-specific, older or niche queries and "standard" for simple lookups. Use the allowed_domains parameter to sweep one publication at a time (e.g. ["roi-nj.com"], ["njbiz.com"], ["re-nj.com"], ["commercialobserver.com"], ["globest.com"], ["therealdeal.com"], ["bisnow.com"], ["rebusinessonline.com"], ["connectcre.com"], ["traded.co"], ["cushmanwakefield.com"], ["cbre.com"], ["jll.com"], ["colliers.com"], ["nmrk.com"], ["avisonyoung.com"], ["naihanson.com"], ["kislakrealty.com"], ["lee-associates.com"], ["marcusmillichap.com"], ["svn.com"], ["prnewswire.com"], ["businesswire.com"], ["sec.gov"]). Run MANY searches (aim for 60-100), vary wording ("sells for", "sold", "acquires", "trades", "purchased", "buys", "changes hands", "warehouse", "industrial building", "distribution center", "flex", "IOS", "truck terminal", "cold storage", "sale-leaseback", town names, dollar amounts, broker names). You have a large budget; be exhaustive before you stop. Write a first version of your output file about halfway through and overwrite it with the complete version at the end.
+TOOLS / NETWORK: Use the WebSearch tool (if it is not loaded, load it with ToolSearch query "select:WebSearch"). WebFetch, curl and every direct page fetch are BLOCKED by this environment's network egress policy - do not use them (if you try once and see EGRESS_BLOCKED, do not retry). WebSearch returns result URLs plus excerpts/summaries of page content; extract facts ONLY from what those results actually state, and attribute each fact to the result URL whose title/content carries it. Use mode "extended" for deal-specific, older or niche queries and "standard" for simple lookups. Use the allowed_domains parameter to sweep one publication at a time (e.g. ["roi-nj.com"], ["njbiz.com"], ["re-nj.com"], ["commercialobserver.com"], ["globest.com"], ["therealdeal.com"], ["bisnow.com"], ["rebusinessonline.com"], ["connectcre.com"], ["traded.co"], ["cushmanwakefield.com"], ["cbre.com"], ["jll.com"], ["colliers.com"], ["nmrk.com"], ["avisonyoung.com"], ["naihanson.com"], ["kislakrealty.com"], ["lee-associates.com"], ["marcusmillichap.com"], ["svn.com"], ["prnewswire.com"], ["businesswire.com"], ["sec.gov"]). Vary wording across queries. Your WebSearch call cap is stated at the end of this prompt and is a hard limit. Write a first version of your output file about halfway through and overwrite it with the complete version at the end.
 
 HARD RULES:
 1. Public free web only. No logins, accounts, forms, CAPTCHAs, paywalls. Never contact anyone.
@@ -66,11 +66,22 @@ const B_SCHEMA = {
   required: ['part_file', 'rows_written', 'portfolio_rows', 'buyers_seen', 'searches_run', 'blocked', 'thin_coverage', 'notes'],
 }
 
-function promptFor(s) {
+function promptForBase(s) {
   const path = '/home/user/cladue/buyers_research/parts/B_deals/' + s.key + '.jsonl'
   return RULES + '\n\n' + s.task + '\n\nOUTPUT FILE (absolute path, JSONL): ' + path + '\nFIELDS (every row, in this order): ' + B_FIELDS +
     '\n\nWhen done, return the structured summary: part_file, rows_written, portfolio_rows, buyers_seen (distinct buyer names with counts), searches_run, blocked, thin_coverage, notes (one paragraph: what you searched, what was thin).'
 }
+
+
+// --- budget / continuation block appended to every agent prompt (args.search_cap, args.leads[key]) ---
+function extra(key) {
+  const cap = (args && args.search_cap) || 25
+  const leads = (args && args.leads && args.leads[key]) || ''
+  return '\n\nSEARCH BUDGET: you may run AT MOST ' + cap + ' WebSearch calls in total - count them. The pool is shared by every agent in this turn and exceeding your share starves the others. Plan your full query list first, run the highest-value queries first, and stop when you reach the cap or when WebSearch replies that the budget is used up - then Write your file immediately.' +
+    '\n\nCONTINUING PRIOR WORK: if the output file already exists, Read it first and keep every existing row (correct only obvious errors); your final Write must contain the union of existing and new rows, deduped. Do not re-search items that already have complete rows unless they appear in the leads below.' +
+    (leads ? '\n\nLEADS / GAPS FROM THE PREVIOUS PASS (start with these): ' + leads : '')
+}
+function promptFor(x) { return promptForBase(x) + extra(x.key) }
 
 phase('Deals')
 log('Workstream B: ' + SLICES.length + ' slices')

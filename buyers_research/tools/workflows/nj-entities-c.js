@@ -6,7 +6,7 @@ export const meta = {
 
 const RULES = `You are a research subagent for a New Jersey industrial real-estate broker. Your output is DATA that will be machine-joined to a local property graph in which owners appear as SPV LLC names and mailing addresses; structure matters more than prose.
 
-TOOLS / NETWORK: Use the WebSearch tool (if it is not loaded, load it with ToolSearch query "select:WebSearch"). WebFetch, curl and every direct page fetch are BLOCKED by this environment's network egress policy - do not use them (if you try once and see EGRESS_BLOCKED, do not retry). WebSearch returns result URLs plus excerpts/summaries of page content (including sec.gov filings, PDF press releases, municipal PDFs); extract facts ONLY from what those results actually state, and attribute each fact to the result URL whose title/content carries it. Use mode "extended" for filing- and entity-specific queries. Use allowed_domains to target one site at a time (["sec.gov"], ["opencorporates.com"], a town's .gov/.org site, ["commercialobserver.com"], ["traded.co"], the buyer's own domain). Run MANY searches (aim for 60-100; roughly 12-20 per buyer). You have a large budget; be exhaustive. Write a first version of your output file halfway through and overwrite it with the complete version at the end.
+TOOLS / NETWORK: Use the WebSearch tool (if it is not loaded, load it with ToolSearch query "select:WebSearch"). WebFetch, curl and every direct page fetch are BLOCKED by this environment's network egress policy - do not use them (if you try once and see EGRESS_BLOCKED, do not retry). WebSearch returns result URLs plus excerpts/summaries of page content (including sec.gov filings, PDF press releases, municipal PDFs); extract facts ONLY from what those results actually state, and attribute each fact to the result URL whose title/content carries it. Use mode "extended" for filing- and entity-specific queries. Use allowed_domains to target one site at a time (["sec.gov"], ["opencorporates.com"], a town's .gov/.org site, ["commercialobserver.com"], ["traded.co"], the buyer's own domain). Vary wording across queries. Your WebSearch call cap is stated at the end of this prompt and is a hard limit. Write a first version of your output file halfway through and overwrite it with the complete version at the end.
 
 HARD RULES:
 1. Public free web only. No logins, accounts, forms, CAPTCHAs, paywalls. Official registries only when the result page is freely viewable in the search excerpt. Never contact anyone.
@@ -45,12 +45,23 @@ const SCHEMA = {
 const BATCHES = (args && args.batches) || []
 if (!BATCHES.length) throw new Error('args.batches required')
 
-function promptFor(b) {
+function promptForBase(b) {
   const path = '/home/user/cladue/buyers_research/parts/C_entities/' + b.key + '.jsonl'
   const list = b.buyers.map((x, i) => `${i + 1}. ${x.name}${x.type ? ' [' + x.type + ']' : ''}${x.context ? ' - known NJ deals/context: ' + x.context : ''}`).join('\n')
   return RULES + '\n\n' + TASK + '\n\nBUYERS IN THIS BATCH:\n' + list + '\n\nOUTPUT FILE (absolute path, JSONL): ' + path +
     '\n\nWhen done, return the structured summary: part_file, rows_written, buyers_covered, entities_per_buyer, searches_run, blocked, not_found (buyers with no sourced entity beyond the operating company), notes.'
 }
+
+
+// --- budget / continuation block appended to every agent prompt (args.search_cap, args.leads[key]) ---
+function extra(key) {
+  const cap = (args && args.search_cap) || 25
+  const leads = (args && args.leads && args.leads[key]) || ''
+  return '\n\nSEARCH BUDGET: you may run AT MOST ' + cap + ' WebSearch calls in total - count them. The pool is shared by every agent in this turn and exceeding your share starves the others. Plan your full query list first, run the highest-value queries first, and stop when you reach the cap or when WebSearch replies that the budget is used up - then Write your file immediately.' +
+    '\n\nCONTINUING PRIOR WORK: if the output file already exists, Read it first and keep every existing row (correct only obvious errors); your final Write must contain the union of existing and new rows, deduped. Do not re-search items that already have complete rows unless they appear in the leads below.' +
+    (leads ? '\n\nLEADS / GAPS FROM THE PREVIOUS PASS (start with these): ' + leads : '')
+}
+function promptFor(x) { return promptForBase(x) + extra(x.key) }
 
 phase('Entities')
 log('Workstream C: ' + BATCHES.length + ' batches, ' + BATCHES.reduce((n, b) => n + b.buyers.length, 0) + ' buyers')

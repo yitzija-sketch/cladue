@@ -1,0 +1,285 @@
+{
+ "A_raw_rows": 103,
+ "A_unparseable_blocks": {},
+ "A_rows": 100,
+ "A_with_stated_criteria": 49,
+ "A_by_type": {
+  "developer-holder": 9,
+  "closed-end PE": 13,
+  "open-end fund": 19,
+  "REIT": 28,
+  "other": 16,
+  "IOS specialist": 9,
+  "owner-user": 6
+ },
+ "A_nj_active": {
+  "yes": 63,
+  "unknown": 29,
+  "no": 8
+ },
+ "B_raw_rows": 99,
+ "B_unparseable_blocks": {},
+ "B_rows": 90,
+ "B_portfolio_summary_rows": 10,
+ "B_by_year": {
+  "2019": 21,
+  "2020": 12,
+  "2022": 37,
+  "2023": 9,
+  "n/a": 11
+ },
+ "B_by_county": {
+  "Middlesex": 15,
+  "Somerset": 10,
+  "Bergen": 21,
+  "Hudson": 3,
+  "Passaic": 6,
+  "Burlington": 3,
+  "Essex": 13,
+  "Morris": 6,
+  "Union": 6,
+  "Monmouth": 3,
+  "Mercer": 3,
+  "blank": 1
+ },
+ "B_with_price": 46,
+ "B_with_sf": 67,
+ "B_with_cap_rate": 0,
+ "B_with_spv": 4,
+ "C_raw_rows": 0,
+ "C_unparseable_blocks": {},
+ "C_rows": 0,
+ "C_buyers_covered": 0,
+ "C_by_evidence_type": {},
+ "D_raw_rows": 141,
+ "D_unparseable_blocks": {},
+ "D_rows": 141,
+ "D_by_metric": {
+  "vacancy_rate": 19,
+  "leasing_volume_sf": 15,
+  "trend_statement": 14,
+  "net_absorption_sf": 10,
+  "asking_rent_psf": 8,
+  "cap_rate": 8,
+  "avg_price_psf": 7,
+  "deliveries_sf": 6,
+  "vacancy_change_yoy": 5,
+  "lease_count_over_100k": 4,
+  "sales_volume_industrial": 4,
+  "sublet_available_sf": 4,
+  "vacancy_change_qoq": 3,
+  "avg_months_on_market": 3,
+  "free_rent_months": 3,
+  "asking_rent_growth_yoy": 2,
+  "taking_rent_psf": 2,
+  "availability_rate": 2,
+  "leasing_change_yoy": 2,
+  "leasing_share": 2,
+  "lease_count": 2,
+  "asking_rent_change_qoq": 2,
+  "construction_starts_sf": 2,
+  "sublease_leasing_sf": 2,
+  "sublease_share_of_leasing": 2,
+  "asking_rent_growth_qoq": 1,
+  "renewal_volume_sf": 1,
+  "vacancy_rate_change_yoy": 1,
+  "asking_rent_change_5yr": 1,
+  "asking_rent_change_yoy": 1,
+  "median_price_psf": 1,
+  "leasing_change_qoq": 1,
+  "rent_growth_qoq": 1
+ },
+ "D_by_year": {
+  "2019": 5,
+  "2021": 2,
+  "2022": 9,
+  "2023": 17,
+  "2024": 35,
+  "2025": 73
+ },
+ "rank_rows": 126,
+ "top_30_active": [
+  [
+   "SEAGIS PROPERTY GROUP",
+   12,
+   6
+  ],
+  [
+   "SITEX GROUP",
+   12,
+   5
+  ],
+  [
+   "EVERWEST REAL ESTATE INVESTORS",
+   8,
+   2
+  ],
+  [
+   "FAROPOINT",
+   8,
+   1
+  ],
+  [
+   "CENTERPOINT PROPERTIES",
+   6,
+   0
+  ],
+  [
+   "INVESCO REAL ESTATE",
+   6,
+   0
+  ],
+  [
+   "REALTERM",
+   6,
+   1
+  ],
+  [
+   "THOR EQUITIES GROUP",
+   6,
+   3
+  ],
+  [
+   "CBRE INVESTMENT MANAGEMENT",
+   5,
+   0
+  ],
+  [
+   "PROLOGIS",
+   5,
+   0
+  ],
+  [
+   "SAGARD REAL ESTATE",
+   5,
+   0
+  ],
+  [
+   "ARES MANAGEMENT REAL ESTATE ARES INDUSTRIAL REIT LEGACY BLACK CREEK",
+   4,
+   0
+  ],
+  [
+   "BROOKFIELD ASSET MANAGEMENT LOGISTICS",
+   4,
+   0
+  ],
+  [
+   "CAMBER REAL ESTATE PARTNERS",
+   4,
+   0
+  ],
+  [
+   "CLARION PARTNERS LION INDUSTRIAL TRUST",
+   4,
+   0
+  ],
+  [
+   "CRITERION GROUP",
+   4,
+   0
+  ],
+  [
+   "ELBERON DEVELOPMENT GROUP",
+   4,
+   1
+  ],
+  [
+   "IDI LOGISTICS",
+   4,
+   0
+  ],
+  [
+   "INNOVATIVE INDUSTRIAL PROPERTIES",
+   4,
+   0
+  ],
+  [
+   "LIBERTY PROPERTY TRUST",
+   4,
+   2
+  ],
+  [
+   "LINK INDUSTRIAL PROPERTIES",
+   4,
+   2
+  ],
+  [
+   "LINK LOGISTICS REAL ESTATE",
+   4,
+   0
+  ],
+  [
+   "OXFORD PROPERTIES GROUP",
+   4,
+   0
+  ],
+  [
+   "PGIM REAL ESTATE",
+   4,
+   0
+  ],
+  [
+   "PRINCIPAL REAL ESTATE INVESTORS",
+   4,
+   0
+  ],
+  [
+   "RIVER WALK",
+   4,
+   2
+  ],
+  [
+   "TERRENO REALTY CORPORATION",
+   4,
+   0
+  ],
+  [
+   "ADVANCE REALTY INVESTORS",
+   3,
+   0
+  ],
+  [
+   "ALTERRA IOS",
+   3,
+   0
+  ],
+  [
+   "AMERICOLD REALTY TRUST",
+   3,
+   0
+  ]
+ ],
+ "buyers_in_B_not_in_A": [
+  "SEAGIS PROPERTY GROUP",
+  "THOR EQUITIES GROUP",
+  "LIBERTY PROPERTY TRUST",
+  "LINK INDUSTRIAL PROPERTIES",
+  "RIVER WALK",
+  "SHAWNEE TRANSPORTATION",
+  "TURNBRIDGE EQUITIES",
+  "KISS PRODUCTS",
+  "DAVCO GROUP SHOLOM DAVIDOWITS",
+  "DENHOLTZ PROPERTIES",
+  "BENTALLGREENOAK",
+  "COLUMBIA STORAGE GROUP",
+  "VELOCITY VENTURE PARTNERS",
+  "DEUGEN DEVELOPMENT",
+  "REXING",
+  "DUKE REALTY",
+  "TACONIC PARTNERS",
+  "PENWOOD REAL ESTATE",
+  "ARES INDUSTRIAL REAL ESTATE INCOME TRUST",
+  "MARCUS PARTNERS",
+  "DAYBREAK EXPRESS",
+  "CREATION EQUITY",
+  "WOODMONT INDUSTRIAL PARTNERS",
+  "THOR",
+  "FUJIPOLY AMERICA",
+  "BRIDGE LOGISTICS PROPERTIES"
+ ],
+ "rejected_rows": 7,
+ "rejected_by_reason": {
+  "no address and no town": 7
+ }
+}

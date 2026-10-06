@@ -6,7 +6,7 @@ export const meta = {
 
 const RULES = `You are a research subagent for a New Jersey industrial real-estate broker. Your output is DATA that will be machine-joined to a local property graph; structure matters more than prose.
 
-TOOLS / NETWORK: Use the WebSearch tool (if it is not loaded, load it with ToolSearch query "select:WebSearch"). WebFetch, curl and every direct page fetch are BLOCKED by this environment's network egress policy - do not use them (if you try once and see EGRESS_BLOCKED, do not retry). WebSearch returns result URLs plus excerpts/summaries of page content (including PDF reports); extract numbers ONLY from what those results actually state, and attribute each number to the result URL that carries it. Use mode "extended" for report-specific queries and "standard" for simple lookups. Use allowed_domains to sweep one firm's site at a time. Run MANY searches (aim for 50-90): one per firm x report type x year x quarter where reports exist, plus press coverage of those reports (ROI-NJ, NJBIZ, re-nj.com, GlobeSt, Commercial Observer, Bisnow, The Real Deal often summarize the numbers). You have a large budget; be exhaustive. Write a first version of your output file halfway through and overwrite it at the end.
+TOOLS / NETWORK: Use the WebSearch tool (if it is not loaded, load it with ToolSearch query "select:WebSearch"). WebFetch, curl and every direct page fetch are BLOCKED by this environment's network egress policy - do not use them (if you try once and see EGRESS_BLOCKED, do not retry). WebSearch returns result URLs plus excerpts/summaries of page content (including PDF reports); extract numbers ONLY from what those results actually state, and attribute each number to the result URL that carries it. Use mode "extended" for report-specific queries and "standard" for simple lookups. Use allowed_domains to sweep one firm's site at a time. Query one firm x report type x year x quarter where reports exist, plus press coverage of those reports (ROI-NJ, NJBIZ, re-nj.com, GlobeSt, Commercial Observer, Bisnow, The Real Deal often summarize the numbers). Your WebSearch call cap is stated at the end of this prompt and is a hard limit. Write a first version of your output file halfway through and overwrite it at the end.
 
 HARD RULES:
 1. Public free web only. No logins, accounts, forms, CAPTCHAs, paywalls (if a report requires a form to download, use only what the search excerpt or a press article shows). Never contact anyone.
@@ -43,13 +43,24 @@ const D_SCHEMA = {
   required: ['part_file', 'rows_written', 'reports_used', 'searches_run', 'blocked', 'not_found', 'notes'],
 }
 
-function promptFor(g) {
+function promptForBase(g) {
   const path = '/home/user/cladue/buyers_research/parts/D_market/' + g.key + '.jsonl'
   return RULES + '\n\nTASK (Workstream D - market-level buyer statistics 2019-2025 for Northern/Central NJ industrial). ' + g.task +
     '\nSearch shapes: "<firm> New Jersey industrial market report Q3 2022", "<firm> Northern New Jersey industrial MarketBeat 2021", "<firm> New Jersey industrial sales volume 2023 cap rate", "<firm> New Jersey industrial investment sales buyers institutional private", "New Jersey industrial cap rates 2024 <firm>", "New Jersey industrial price per square foot record <firm>", "industrial outdoor storage New Jersey <firm> report", "cold storage New Jersey <firm> report", and press coverage: "<firm> report New Jersey industrial" with allowed_domains for roi-nj.com, njbiz.com, re-nj.com, globest.com, commercialobserver.com, bisnow.com.' +
     '\n\nOUTPUT FILE (absolute path, JSONL): ' + path +
     '\n\nWhen done, return the structured summary: part_file, rows_written, reports_used (titles), searches_run, blocked, not_found (report series you could not locate), notes.'
 }
+
+
+// --- budget / continuation block appended to every agent prompt (args.search_cap, args.leads[key]) ---
+function extra(key) {
+  const cap = (args && args.search_cap) || 25
+  const leads = (args && args.leads && args.leads[key]) || ''
+  return '\n\nSEARCH BUDGET: you may run AT MOST ' + cap + ' WebSearch calls in total - count them. The pool is shared by every agent in this turn and exceeding your share starves the others. Plan your full query list first, run the highest-value queries first, and stop when you reach the cap or when WebSearch replies that the budget is used up - then Write your file immediately.' +
+    '\n\nCONTINUING PRIOR WORK: if the output file already exists, Read it first and keep every existing row (correct only obvious errors); your final Write must contain the union of existing and new rows, deduped. Do not re-search items that already have complete rows unless they appear in the leads below.' +
+    (leads ? '\n\nLEADS / GAPS FROM THE PREVIOUS PASS (start with these): ' + leads : '')
+}
+function promptFor(x) { return promptForBase(x) + extra(x.key) }
 
 phase('Market stats')
 log('Workstream D: ' + GROUPS.length + ' brokerage groups')
