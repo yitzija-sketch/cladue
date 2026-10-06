@@ -1,7 +1,7 @@
-# checkpoint 2026-10-06T19:38:48Z
+# checkpoint 2026-10-06T19:48:51Z
 # part file -> bytes / lines written so far
-buyers_research/parts/A_buyers/A1_public_reits.jsonl 45489 bytes 28 lines
-buyers_research/parts/A_buyers/A2_institutional_core.jsonl 66371 bytes 42 lines
+buyers_research/parts/A_buyers/A1_public_reits.jsonl 50597 bytes 28 lines
+buyers_research/parts/A_buyers/A2_institutional_core.jsonl 85593 bytes 52 lines
 buyers_research/parts/A_buyers/A3_national_pe_valueadd.jsonl 62352 bytes 41 lines
 buyers_research/parts/A_buyers/A4_nynj_private_operators.jsonl 85374 bytes 47 lines
 buyers_research/parts/A_buyers/A5_nj_developer_holders.jsonl 49607 bytes 35 lines
@@ -23,10 +23,10 @@ buyers_research/parts/B_deals/B_year_2021.jsonl 46647 bytes 51 lines
 buyers_research/parts/B_deals/B_year_2022.jsonl 93230 bytes 106 lines
 buyers_research/parts/B_deals/B_year_2023.jsonl 80977 bytes 92 lines
 buyers_research/parts/B_deals/B_year_2024.jsonl 70710 bytes 78 lines
-buyers_research/parts/D_market/D1_cushman_savills.jsonl 23991 bytes 45 lines
+buyers_research/parts/D_market/D1_cushman_savills.jsonl 58398 bytes 104 lines
 buyers_research/parts/D_market/D2_cbre_lee.jsonl 48812 bytes 96 lines
 buyers_research/parts/D_market/D3_jll_kislak.jsonl 26671 bytes 45 lines
-buyers_research/parts/D_market/D4_colliers_nai.jsonl 0 bytes 0 lines
+buyers_research/parts/D_market/D4_colliers_nai.jsonl 75214 bytes 137 lines
 buyers_research/parts/D_market/D5_newmark_avison.jsonl 43124 bytes 84 lines
-buyers_research/parts/D_market/D6_costar_rca_other.jsonl 27331 bytes 53 lines
+buyers_research/parts/D_market/D6_costar_rca_other.jsonl 52402 bytes 100 lines
 buyers_research/parts/_runs/EXCLUDE_B.jsonl 1123 bytes 9 lines
