@@ -1,5 +1,9 @@
 # RESUME.md — how to pick this research up if the session stops
 
+> **Cold start:** read `TASK_SPEC.md` (the brief), then paste `KICKOFF_PROMPT.md` into the new session.
+> The broker chose to continue in a new session with `CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION` raised
+> (decision taken 2026-10-06 after round 1). Session 1: https://claude.ai/code/session_0126gXTSDEH4CeHTDhskFo5J
+
 Everything the run has produced is in this folder and is committed/pushed every ~10 minutes by
 `tools/checkpoint.sh` (branch `claude/nj-industrial-buyer-research-v4j2sy`).
 
