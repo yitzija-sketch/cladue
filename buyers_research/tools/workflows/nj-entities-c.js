@@ -65,7 +65,7 @@ function extra(key) {
 function promptFor(x) { return promptForBase(x) + extra(x.key) }
 
 phase('Entities')
-log('Workstream C: ' + BATCHES.length + ' batches, ' + BATCHES.reduce((n, b) => n + b.buyers.length, 0) + ' buyers')
+log('Workstream C: ' + BATCHES.length + ' batches, ' + BATCHES.reduce((n, b) => n + (b.buyers ? b.buyers.length : 5), 0) + ' buyers')
 const results = await parallel(BATCHES.map(b => () => agent(promptFor(b), { label: 'C:' + b.key, phase: 'Entities', schema: SCHEMA })))
 const out = results.filter(Boolean)
 log('C done: ' + out.reduce((n, r) => n + (r.rows_written || 0), 0) + ' entity rows across ' + out.length + ' parts')
