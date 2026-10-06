@@ -18,35 +18,37 @@
   "unknown": 93,
   "no": 15
  },
- "B_raw_rows": 99,
+ "B_raw_rows": 407,
  "B_unparseable_blocks": {},
- "B_rows": 90,
- "B_portfolio_summary_rows": 10,
+ "B_rows": 347,
+ "B_portfolio_summary_rows": 30,
  "B_by_year": {
-  "2019": 21,
-  "2020": 12,
-  "2022": 37,
-  "2023": 9,
-  "n/a": 11
+  "2019": 33,
+  "2020": 35,
+  "2021": 47,
+  "2022": 64,
+  "2023": 38,
+  "2024": 34,
+  "n/a": 96
  },
  "B_by_county": {
-  "Middlesex": 15,
-  "Somerset": 10,
-  "Bergen": 21,
-  "Hudson": 3,
-  "Passaic": 6,
-  "Burlington": 3,
-  "Essex": 13,
-  "Morris": 6,
-  "Union": 6,
-  "Monmouth": 3,
-  "Mercer": 3,
-  "blank": 1
+  "blank": 6,
+  "Bergen": 78,
+  "Middlesex": 64,
+  "Somerset": 25,
+  "Burlington": 23,
+  "Essex": 27,
+  "Passaic": 21,
+  "Morris": 29,
+  "Monmouth": 13,
+  "Union": 26,
+  "Mercer": 13,
+  "Hudson": 22
  },
- "B_with_price": 46,
- "B_with_sf": 67,
- "B_with_cap_rate": 0,
- "B_with_spv": 4,
+ "B_with_price": 171,
+ "B_with_sf": 252,
+ "B_with_cap_rate": 1,
+ "B_with_spv": 16,
  "C_raw_rows": 0,
  "C_unparseable_blocks": {},
  "C_rows": 0,
@@ -98,32 +100,92 @@
   "2024": 35,
   "2025": 73
  },
- "rank_rows": 269,
+ "rank_rows": 345,
  "top_30_active": [
   [
    "SEAGIS PROPERTY GROUP",
-   23,
-   6
+   37,
+   13
   ],
   [
    "SITEX GROUP",
-   12,
-   5
+   24,
+   11
+  ],
+  [
+   "FAROPOINT",
+   16,
+   4
+  ],
+  [
+   "AMBIENT CAPITAL PARTNERS",
+   14,
+   6
+  ],
+  [
+   "DEVLI REAL ESTATE",
+   14,
+   7
   ],
   [
    "THOR EQUITIES GROUP",
+   14,
+   4
+  ],
+  [
+   "CENTERPOINT PROPERTIES",
    12,
    3
   ],
   [
-   "FAROPOINT",
-   10,
-   1
+   "DALFEN INDUSTRIAL",
+   12,
+   3
+  ],
+  [
+   "REALTERM",
+   12,
+   3
   ],
   [
    "VENTURE ONE REAL ESTATE",
+   11,
+   1
+  ],
+  [
+   "DENHOLTZ PROPERTIES",
+   10,
+   3
+  ],
+  [
+   "MARCUS PARTNERS",
+   10,
+   3
+  ],
+  [
+   "MORGAN STANLEY REAL ESTATE INVESTING",
+   10,
+   4
+  ],
+  [
+   "LONGPOINT REALTY PARTNERS",
    9,
-   0
+   3
+  ],
+  [
+   "SAGARD REAL ESTATE",
+   9,
+   2
+  ],
+  [
+   "BRIDGE INDUSTRIAL",
+   8,
+   3
+  ],
+  [
+   "BRIDGE LOGISTICS PROPERTIES",
+   8,
+   4
   ],
   [
    "EVERWEST REAL ESTATE INVESTORS",
@@ -131,143 +193,160 @@
    2
   ],
   [
-   "REALTERM",
+   "HIGH STREET LOGISTICS PROPERTIES",
    8,
+   2
+  ],
+  [
+   "INVESCO REAL ESTATE",
+   8,
+   1
+  ],
+  [
+   "KURV INDUSTRIAL",
+   8,
+   4
+  ],
+  [
+   "OLIVER STREET CAPITAL",
+   8,
+   1
+  ],
+  [
+   "PRIVATE INVESTOR",
+   8,
+   4
+  ],
+  [
+   "PROPERTY RESERVE",
+   8,
+   3
+  ],
+  [
+   "RIDGECUT ROAD",
+   8,
+   2
+  ],
+  [
+   "TURNBRIDGE EQUITIES",
+   8,
+   2
+  ],
+  [
+   "CAMBER REAL ESTATE PARTNERS",
+   7,
+   1
+  ],
+  [
+   "CBRE INVESTMENT MANAGEMENT",
+   7,
+   1
+  ],
+  [
+   "PROLOGIS",
+   7,
    1
   ],
   [
    "VELOCITY VENTURE PARTNERS",
    7,
    1
-  ],
-  [
-   "BAIN CAPITAL REAL ESTATE",
-   6,
-   0
-  ],
-  [
-   "CENTERPOINT PROPERTIES",
-   6,
-   0
-  ],
-  [
-   "DALFEN INDUSTRIAL",
-   6,
-   0
-  ],
-  [
-   "DENHOLTZ PROPERTIES",
-   6,
-   1
-  ],
-  [
-   "INVESCO REAL ESTATE",
-   6,
-   0
-  ],
-  [
-   "MARCUS PARTNERS",
-   6,
-   1
-  ],
-  [
-   "OLIVER STREET CAPITAL",
-   6,
-   0
-  ],
-  [
-   "RIVER WALK",
-   6,
-   2
-  ],
-  [
-   "TREETOP COMPANIES",
-   6,
-   0
-  ],
-  [
-   "TURNBRIDGE EQUITIES",
-   6,
-   1
-  ],
-  [
-   "WHARTON INDUSTRIAL WHARTON EQUITY PARTNERS",
-   6,
-   0
-  ],
-  [
-   "WOODMONT INDUSTRIAL PARTNERS",
-   6,
-   1
-  ],
-  [
-   "CAMBER REAL ESTATE PARTNERS",
-   5,
-   0
-  ],
-  [
-   "CBRE INVESTMENT MANAGEMENT",
-   5,
-   0
-  ],
-  [
-   "COHEN ASSET MANAGEMENT",
-   5,
-   0
-  ],
-  [
-   "PENWOOD REAL ESTATE",
-   5,
-   1
-  ],
-  [
-   "PROLOGIS",
-   5,
-   0
-  ],
-  [
-   "SAGARD REAL ESTATE",
-   5,
-   0
-  ],
-  [
-   "ARES INDUSTRIAL REAL ESTATE INCOME TRUST",
-   4,
-   1
-  ],
-  [
-   "ARES MANAGEMENT REAL ESTATE ARES INDUSTRIAL REIT LEGACY BLACK CREEK",
-   4,
-   0
-  ],
-  [
-   "BROOKFIELD ASSET MANAGEMENT LOGISTICS",
-   4,
-   0
-  ],
-  [
-   "BROOKFIELD REAL ESTATE INCOME TRUST",
-   4,
-   0
   ]
  ],
  "buyers_in_B_not_in_A": [
+  "DEVLI REAL ESTATE",
+  "KURV INDUSTRIAL",
+  "PRIVATE INVESTOR",
+  "BRIDGE LOGISTICS PROPERTIES",
+  "JOHNSON DEVELOPMENT ASSOCIATES",
+  "DORA S NATURALS",
+  "COMMERCE PARK INVESTORS",
   "LIBERTY PROPERTY TRUST",
   "LINK INDUSTRIAL PROPERTIES",
+  "LEGACY CAPITAL",
+  "GLP CAPITAL PARTNERS",
+  "EAGLE CLIFF REAL ESTATE PARTNERS",
+  "REIT UNNAMED IN EXCERPT",
+  "SIMON HOLDINGS",
+  "DH PROPERTY HOLDINGS DRA ADVISORS",
+  "JOINT VENTURE UNNAMED IN EXCERPT",
+  "NOVACART",
+  "ALTMAN JV",
+  "MCB REAL ESTATE",
+  "AAA WHOLESALE",
+  "LEGACY REAL ESTATE DEVELOPERS COMMERCE PARK INVESTORS",
+  "GOODMAN GROUP",
+  "GOODMAN NORTH AMERICA MANAGEMENT",
+  "PRIVATE BUYER",
+  "DALFEN INDUSTRIAL AND CENTERBRIDGE PARTNERS JV",
+  "GOURMET NUT",
+  "BLACKROCK",
+  "JADIAN",
+  "SNS REAL ESTATE INVESTMENT GROUP",
+  "LPBS",
+  "LABORATORY PLASTICS MAKER UNNAMED IN EXCERPT",
+  "CAVALLI CABINETS",
+  "LBA LOGISTICS",
+  "CITY KNICKERBOCKER",
+  "COLONY INDUSTRIAL",
+  "NINES ENTERPRISES",
+  "BLACK CREEK GROUP",
   "SHAWNEE TRANSPORTATION",
+  "EDGEWOOD PROPERTIES",
   "KISS PRODUCTS",
   "DAVCO GROUP SHOLOM DAVIDOWITS",
+  "TREETOP DEVELOPMENT",
+  "STRATEGIC FUNDING ALTERNATIVES",
+  "SAADIA GROUP",
   "BENTALLGREENOAK",
+  "SALEM ENTERPRISES",
   "COLUMBIA STORAGE GROUP",
+  "NEST SCIENTIFIC USA",
+  "JFR GLOBAL INVESTMENTS",
+  "865 NJ 33 SD",
+  "CLARION PARTNERS MRP INDUSTRIAL JV",
+  "SKM 68",
+  "LOCAL PARTNERS UNNAMED REALCOLD PROJECT",
+  "PRIVATE INVESTOR UNNAMED",
+  "3 V COMPANY",
+  "MEROLA SALES CO",
+  "LINK INDUSTRIAL",
+  "KUSHNER REAL ESTATE GROUP STRO COS JV",
+  "SIMEX",
+  "YARON GOHAR",
+  "BARINGS VISION REAL ESTATE PARTNERS JV",
+  "GREEK DEVELOPMENT",
+  "ESTI WAREHOUSE",
+  "BROOKFIELD ASSET MANAGEMENT",
+  "FARRELL CONTRACTING SOLUTIONS",
+  "BROOKFIELD",
   "REXING",
   "DUKE REALTY",
+  "BRENTWOOD REALTY",
+  "RET INDUSTRIAL",
+  "JAY SONI AND JUSTIN PASSARETTI",
+  "TIMBERLINE REAL ESTATE VENTURES",
   "DAYBREAK EXPRESS",
-  "THOR",
+  "DIVERSIFIED PROPERTIES",
+  "STRO COS",
+  "SL INDUSTRIAL PARTNERS",
+  "OLIVER STREET CAPITAL AND BAIN CAPITAL REAL ESTATE",
+  "GLENDALE WAREHOUSE AND DISTRIBUTION",
   "FUJIPOLY AMERICA",
-  "BRIDGE LOGISTICS PROPERTIES"
+  "HAMPSHIRE COS",
+  "PRIVATE INVESTOR NEW YORK",
+  "SERVICE TRUCK TIRE CENTER STTC",
+  "OLD DOMINION FREIGHT LINE",
+  "LINCOLN EQUITIES GROUP PGIM REAL ESTATE",
+  "WEST DEWEY",
+  "HEAVEN INVESTMENTS",
+  "SAXUM REAL ESTATE PARTNERS",
+  "GBD INTERNATIONAL",
+  "DEKO INTERNATIONAL"
  ],
- "rejected_rows": 7,
+ "rejected_rows": 19,
  "rejected_by_reason": {
-  "no address and no town": 7
+  "no address and no town": 13,
+  "county out of scope": 6
  }
 }
