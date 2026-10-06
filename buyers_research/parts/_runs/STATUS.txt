@@ -1,0 +1,31 @@
+# checkpoint 2026-10-06T18:38:29Z
+# part file -> bytes / lines written so far
+buyers_research/parts/A_buyers/A1_public_reits.jsonl 45489 bytes 28 lines
+buyers_research/parts/A_buyers/A2_institutional_core.jsonl 66371 bytes 42 lines
+buyers_research/parts/A_buyers/A3_national_pe_valueadd.jsonl 0 bytes 0 lines
+buyers_research/parts/A_buyers/A4_nynj_private_operators.jsonl 32540 bytes 19 lines
+buyers_research/parts/A_buyers/A5_nj_developer_holders.jsonl 0 bytes 0 lines
+buyers_research/parts/A_buyers/A6_ios_truck.jsonl 23741 bytes 14 lines
+buyers_research/parts/A_buyers/A7_cold_lastmile_smallbay.jsonl 29560 bytes 19 lines
+buyers_research/parts/A_buyers/A8_netlease_slb_foreign.jsonl 0 bytes 0 lines
+buyers_research/parts/A_buyers/A9_nontraded_reit_dst.jsonl 0 bytes 0 lines
+buyers_research/parts/B_deals/B_geo_bergen.jsonl 0 bytes 0 lines
+buyers_research/parts/B_deals/B_geo_hudson_essex.jsonl 0 bytes 0 lines
+buyers_research/parts/B_deals/B_geo_mercer_monmouth_burlington.jsonl 0 bytes 0 lines
+buyers_research/parts/B_deals/B_geo_middlesex.jsonl 0 bytes 0 lines
+buyers_research/parts/B_deals/B_geo_somerset_morris.jsonl 0 bytes 0 lines
+buyers_research/parts/B_deals/B_geo_union_passaic.jsonl 0 bytes 0 lines
+buyers_research/parts/B_deals/B_reit_industrial.jsonl 0 bytes 0 lines
+buyers_research/parts/B_deals/B_reit_netlease_cold.jsonl 0 bytes 0 lines
+buyers_research/parts/B_deals/B_year_2019.jsonl 20898 bytes 22 lines
+buyers_research/parts/B_deals/B_year_2020.jsonl 11788 bytes 12 lines
+buyers_research/parts/B_deals/B_year_2021.jsonl 0 bytes 0 lines
+buyers_research/parts/B_deals/B_year_2022.jsonl 43296 bytes 51 lines
+buyers_research/parts/B_deals/B_year_2023.jsonl 12071 bytes 14 lines
+buyers_research/parts/B_deals/B_year_2024.jsonl 0 bytes 0 lines
+buyers_research/parts/D_market/D1_cushman_savills.jsonl 23991 bytes 45 lines
+buyers_research/parts/D_market/D2_cbre_lee.jsonl 48812 bytes 96 lines
+buyers_research/parts/D_market/D3_jll_kislak.jsonl 0 bytes 0 lines
+buyers_research/parts/D_market/D4_colliers_nai.jsonl 0 bytes 0 lines
+buyers_research/parts/D_market/D5_newmark_avison.jsonl 0 bytes 0 lines
+buyers_research/parts/D_market/D6_costar_rca_other.jsonl 0 bytes 0 lines
