@@ -28,8 +28,8 @@ After each batch: `python3 -I buyers_research/tools/leads_from_journals.py && py
 | 2 | done 19:25Z (B raw 99→~430 rows) | nj-deals-b | B_year_2021, B_year_2024 (35); B_year_2019, B_year_2020, B_year_2023 (30); B_year_2022 (25) | 185 |
 | 3 | done 19:45Z (6 geo slices, 411 raw rows) | nj-deals-b | B_geo_bergen, B_geo_hudson_essex, B_geo_union_passaic, B_geo_middlesex, B_geo_somerset_morris, B_geo_mercer_monmouth_burlington (30 each) | 180 |
 | 4 | done 20:05Z (REIT slices 45 rows; D3-D6 319 rows) | nj-deals-b + nj-market-d | B_reit_industrial, B_reit_netlease_cold (30); D3_jll_kislak, D4_colliers_nai, D5_newmark_avison, D6_costar_rca_other (30) | 180 |
-| 5 | running (launched ~20:07Z; AX_1 40, AX_2 30, AX_3 25, A1/A2 20, D1/D2 18) | nj-buyers-a (custom groups) + nj-market-d | AX_1..AX_3 = buyers appearing in B deal rows but missing from A (from `consolidate_report.json: buyers_in_B_not_in_A`) (30 each); A1_public_reits, A2_institutional_core top-ups (25); D1, D2 top-ups (25) | 190 |
-| 6–9 | pending | nj-entities-c | top-100 of `buyer_activity_rank.csv`, 5 buyers per agent, 5 agents per turn, cap 36 (≈7 searches/buyer) | 180 × 4 |
+| 5 | done 20:25Z (A: ~370 buyers; D: ~750 raw rows) | nj-buyers-a (custom groups) + nj-market-d | AX_1..AX_3 = buyers appearing in B deal rows but missing from A (from `consolidate_report.json: buyers_in_B_not_in_A`) (30 each); A1_public_reits, A2_institutional_core top-ups (25); D1, D2 top-ups (25) | 190 |
+| 6–9 | batch 6 running (C_01-C_05, launched ~20:27Z, cap 34) | nj-entities-c | top-100 of `buyer_activity_rank.csv`, 5 buyers per agent, 5 agents per turn, cap 36 (≈7 searches/buyer) | 180 × 4 |
 | 10 | pending | nj-verify-v | one skeptic per A part (9 × cap 12) + 4 B samplers (cap 20) | 188 |
 | 11 | pending | nj-verify-v + nj-deals-b | 4 C samplers (cap 25) + B specialty sweeps: IOS/truck, cold storage, sale-leaseback, industrial land (3 × 30) | 190 |
 | 12 | pending | dossiers (inline Agent calls or a small workflow) | 25 most active buyers, cap 7 each; built mostly from the CSVs | 175 |

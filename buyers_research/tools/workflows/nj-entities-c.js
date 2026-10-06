@@ -42,12 +42,13 @@ const SCHEMA = {
 }
 
 // args.batches = [{ key: 'C_01', buyers: [{ name, type, context }] }, ...]
-const BATCHES = (args && args.batches) || []
-if (!BATCHES.length) throw new Error('args.batches required')
+let BATCHES = (args && args.batches) || []
+if (!BATCHES.length && args && args.batch_keys) BATCHES = args.batch_keys.map(k => ({ key: k }))
+if (!BATCHES.length) throw new Error('args.batches or args.batch_keys required')
 
 function promptForBase(b) {
   const path = '/home/user/cladue/buyers_research/parts/C_entities/' + b.key + '.jsonl'
-  const list = b.buyers.map((x, i) => `${i + 1}. ${x.name}${x.type ? ' [' + x.type + ']' : ''}${x.context ? ' - known NJ deals/context: ' + x.context : ''}`).join('\n')
+  const list = b.buyers ? b.buyers.map((x, i) => `${i + 1}. ${x.name}${x.type ? ' [' + x.type + ']' : ''}${x.context ? ' - known NJ deals/context: ' + x.context : ''}`).join('\n') : ('FIRST, Read /home/user/cladue/buyers_research/parts/_runs/C_BATCHES.json and take the object whose key is "' + b.key + '": its buyers array (name, type, context with NJ deals seen, SPV names already seen in press, entities already recorded) is your batch. Research exactly those buyers.')
   return RULES + '\n\n' + TASK + '\n\nBUYERS IN THIS BATCH:\n' + list + '\n\nOUTPUT FILE (absolute path, JSONL): ' + path +
     '\n\nWhen done, return the structured summary: part_file, rows_written, buyers_covered, entities_per_buyer, searches_run, blocked, not_found (buyers with no sourced entity beyond the operating company), notes.'
 }
