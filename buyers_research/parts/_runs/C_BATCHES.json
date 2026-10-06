@@ -1,0 +1,602 @@
+[
+ {
+  "key": "C_01",
+  "buyers": [
+   {
+    "name": "Seagis Property Group",
+    "type": "developer-holder",
+    "context": "type developer-holder | HQ Conshohocken, PA | https://www.seagisproperty.com/ | NJ deals seen: 936 Harrison Avenue, Kearny (2024); 333 Veterans Boulevard, Carlstadt (2024); 25 Amor Ave, Carlstadt (2023); 130 Essex Avenue East, Avenel (2023); 1 Graphic Place, Moonachie (2022); 11 Graphic Place, Moonachie (2022)"
+   },
+   {
+    "name": "Prologis, Inc.",
+    "type": "REIT",
+    "context": "type REIT | HQ San Francisco, CA | prologis.com | NJ deals seen: , Teterboro (2023); 111 Central Ave, Teterboro (2023); 80 Hancock Street, Lodi (2023, $5550000); 600 Washington Avenue, Carlstadt (2023); 201 Middlesex Center Blvd, Monroe Township (2023); 773 Cranbury South River Road, Monroe Township (2023)"
+   },
+   {
+    "name": "Faropoint",
+    "type": "closed-end PE",
+    "context": "type closed-end PE | HQ Hoboken, NJ | https://www.faropoint.com | NJ deals seen: 1-3 & 5-7 Pearl Court, Allendale (2023); Mahwah Industrial Center (3 buildings), Mahwah (2023); 3140 Route 22, Branchburg (2023, $23750000); 1803 Underwood Boulevard, Delran (2022, $1600000); 153 Bauer Drive, Oakland (2022, $9600000); , Delran (2022, $1600000) | SPV names already seen in press: FRG-X-NJ1 LP"
+   },
+   {
+    "name": "Devli Real Estate",
+    "type": "",
+    "context": "NJ deals seen: 449 Doremus Avenue, Newark (2024); , Howell (2021); 2 Carlton Avenue, East Rutherford (2021); 15-01 Pollitt Drive, Unit 5, Fair Lawn (2021, $1050000); , Moonachie (2021); , North Bergen (2021)"
+   },
+   {
+    "name": "Longpoint Realty Partners",
+    "type": "closed-end PE",
+    "context": "type closed-end PE | HQ Boston, MA | https://longpoint.com | NJ deals seen: 31-35 Styertowne Road, Clifton (2022, $18500000); 149 New Dutch Lane, Fairfield (2022); , Parsippany (2022); 1 Wood Hollow Lane, Parsippany (2022); 1200 Amboy Ave, Perth Amboy (2020); 340 Kaplan Drive, Fairfield (n/d) | SPV names already seen in press: Longpoint Fund III; Longpoint Realty Partners L.P."
+   }
+  ]
+ },
+ {
+  "key": "C_02",
+  "buyers": [
+   {
+    "name": "Sagard Real Estate",
+    "type": "open-end fund",
+    "context": "type open-end fund | https://www.sagard.com | NJ deals seen: 390 Central Ave, East Rutherford (2024, $19400000); 80 Essex Avenue East, Avenel (Woodbridge) (2024, $24100000); 329 New Brunswick Avenue, Rahway (2022, $62000000); 12 Daniel Road, Fairfield (2019); 80 Essex Ave East, Avenel (Woodbridge) (n/d, $24100000); 77 Moonachie Ave, Moonachie (n/d) | SPV names already seen in press: EverWest Real Estate Investors LLC"
+   },
+   {
+    "name": "Dalfen Industrial",
+    "type": "closed-end PE",
+    "context": "type closed-end PE | HQ Dallas, TX | https://www.dalfen.com | NJ deals seen: , Lumberton (2024); 83 Gross Avenue, Edison (2024); 12 Thornton Road, Oakland (2024, $14650000); Roxbury Logistics Center, Roxbury (2023); 401 Cottontail Lane, Somerset (Franklin Township) (2023); 7061 Route 35, South Amboy (n/d)"
+   },
+   {
+    "name": "Morgan Stanley Real Estate Investing",
+    "type": "closed-end PE",
+    "context": "type closed-end PE | https://www.morganstanley.com/im/en-us/institutional-investor/strategies/real-assets.html | NJ deals seen: 151 Ridgedale Avenue, East Hanover (2023); 601 Murray Road, East Hanover (2023); 901 Murray Road, East Hanover (2023); 903 Murray Road, East Hanover (2023); 903-906 Murray Road, East Hanover (2023); 904 Murray Road, East Hanover (2023) | SPV names already seen in press: investment fund managed by Morgan Stanley Real Estate Investing; operator/manager Saxum Real Estate"
+   },
+   {
+    "name": "Realterm",
+    "type": "closed-end PE",
+    "context": "type closed-end PE | HQ Annapolis, MD | https://www.realterm.com | NJ deals seen: 880 Paterson Plank Road, East Rutherford (2022); 890 Paterson Plank Road, East Rutherford (2022); 83 Broad Ave, Fairview (2022); 108 New Era Drive, South Plainfield (2022); 801 Washington Ave, Carlstadt (2020); 20 Jackson Road, Totowa (n/d)"
+   },
+   {
+    "name": "Thor Equities Group",
+    "type": "developer-holder",
+    "context": "type developer-holder | https://thorequities.com/ | NJ deals seen: , Passaic (2023, $52000000); , Passaic (2022, $52000000); 153 Linden Street, Passaic (2022, $52000000); 14-22 River Road, Bogota (2022, $50000000); 241 Oraton St, Newark (2022, $32000000)"
+   }
+  ]
+ },
+ {
+  "key": "C_03",
+  "buyers": [
+   {
+    "name": "Venture One Real Estate",
+    "type": "closed-end PE",
+    "context": "type closed-end PE | https://www.ventureonere.com/ | NJ deals seen: 1 Dodge Drive, West Caldwell (2024, $17500000); 1 Dodge Drive, West Caldwell (2023, $17800000); 25 Commerce Road, Fairfield (n/d)"
+   },
+   {
+    "name": "Ambient Capital Partners",
+    "type": "IOS specialist",
+    "context": "type IOS specialist | HQ Chicago, IL | NJ deals seen: 310 Manor Avenue, Harrison (2024); 401 Supor Boulevard, Harrison (2024); 500 Supor Boulevard, Harrison (2024); 505 Manor Avenue, Harrison (2024); 129 Sanford Avenue, Kearny (2024); 433 Bergen Avenue, Kearny (2024)"
+   },
+   {
+    "name": "Ares Management Real Estate (Ares Industrial REIT / legacy Black Creek)",
+    "type": "open-end fund",
+    "context": "type open-end fund | HQ Los Angeles, CA | https://www.aresmgmt.com | NJ deals seen: 20-30 & 25 Continental Drive, Wayne (2022, $138500000); 20-30 & 25 Continental Drive (I-80 Logistics Park), Wayne (2022, $138500000); Railroad Avenue (30.8 acres), Florence (2020, $14750000); 3 Applegate Drive, Robbinsville (2019, $22600000); , Hamilton (2019, $8500000)"
+   },
+   {
+    "name": "Brookfield Asset Management (Logistics)",
+    "type": "closed-end PE",
+    "context": "type closed-end PE | HQ New York, NY | https://www.brookfield.com | NJ deals seen: 10 Industrial Avenue, Mahwah (2021, $16650000); , Clifton (2021, $25500000); , Clifton (2021, $25500000); , Ridgefield (2021); 314 16th St, Carlstadt (2020, $7000000)"
+   },
+   {
+    "name": "Marcus Partners",
+    "type": "closed-end PE",
+    "context": "type closed-end PE | HQ Boston, MA | https://marcuspartners.com | NJ deals seen: 100 Fulton Road, Boonton (2023); 18-20 Harmrich Road, South Plainfield (2023, $36500000); 18-20 Harmich Road, South Plainfield (2023, $36500000); 18-20 Hamrich Road, South Plainfield (2022, $36500000); , Paterson (2021)"
+   }
+  ]
+ },
+ {
+  "key": "C_04",
+  "buyers": [
+   {
+    "name": "Velocity Venture Partners, LLC",
+    "type": "closed-end PE",
+    "context": "type closed-end PE | HQ Bala Cynwyd, PA | https://www.velocityinv.com | NJ deals seen: , Burlington Township (2022); off Route 130, Burlington Township (2022, $4650000); Stow Road Corporate Park, Marlton (n/d); 16 Medford-Evesboro Road, Medford (n/d) | SPV names already seen in press: affiliate of Velocity Venture Partners"
+   },
+   {
+    "name": "Invesco Real Estate",
+    "type": "open-end fund",
+    "context": "type open-end fund | https://www.invesco.com/realestate | NJ deals seen: 152 Ridge Road, South Brunswick (2024, $55000000); 152 Ridge Road, South Brunswick (Dayton) (2024, $55000000); 8 Peach Tree Hill Road (West Essex Logistics Center), Livingston (2023, $98500000)"
+   },
+   {
+    "name": "Link Logistics Real Estate",
+    "type": "open-end fund",
+    "context": "type open-end fund | HQ New York, NY | https://www.linklogistics.com | NJ deals seen: Lincoln Highway (former Talbot Hall Rehabilitation Center), Kearny (2021); 1501-1525 W. Blancke Street, Linden (2019); 2401 E. Linden Avenue, Linden (2019); 100 Performance Drive, Mahwah (2019)"
+   },
+   {
+    "name": "Ridgecut Road",
+    "type": "IOS specialist",
+    "context": "type IOS specialist | NJ deals seen: 107 How Lane, New Brunswick (2024); 250 Mack Place, South Plainfield (2024); 700 Jernee Mill Road, Sayreville (2023, $23450000); , Edison (n/d, $24500000)"
+   },
+   {
+    "name": "Turnbridge Equities",
+    "type": "developer-holder",
+    "context": "type developer-holder | https://www.turnbridgeeq.com/ | NJ deals seen: 397-447 Ferry Street (Newark Distribution Center), Newark (2021, $92000000); 424 E. Ferry Street (former Ballantine Brewery), Newark (2019, $61000000); Former Ballantine Brewery campus, Newark (2019, $61000000); 138 Georges Road, South Brunswick (n/d, $23750000)"
+   }
+  ]
+ },
+ {
+  "key": "C_05",
+  "buyers": [
+   {
+    "name": "Penwood Real Estate Investment Management, LLC",
+    "type": "closed-end PE",
+    "context": "type closed-end PE | https://penwoodre.com | NJ deals seen: , Carlstadt (2023); 1 Caesar Place, Moonachie (2023, $31250000); 201 Elizabeth Street, Bordentown (2022, $60000000); 539 Route 130 (former Shoppes at Hamilton), Hamilton (2019) | SPV names already seen in press: Penwood Select Industrial Partners VI (per prior sweep)"
+   },
+   {
+    "name": "STAG Industrial, Inc.",
+    "type": "REIT",
+    "context": "type REIT | HQ Boston, MA | stagindustrial.com | NJ deals seen: 100 New England Ave, Piscataway (2023, $26500000); 103 Central Ave, Mount Laurel (2020); 291 Evans Way, Branchburg (2019); , Lumberton (2019)"
+   },
+   {
+    "name": "Denholtz Properties",
+    "type": "developer-holder",
+    "context": "type developer-holder | HQ Red Bank, NJ | https://www.denholtz.com/ | NJ deals seen: 148 Doremus Avenue, Newark (2022); 6W Chimney Rock Rd, Bridgewater (2020); , Bridgewater (n/d)"
+   },
+   {
+    "name": "Hines",
+    "type": "closed-end PE",
+    "context": "type closed-end PE | https://www.hines.com | NJ deals seen: 397-447 Ferry Street (Newark Distribution Center), Newark (2023, $127500000); 100 Christie Street, Newark (2022); 397-447 Ferry Street, Newark (2022); 400 Ferry Street, Newark (2022)"
+   },
+   {
+    "name": "Oliver Street Capital",
+    "type": "closed-end PE",
+    "context": "type closed-end PE | NJ deals seen: 299 Murray Hill Parkway, East Rutherford (2024, $28500000); 115 St. Nicholas Avenue / 115 Skyline Drive, South Plainfield (2023, $33250000)"
+   }
+  ]
+ },
+ {
+  "key": "C_06",
+  "buyers": [
+   {
+    "name": "Property Reserve, Inc.",
+    "type": "other",
+    "context": "type other | NJ deals seen: 1065 Cranbury South River Road (Eastpoint at Exit 8A), Monroe Township (2023); 2205 Route 27, Edison (2020, $247000000); 2205 Route 27 (Portside Distribution Center), Edison (2020, $247000000); 1065 Cranbury South River Road, Monroe Township (n/d)"
+   },
+   {
+    "name": "Stro Companies",
+    "type": "",
+    "context": "NJ deals seen: , Fairfield (2023); 97 Fairfield Road, Fairfield (2023); 19 Vreeland Road, Florham Park (2021); 4 Vreeland Road, Florham Park (2020); , Fairfield (n/d, $8700000)"
+   },
+   {
+    "name": "Treetop Companies",
+    "type": "family office",
+    "context": "type family office | HQ Teaneck, NJ | NJ deals seen: Halls Mill Road, Freehold (2020, $8800000); 183 Three Brooks Road, Freehold (2019, $11950000)"
+   },
+   {
+    "name": "Bridge Logistics Properties",
+    "type": "",
+    "context": "NJ deals seen: 1-5 Plant Road, Hasbrouck Heights (2023, $45000000); 250 Circle Drive North, Piscataway (2022); 3301 Tremley Point Road, Linden (2022); 3351 Tremley Point Road, Linden (2022)"
+   },
+   {
+    "name": "Clarion Partners (Lion Industrial Trust)",
+    "type": "open-end fund",
+    "context": "type open-end fund | https://www.clarionpartners.com | NJ deals seen: 1900 River Road (116.8-acre GSA redevelopment site), Burlington City (2020, $110500000); 1900 River Rd, Burlington Township (2020, $110500000)"
+   }
+  ]
+ },
+ {
+  "key": "C_07",
+  "buyers": [
+   {
+    "name": "Commerce Park Investors",
+    "type": "",
+    "context": "NJ deals seen: 350 North Frontage Road, Roxbury (2020); 360 North Frontage Road, Roxbury (2020); , Randolph (n/d, $4500000); 36 Pine Street, Rockaway (n/d)"
+   },
+   {
+    "name": "Goodman Group (Goodman North America)",
+    "type": "developer-holder",
+    "context": "type developer-holder | https://us.goodman.com | NJ deals seen: 125 Theodore Conrad Drive, Jersey City (2024); , Newark (n/d, $360000000); 200 US Route 1, Newark (n/d, $360000000)"
+   },
+   {
+    "name": "High Street Logistics Properties",
+    "type": "closed-end PE",
+    "context": "type closed-end PE | https://highstreetlp.com | NJ deals seen: , Burlington (2021); , Mount Laurel (2021)"
+   },
+   {
+    "name": "IDI Logistics",
+    "type": "developer-holder",
+    "context": "type developer-holder | HQ Atlanta, GA | https://idilogistics.com | NJ deals seen: 195 and 215 Davidson Avenue, Somerset (Franklin Township) (2022); , Ewing (2020)"
+   },
+   {
+    "name": "Principal Real Estate Investors",
+    "type": "open-end fund",
+    "context": "type open-end fund | https://www.principalam.com | NJ deals seen: 539 Route 130, Hamilton (2022); 539 Route 130, Hamilton (2020)"
+   }
+  ]
+ },
+ {
+  "key": "C_08",
+  "buyers": [
+   {
+    "name": "Barings Real Estate",
+    "type": "open-end fund",
+    "context": "type open-end fund | https://www.barings.com | NJ deals seen: 191 Blair Road, Avenel (Woodbridge) (n/d); 215 Blair Road, Avenel (Woodbridge) (n/d)"
+   },
+   {
+    "name": "Camber Real Estate Partners",
+    "type": "closed-end PE",
+    "context": "type closed-end PE | HQ Montclair, NJ | NJ deals seen: 601 Murray Rd, East Hanover (2020)"
+   },
+   {
+    "name": "CBRE Investment Management",
+    "type": "open-end fund",
+    "context": "type open-end fund | https://www.cbreim.com | NJ deals seen: , Cranbury (n/d)"
+   },
+   {
+    "name": "Cohen Asset Management, Inc.",
+    "type": "closed-end PE",
+    "context": "type closed-end PE | HQ Los Angeles, CA | https://cohenasset.com | NJ deals seen: 2555 Kuser Road, Hamilton (2021, $29600000)"
+   },
+   {
+    "name": "Dermody Properties",
+    "type": "developer-holder",
+    "context": "type developer-holder | https://dermody.com | NJ deals seen: 150 Milford Road, East Windsor (n/d); , Moonachie (n/d)"
+   }
+  ]
+ },
+ {
+  "key": "C_09",
+  "buyers": [
+   {
+    "name": "GLP Capital Partners (GCP)",
+    "type": "closed-end PE",
+    "context": "type closed-end PE | https://www.glpcp.com | NJ deals seen: 34 Engelhard Drive, Monroe Township (2023, $53750000); 2301 Cottontail Lane, Somerset (Franklin Township) (2021)"
+   },
+   {
+    "name": "Lincoln Equities Group",
+    "type": "developer-holder",
+    "context": "type developer-holder | https://www.lincolnequities.com/ | NJ deals seen: 861 Sloan Avenue (48.1-acre development site), Hamilton (2024); 681 Main Street (Belleville Industrial Center), Belleville (2021, $13000000); , Bayonne (n/d)"
+   },
+   {
+    "name": "Bain Capital Real Estate",
+    "type": "closed-end PE",
+    "context": "type closed-end PE | https://www.baincapital.com"
+   },
+   {
+    "name": "BGO (BentallGreenOak)",
+    "type": "open-end fund",
+    "context": "type open-end fund | https://bgo.com | NJ deals seen: 50 Veronica Ave, Franklin Township (2020, $164000000); 50 Veronica Avenue, Somerset (Franklin Township) (2020, $164000000)"
+   },
+   {
+    "name": "Brentwood Realty",
+    "type": "",
+    "context": "NJ deals seen: , Union (2022); 120 Aldene Road, Union (2022); 3220 Bordentown Avenue, Old Bridge (n/d)"
+   }
+  ]
+ },
+ {
+  "key": "C_10",
+  "buyers": [
+   {
+    "name": "Criterion Group LLC",
+    "type": "IOS specialist",
+    "context": "type IOS specialist | NJ deals seen: 206-238 North 12th Street & 1 Springdale Avenue, Newark (2023, $26100000)"
+   },
+   {
+    "name": "DH Property Holdings, LLC (DHPH)",
+    "type": "developer-holder",
+    "context": "type developer-holder | NJ deals seen: , Delanco (n/d); 800 Coopertown Road, Delanco (n/d, $30500000)"
+   },
+   {
+    "name": "Dora S Naturals",
+    "type": "",
+    "context": "NJ deals seen: 80 Knickerbocker Road, Moonachie (2024, $20900000); 210 West Commercial Avenue, Moonachie (2024, $31000000); 80 Knickerbocker Road, Moonachie (n/d, $20900000)"
+   },
+   {
+    "name": "Elion Partners",
+    "type": "closed-end PE",
+    "context": "type closed-end PE | NJ deals seen: 1000 Jefferson Avenue, Elizabeth (2021, $29700000); 10 Normandy Drive (Normandy Logistics Center), Piscataway (n/d)"
+   },
+   {
+    "name": "Industrial Outdoor Ventures",
+    "type": "IOS specialist",
+    "context": "type IOS specialist | HQ Chicago, IL | http://www.industrialoutdoor.com | NJ deals seen: , Edison (2022); 75 Glendale Avenue, Edison (2021)"
+   }
+  ]
+ },
+ {
+  "key": "C_11",
+  "buyers": [
+   {
+    "name": "Innovative Industrial Properties, Inc.",
+    "type": "REIT",
+    "context": "type REIT | HQ San Diego, CA | innovativeindustrialproperties.com | NJ deals seen: , Franklin Township (2022, $35400000)"
+   },
+   {
+    "name": "Jadian IOS (JIOS)",
+    "type": "IOS specialist",
+    "context": "type IOS specialist | https://jadianios.com | NJ deals seen: 190 Homestead Avenue, Avenel (Woodbridge) (n/d); , Somerset (Franklin Township) (n/d, $4700000)"
+   },
+   {
+    "name": "Johnson Development Associates",
+    "type": "",
+    "context": "NJ deals seen: 107 Elbow Lane (59.3 acres), Burlington Township (2020); 107 Elbow Ln, Burlington Township (2020); Elbow Lane, Burlington Township (n/d)"
+   },
+   {
+    "name": "River Walk LLC",
+    "type": "other",
+    "context": "type other | NJ deals seen: 2 Plane Street, Boonton (2020); 30 Plane Street, Boonton (2020) | SPV names already seen in press: River Walk LLC"
+   },
+   {
+    "name": "Taconic Partners",
+    "type": "developer-holder",
+    "context": "type developer-holder | https://taconicpartners.com | NJ deals seen: 1 Cory Road, Morristown (2022, $55000000); 1 Cory Road, Morris Township (2021, $55000000)"
+   }
+  ]
+ },
+ {
+  "key": "C_12",
+  "buyers": [
+   {
+    "name": "Taurus Investment Holdings",
+    "type": "other",
+    "context": "type other | https://www.tiholdings.com | NJ deals seen: 600 Delran Parkway, Delran (2023); 601 Delran Parkway, Delran (2023)"
+   },
+   {
+    "name": "Western Building Co.",
+    "type": "other",
+    "context": "type other | NJ deals seen: 210 Fairfield Road, Fairfield (2021); 1705 Route 46, Ledgewood (Roxbury Township) (2021)"
+   },
+   {
+    "name": "Wharton Industrial (Wharton Equity Partners)",
+    "type": "closed-end PE",
+    "context": "type closed-end PE | HQ New York, NY | https://whartonequity.com"
+   },
+   {
+    "name": "Woodmont Industrial Partners",
+    "type": "developer-holder",
+    "context": "type developer-holder | HQ Fairfield, NJ | https://www.woodmontproperties.com/ | NJ deals seen: 2 Terminal Road, Lyndhurst (2022)"
+   },
+   {
+    "name": "Americold Realty Trust, Inc.",
+    "type": "REIT",
+    "context": "type REIT | HQ Atlanta, GA | americold.com | NJ deals seen: 501 Kentile Road, South Plainfield (2020)"
+   }
+  ]
+ },
+ {
+  "key": "C_13",
+  "buyers": [
+   {
+    "name": "Forsgate Industrial Partners",
+    "type": "developer-holder",
+    "context": "type developer-holder | HQ Teterboro, NJ | https://www.forsgate.com | NJ deals seen: 30 Corporate Drive, Wayne (2020, $29500000)"
+   },
+   {
+    "name": "The Hampshire Companies",
+    "type": "closed-end PE",
+    "context": "type closed-end PE | HQ Morristown, NJ | https://www.hampshirere.com/ | NJ deals seen: 333 North Street, Teterboro (2023); 230 W. Crescent Avenue, Allendale (2021)"
+   },
+   {
+    "name": "Mapletree Investments",
+    "type": "developer-holder",
+    "context": "type developer-holder | HQ Singapore | https://www.mapletree.com.sg | NJ deals seen: , Manalapan (n/d)"
+   },
+   {
+    "name": "Stonemont Financial Group",
+    "type": "closed-end PE",
+    "context": "type closed-end PE | HQ Atlanta, GA | https://www.stonemontfinancial.com | NJ deals seen: 122 8th Street, Passaic (2022, $60000000)"
+   },
+   {
+    "name": "Aaa Wholesale",
+    "type": "",
+    "context": "NJ deals seen: 370 Essex Street, Lodi (2024, $29200000); 370 Essex Street, Lodi (n/d, $29200000)"
+   }
+  ]
+ },
+ {
+  "key": "C_14",
+  "buyers": [
+   {
+    "name": "Blackrock",
+    "type": "",
+    "context": "NJ deals seen: , Piscataway (2023, $80000000); , Piscataway (n/d, $80000000)"
+   },
+   {
+    "name": "Brookfield Real Estate Income Trust Inc.",
+    "type": "REIT",
+    "context": "type REIT"
+   },
+   {
+    "name": "Creation Equity",
+    "type": "developer-holder",
+    "context": "type developer-holder | NJ deals seen: McClellan One, Newark (2022)"
+   },
+   {
+    "name": "Davco Group",
+    "type": "other",
+    "context": "type other | NJ deals seen: 114 Beach Street, Rockaway (2019)"
+   },
+   {
+    "name": "Deugen Development",
+    "type": "developer-holder",
+    "context": "type developer-holder | NJ deals seen: , East Rutherford (2022)"
+   }
+  ]
+ },
+ {
+  "key": "C_15",
+  "buyers": [
+   {
+    "name": "Diversified Properties",
+    "type": "",
+    "context": "NJ deals seen: 1 Indian Lane E, Towaco (2022); 1 Indian Lane East, Towaco (Montville Township) (2022)"
+   },
+   {
+    "name": "Eagle Cliff Real Estate Partners",
+    "type": "",
+    "context": "NJ deals seen: 75 Wood Street, Paterson (2024); 90 6th Avenue, Paterson (2024)"
+   },
+   {
+    "name": "Federal Business Centers",
+    "type": "developer-holder",
+    "context": "type developer-holder | HQ Edison, NJ | https://federalbusinesscenters.com | NJ deals seen: 195-199 Raritan Center Parkway, Edison (2021, $36832905)"
+   },
+   {
+    "name": "Gbd International",
+    "type": "",
+    "context": "NJ deals seen: , Branchburg (2024, $13970000); 68 County Line Road, Branchburg (2024, $13970000)"
+   },
+   {
+    "name": "Hartz Mountain Industries, Inc.",
+    "type": "developer-holder",
+    "context": "type developer-holder | HQ Secaucus, NJ | NJ deals seen: , Secaucus (2022)"
+   }
+  ]
+ },
+ {
+  "key": "C_16",
+  "buyers": [
+   {
+    "name": "LBA Logistics (LBA Realty)",
+    "type": "open-end fund",
+    "context": "type open-end fund | HQ Irvine, CA | https://lbalogistics.com | NJ deals seen: 8 Applegate Drive, Robbinsville (2019, $13500000)"
+   },
+   {
+    "name": "Legacy Capital",
+    "type": "",
+    "context": "NJ deals seen: 2 Palmer Terrace, Carlstadt (2021); 2 Palmer Terrace, Carlstadt (2020, $13000000)"
+   },
+   {
+    "name": "Mcb Real Estate",
+    "type": "",
+    "context": "NJ deals seen: 400 Fairfield Road, Howell (2024, $69900000); 400 Fairfield Road, Howell (n/d, $69900000)"
+   },
+   {
+    "name": "NorthBridge Partners, LLC",
+    "type": "closed-end PE",
+    "context": "type closed-end PE | NJ deals seen: 14 Sbar Boulevard (Moorestown Distribution Center), Moorestown (2021, $23250000)"
+   },
+   {
+    "name": "Novacart",
+    "type": "",
+    "context": "NJ deals seen: 2001 U.S. Route 130, Florence (n/d, $14600000); 2001 U.S. Route 130, Florence Township (n/d, $14600000)"
+   }
+  ]
+ },
+ {
+  "key": "C_17",
+  "buyers": [
+   {
+    "name": "Novaya Real Estate Ventures",
+    "type": "closed-end PE",
+    "context": "type closed-end PE"
+   },
+   {
+    "name": "Oak Street Real Estate Capital",
+    "type": "closed-end PE",
+    "context": "type closed-end PE | HQ Chicago, IL | https://www.blueowl.com | NJ deals seen: 650 Liberty Ave, Union (2020) | SPV names already seen in press: an affiliate of Oak Street Real Estate Capital"
+   },
+   {
+    "name": "Oxford Properties Group",
+    "type": "other",
+    "context": "type other | https://www.oxfordproperties.com"
+   },
+   {
+    "name": "PGIM Real Estate",
+    "type": "open-end fund",
+    "context": "type open-end fund | https://www.pgim.com/real-estate"
+   },
+   {
+    "name": "RL Cold",
+    "type": "developer-holder",
+    "context": "type developer-holder | NJ deals seen: 907 Pleasant Valley Ave, Mount Laurel (n/d)"
+   }
+  ]
+ },
+ {
+  "key": "C_18",
+  "buyers": [
+   {
+    "name": "Rockefeller Group",
+    "type": "developer-holder",
+    "context": "type developer-holder"
+   },
+   {
+    "name": "Saadia Group",
+    "type": "",
+    "context": "NJ deals seen: , Piscataway (2020); 1700-1722 S. 2nd Street, Plainfield (n/d)"
+   },
+   {
+    "name": "Shawnee Transportation",
+    "type": "",
+    "context": "NJ deals seen: , Clifton (2019, $12800000); 50 Somerset Place, Clifton (2019, $12800000)"
+   },
+   {
+    "name": "The Silverman Group",
+    "type": "family office",
+    "context": "type family office | HQ Basking Ridge, NJ | https://www.silvermangroup.net/ | NJ deals seen: 139 Stryker Lane, Hillsborough (2023, $8300000) | SPV names already seen in press: affiliate of The Silverman Group"
+   },
+   {
+    "name": "Strategic Funding Alternatives",
+    "type": "",
+    "context": "NJ deals seen: East Gate Business Center (8 buildings), Mount Laurel (2019); East Gate Business Center (8 buildings), Mount Laurel (2019)"
+   }
+  ]
+ },
+ {
+  "key": "C_19",
+  "buyers": [
+   {
+    "name": "Advance Realty Investors",
+    "type": "developer-holder",
+    "context": "type developer-holder | HQ Bedminster, NJ | https://advancere.com/"
+   },
+   {
+    "name": "Alterra IOS",
+    "type": "IOS specialist",
+    "context": "type IOS specialist | HQ Philadelphia, PA | https://ios.alterraproperty.com"
+   },
+   {
+    "name": "Broadstone Net Lease, Inc.",
+    "type": "REIT",
+    "context": "type REIT | HQ Rochester, NY | broadstone.com | NJ deals seen: 536-544 Fayette St, Perth Amboy (n/d, $38300000)"
+   },
+   {
+    "name": "Crow Holdings Industrial / Crow Holdings Development",
+    "type": "developer-holder",
+    "context": "type developer-holder | https://www.crowholdings.com"
+   },
+   {
+    "name": "FreezPak Logistics",
+    "type": "owner-user",
+    "context": "type owner-user | HQ Carteret, NJ | https://www.freezpak.com"
+   }
+  ]
+ },
+ {
+  "key": "C_20",
+  "buyers": [
+   {
+    "name": "Genesis LLC",
+    "type": "other",
+    "context": "type other"
+   },
+   {
+    "name": "Greek Real Estate Partners",
+    "type": "developer-holder",
+    "context": "type developer-holder | HQ East Brunswick, NJ | https://www.greekrep.com/ | NJ deals seen: former Nabisco factory site, Fair Lawn (2021, $146500000)"
+   },
+   {
+    "name": "GreenPoint Partners",
+    "type": "closed-end PE",
+    "context": "type closed-end PE | HQ New York, NY | https://www.greenpointpartners.com"
+   },
+   {
+    "name": "KKR (KKR Real Estate)",
+    "type": "closed-end PE",
+    "context": "type closed-end PE"
+   },
+   {
+    "name": "Nuveen Real Estate",
+    "type": "open-end fund",
+    "context": "type open-end fund | https://www.nuveen.com"
+   }
+  ]
+ }
+]

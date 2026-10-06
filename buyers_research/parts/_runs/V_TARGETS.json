@@ -1,0 +1,163 @@
+[
+ {
+  "key": "V_A1_public_reits",
+  "workstream": "A",
+  "source": "/home/user/cladue/buyers_research/parts/A_buyers/A1_public_reits.jsonl",
+  "sample": 10,
+  "selection": "Select rows that carry a stated buy box or a person: any of min_sf, max_sf, min_price, max_price, stated_criteria_quote, acquisitions_head_name non-empty; prefer confidence \"high\"/\"med\" rows and rows whose nj_active is \"yes\". For each, check: the quote wording exists on the cited domain (search the quoted phrase in quotes with allowed_domains set to that domain); the SF/price band matches; the named person holds that title at that firm; nj_active is supported by at least one NJ deal."
+ },
+ {
+  "key": "V_A2_institutional_core",
+  "workstream": "A",
+  "source": "/home/user/cladue/buyers_research/parts/A_buyers/A2_institutional_core.jsonl",
+  "sample": 10,
+  "selection": "Select rows that carry a stated buy box or a person: any of min_sf, max_sf, min_price, max_price, stated_criteria_quote, acquisitions_head_name non-empty; prefer confidence \"high\"/\"med\" rows and rows whose nj_active is \"yes\". For each, check: the quote wording exists on the cited domain (search the quoted phrase in quotes with allowed_domains set to that domain); the SF/price band matches; the named person holds that title at that firm; nj_active is supported by at least one NJ deal."
+ },
+ {
+  "key": "V_A3_national_pe_valueadd",
+  "workstream": "A",
+  "source": "/home/user/cladue/buyers_research/parts/A_buyers/A3_national_pe_valueadd.jsonl",
+  "sample": 10,
+  "selection": "Select rows that carry a stated buy box or a person: any of min_sf, max_sf, min_price, max_price, stated_criteria_quote, acquisitions_head_name non-empty; prefer confidence \"high\"/\"med\" rows and rows whose nj_active is \"yes\". For each, check: the quote wording exists on the cited domain (search the quoted phrase in quotes with allowed_domains set to that domain); the SF/price band matches; the named person holds that title at that firm; nj_active is supported by at least one NJ deal."
+ },
+ {
+  "key": "V_A4_nynj_private_operators",
+  "workstream": "A",
+  "source": "/home/user/cladue/buyers_research/parts/A_buyers/A4_nynj_private_operators.jsonl",
+  "sample": 10,
+  "selection": "Select rows that carry a stated buy box or a person: any of min_sf, max_sf, min_price, max_price, stated_criteria_quote, acquisitions_head_name non-empty; prefer confidence \"high\"/\"med\" rows and rows whose nj_active is \"yes\". For each, check: the quote wording exists on the cited domain (search the quoted phrase in quotes with allowed_domains set to that domain); the SF/price band matches; the named person holds that title at that firm; nj_active is supported by at least one NJ deal."
+ },
+ {
+  "key": "V_A5_nj_developer_holders",
+  "workstream": "A",
+  "source": "/home/user/cladue/buyers_research/parts/A_buyers/A5_nj_developer_holders.jsonl",
+  "sample": 10,
+  "selection": "Select rows that carry a stated buy box or a person: any of min_sf, max_sf, min_price, max_price, stated_criteria_quote, acquisitions_head_name non-empty; prefer confidence \"high\"/\"med\" rows and rows whose nj_active is \"yes\". For each, check: the quote wording exists on the cited domain (search the quoted phrase in quotes with allowed_domains set to that domain); the SF/price band matches; the named person holds that title at that firm; nj_active is supported by at least one NJ deal."
+ },
+ {
+  "key": "V_A6_ios_truck",
+  "workstream": "A",
+  "source": "/home/user/cladue/buyers_research/parts/A_buyers/A6_ios_truck.jsonl",
+  "sample": 10,
+  "selection": "Select rows that carry a stated buy box or a person: any of min_sf, max_sf, min_price, max_price, stated_criteria_quote, acquisitions_head_name non-empty; prefer confidence \"high\"/\"med\" rows and rows whose nj_active is \"yes\". For each, check: the quote wording exists on the cited domain (search the quoted phrase in quotes with allowed_domains set to that domain); the SF/price band matches; the named person holds that title at that firm; nj_active is supported by at least one NJ deal."
+ },
+ {
+  "key": "V_A7_cold_lastmile_smallbay",
+  "workstream": "A",
+  "source": "/home/user/cladue/buyers_research/parts/A_buyers/A7_cold_lastmile_smallbay.jsonl",
+  "sample": 10,
+  "selection": "Select rows that carry a stated buy box or a person: any of min_sf, max_sf, min_price, max_price, stated_criteria_quote, acquisitions_head_name non-empty; prefer confidence \"high\"/\"med\" rows and rows whose nj_active is \"yes\". For each, check: the quote wording exists on the cited domain (search the quoted phrase in quotes with allowed_domains set to that domain); the SF/price band matches; the named person holds that title at that firm; nj_active is supported by at least one NJ deal."
+ },
+ {
+  "key": "V_A8_netlease_slb_foreign",
+  "workstream": "A",
+  "source": "/home/user/cladue/buyers_research/parts/A_buyers/A8_netlease_slb_foreign.jsonl",
+  "sample": 10,
+  "selection": "Select rows that carry a stated buy box or a person: any of min_sf, max_sf, min_price, max_price, stated_criteria_quote, acquisitions_head_name non-empty; prefer confidence \"high\"/\"med\" rows and rows whose nj_active is \"yes\". For each, check: the quote wording exists on the cited domain (search the quoted phrase in quotes with allowed_domains set to that domain); the SF/price band matches; the named person holds that title at that firm; nj_active is supported by at least one NJ deal."
+ },
+ {
+  "key": "V_A9_nontraded_reit_dst",
+  "workstream": "A",
+  "source": "/home/user/cladue/buyers_research/parts/A_buyers/A9_nontraded_reit_dst.jsonl",
+  "sample": 10,
+  "selection": "Select rows that carry a stated buy box or a person: any of min_sf, max_sf, min_price, max_price, stated_criteria_quote, acquisitions_head_name non-empty; prefer confidence \"high\"/\"med\" rows and rows whose nj_active is \"yes\". For each, check: the quote wording exists on the cited domain (search the quoted phrase in quotes with allowed_domains set to that domain); the SF/price band matches; the named person holds that title at that firm; nj_active is supported by at least one NJ deal."
+ },
+ {
+  "key": "V_B_geo_bergen",
+  "workstream": "B",
+  "source": "/home/user/cladue/buyers_research/parts/B_deals/B_geo_bergen.jsonl",
+  "sample": 8,
+  "selection": "Select rows in this priority order: price >= 10000000; then rows with cap_rate or buyer_spv_named; then rows whose notes say DATE UNVERIFIED and price >= 3000000 (for these the main job is to find the sale year: search the address + town + \"sold\"/\"acquires\" and record field \"date\" with corrected_value = the year or full date when a source states it). For each, check buyer, price, sf and year against the cited domain and one independent source."
+ },
+ {
+  "key": "V_B_geo_hudson_essex",
+  "workstream": "B",
+  "source": "/home/user/cladue/buyers_research/parts/B_deals/B_geo_hudson_essex.jsonl",
+  "sample": 8,
+  "selection": "Select rows in this priority order: price >= 10000000; then rows with cap_rate or buyer_spv_named; then rows whose notes say DATE UNVERIFIED and price >= 3000000 (for these the main job is to find the sale year: search the address + town + \"sold\"/\"acquires\" and record field \"date\" with corrected_value = the year or full date when a source states it). For each, check buyer, price, sf and year against the cited domain and one independent source."
+ },
+ {
+  "key": "V_B_geo_mercer_monmouth_burlington",
+  "workstream": "B",
+  "source": "/home/user/cladue/buyers_research/parts/B_deals/B_geo_mercer_monmouth_burlington.jsonl",
+  "sample": 8,
+  "selection": "Select rows in this priority order: price >= 10000000; then rows with cap_rate or buyer_spv_named; then rows whose notes say DATE UNVERIFIED and price >= 3000000 (for these the main job is to find the sale year: search the address + town + \"sold\"/\"acquires\" and record field \"date\" with corrected_value = the year or full date when a source states it). For each, check buyer, price, sf and year against the cited domain and one independent source."
+ },
+ {
+  "key": "V_B_geo_middlesex",
+  "workstream": "B",
+  "source": "/home/user/cladue/buyers_research/parts/B_deals/B_geo_middlesex.jsonl",
+  "sample": 8,
+  "selection": "Select rows in this priority order: price >= 10000000; then rows with cap_rate or buyer_spv_named; then rows whose notes say DATE UNVERIFIED and price >= 3000000 (for these the main job is to find the sale year: search the address + town + \"sold\"/\"acquires\" and record field \"date\" with corrected_value = the year or full date when a source states it). For each, check buyer, price, sf and year against the cited domain and one independent source."
+ },
+ {
+  "key": "V_B_geo_somerset_morris",
+  "workstream": "B",
+  "source": "/home/user/cladue/buyers_research/parts/B_deals/B_geo_somerset_morris.jsonl",
+  "sample": 8,
+  "selection": "Select rows in this priority order: price >= 10000000; then rows with cap_rate or buyer_spv_named; then rows whose notes say DATE UNVERIFIED and price >= 3000000 (for these the main job is to find the sale year: search the address + town + \"sold\"/\"acquires\" and record field \"date\" with corrected_value = the year or full date when a source states it). For each, check buyer, price, sf and year against the cited domain and one independent source."
+ },
+ {
+  "key": "V_B_geo_union_passaic",
+  "workstream": "B",
+  "source": "/home/user/cladue/buyers_research/parts/B_deals/B_geo_union_passaic.jsonl",
+  "sample": 8,
+  "selection": "Select rows in this priority order: price >= 10000000; then rows with cap_rate or buyer_spv_named; then rows whose notes say DATE UNVERIFIED and price >= 3000000 (for these the main job is to find the sale year: search the address + town + \"sold\"/\"acquires\" and record field \"date\" with corrected_value = the year or full date when a source states it). For each, check buyer, price, sf and year against the cited domain and one independent source."
+ },
+ {
+  "key": "V_B_reit_industrial",
+  "workstream": "B",
+  "source": "/home/user/cladue/buyers_research/parts/B_deals/B_reit_industrial.jsonl",
+  "sample": 8,
+  "selection": "Select rows in this priority order: price >= 10000000; then rows with cap_rate or buyer_spv_named; then rows whose notes say DATE UNVERIFIED and price >= 3000000 (for these the main job is to find the sale year: search the address + town + \"sold\"/\"acquires\" and record field \"date\" with corrected_value = the year or full date when a source states it). For each, check buyer, price, sf and year against the cited domain and one independent source."
+ },
+ {
+  "key": "V_B_reit_netlease_cold",
+  "workstream": "B",
+  "source": "/home/user/cladue/buyers_research/parts/B_deals/B_reit_netlease_cold.jsonl",
+  "sample": 8,
+  "selection": "Select rows in this priority order: price >= 10000000; then rows with cap_rate or buyer_spv_named; then rows whose notes say DATE UNVERIFIED and price >= 3000000 (for these the main job is to find the sale year: search the address + town + \"sold\"/\"acquires\" and record field \"date\" with corrected_value = the year or full date when a source states it). For each, check buyer, price, sf and year against the cited domain and one independent source."
+ },
+ {
+  "key": "V_B_year_2019",
+  "workstream": "B",
+  "source": "/home/user/cladue/buyers_research/parts/B_deals/B_year_2019.jsonl",
+  "sample": 8,
+  "selection": "Select rows in this priority order: price >= 10000000; then rows with cap_rate or buyer_spv_named; then rows whose notes say DATE UNVERIFIED and price >= 3000000 (for these the main job is to find the sale year: search the address + town + \"sold\"/\"acquires\" and record field \"date\" with corrected_value = the year or full date when a source states it). For each, check buyer, price, sf and year against the cited domain and one independent source."
+ },
+ {
+  "key": "V_B_year_2020",
+  "workstream": "B",
+  "source": "/home/user/cladue/buyers_research/parts/B_deals/B_year_2020.jsonl",
+  "sample": 8,
+  "selection": "Select rows in this priority order: price >= 10000000; then rows with cap_rate or buyer_spv_named; then rows whose notes say DATE UNVERIFIED and price >= 3000000 (for these the main job is to find the sale year: search the address + town + \"sold\"/\"acquires\" and record field \"date\" with corrected_value = the year or full date when a source states it). For each, check buyer, price, sf and year against the cited domain and one independent source."
+ },
+ {
+  "key": "V_B_year_2021",
+  "workstream": "B",
+  "source": "/home/user/cladue/buyers_research/parts/B_deals/B_year_2021.jsonl",
+  "sample": 8,
+  "selection": "Select rows in this priority order: price >= 10000000; then rows with cap_rate or buyer_spv_named; then rows whose notes say DATE UNVERIFIED and price >= 3000000 (for these the main job is to find the sale year: search the address + town + \"sold\"/\"acquires\" and record field \"date\" with corrected_value = the year or full date when a source states it). For each, check buyer, price, sf and year against the cited domain and one independent source."
+ },
+ {
+  "key": "V_B_year_2022",
+  "workstream": "B",
+  "source": "/home/user/cladue/buyers_research/parts/B_deals/B_year_2022.jsonl",
+  "sample": 8,
+  "selection": "Select rows in this priority order: price >= 10000000; then rows with cap_rate or buyer_spv_named; then rows whose notes say DATE UNVERIFIED and price >= 3000000 (for these the main job is to find the sale year: search the address + town + \"sold\"/\"acquires\" and record field \"date\" with corrected_value = the year or full date when a source states it). For each, check buyer, price, sf and year against the cited domain and one independent source."
+ },
+ {
+  "key": "V_B_year_2023",
+  "workstream": "B",
+  "source": "/home/user/cladue/buyers_research/parts/B_deals/B_year_2023.jsonl",
+  "sample": 8,
+  "selection": "Select rows in this priority order: price >= 10000000; then rows with cap_rate or buyer_spv_named; then rows whose notes say DATE UNVERIFIED and price >= 3000000 (for these the main job is to find the sale year: search the address + town + \"sold\"/\"acquires\" and record field \"date\" with corrected_value = the year or full date when a source states it). For each, check buyer, price, sf and year against the cited domain and one independent source."
+ },
+ {
+  "key": "V_B_year_2024",
+  "workstream": "B",
+  "source": "/home/user/cladue/buyers_research/parts/B_deals/B_year_2024.jsonl",
+  "sample": 8,
+  "selection": "Select rows in this priority order: price >= 10000000; then rows with cap_rate or buyer_spv_named; then rows whose notes say DATE UNVERIFIED and price >= 3000000 (for these the main job is to find the sale year: search the address + town + \"sold\"/\"acquires\" and record field \"date\" with corrected_value = the year or full date when a source states it). For each, check buyer, price, sf and year against the cited domain and one independent source."
+ }
+]
