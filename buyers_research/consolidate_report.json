@@ -18,97 +18,108 @@
   "unknown": 91,
   "no": 15
  },
- "B_raw_rows": 818,
+ "B_raw_rows": 863,
  "B_unparseable_blocks": {},
- "B_rows": 604,
- "B_portfolio_summary_rows": 56,
+ "B_rows": 640,
+ "B_portfolio_summary_rows": 68,
  "B_by_year": {
-  "2019": 46,
-  "2020": 48,
-  "2021": 66,
-  "2022": 104,
-  "2023": 63,
-  "2024": 53,
-  "n/a": 224
+  "2019": 51,
+  "2020": 55,
+  "2021": 70,
+  "2022": 110,
+  "2023": 68,
+  "2024": 56,
+  "n/a": 230
  },
  "B_by_county": {
-  "blank": 6,
-  "Bergen": 111,
-  "Middlesex": 118,
+  "blank": 13,
+  "Bergen": 116,
+  "Middlesex": 125,
   "Hudson": 34,
-  "Essex": 53,
-  "Morris": 58,
-  "Burlington": 50,
-  "Somerset": 38,
-  "Union": 45,
+  "Essex": 59,
+  "Morris": 60,
+  "Burlington": 54,
+  "Somerset": 40,
+  "Union": 48,
   "Passaic": 40,
   "Mercer": 30,
   "Monmouth": 21
  },
- "B_with_price": 301,
- "B_with_sf": 442,
+ "B_with_price": 320,
+ "B_with_sf": 465,
  "B_with_cap_rate": 3,
- "B_with_spv": 36,
+ "B_with_spv": 38,
  "C_raw_rows": 0,
  "C_unparseable_blocks": {},
  "C_rows": 0,
  "C_buyers_covered": 0,
  "C_by_evidence_type": {},
- "D_raw_rows": 163,
+ "D_raw_rows": 507,
  "D_unparseable_blocks": {},
- "D_rows": 162,
+ "D_rows": 499,
  "D_by_metric": {
-  "vacancy_rate": 20,
-  "leasing_volume_sf": 19,
-  "trend_statement": 18,
-  "net_absorption_sf": 12,
-  "asking_rent_psf": 9,
-  "avg_price_psf": 8,
-  "cap_rate": 8,
-  "deliveries_sf": 7,
+  "trend_statement": 60,
+  "asking_rent_psf": 52,
+  "vacancy_rate": 51,
+  "leasing_volume_sf": 45,
+  "net_absorption_sf": 33,
+  "avg_price_psf": 26,
+  "sales_volume": 24,
+  "availability_rate": 15,
+  "deliveries_sf": 11,
+  "cap_rate": 10,
+  "under_construction_sf": 7,
+  "top_buyer_mention": 5,
   "vacancy_change_yoy": 5,
+  "asking_rent_growth_yoy": 5,
+  "sales_volume_rank_national": 5,
   "vacancy_change_qoq": 5,
+  "sales_volume_industrial": 5,
+  "avg_price_psf_change": 4,
+  "construction_starts_sf": 4,
+  "ios_price_per_acre": 4,
+  "lease_count": 4,
   "lease_count_over_100k": 4,
-  "sales_volume_industrial": 4,
+  "leasing_share_of_market": 4,
   "sublet_available_sf": 4,
-  "construction_starts_sf": 3,
-  "lease_count": 3,
+  "in_place_rent_psf": 3,
+  "sale_count": 3,
+  "occupancy_at_delivery": 3,
   "avg_months_on_market": 3,
   "free_rent_months": 3,
-  "asking_rent_growth_yoy": 2,
+  "cap_rate_low": 2,
+  "cap_rate_class_a_high": 2,
+  "cap_rate_class_a_low": 2,
+  "leasing_share_pct": 2,
   "taking_rent_psf": 2,
-  "availability_rate": 2,
+  "sales_volume_change_qoq": 2,
+  "rent_growth_yoy": 2,
   "leasing_change_yoy": 2,
   "leasing_share": 2,
-  "asking_rent_change_qoq": 2,
-  "sublease_leasing_sf": 2,
-  "sublease_share_of_leasing": 2,
-  "cap_rate_high": 1,
-  "cap_rate_low": 1,
-  "asking_rent_growth_qoq": 1,
-  "renewal_volume_sf": 1,
-  "vacancy_rate_change_yoy": 1,
-  "asking_rent_change_5yr": 1,
-  "asking_rent_change_yoy": 1,
-  "asking_rent_decline_from_peak": 1,
-  "median_price_psf": 1,
-  "leasing_change_qoq": 1,
-  "rent_growth_qoq": 1
+  "sales_volume_change_yoy": 2,
+  "sublease_asking_rent_psf": 2
  },
  "D_by_year": {
-  "2019": 5,
-  "2021": 6,
-  "2022": 9,
-  "2023": 27,
-  "2024": 35,
-  "2025": 80
+  "": 3,
+  "2019": 20,
+  "2020": 27,
+  "2021": 40,
+  "2022": 66,
+  "2023": 82,
+  "2024": 119,
+  "2025": 142
  },
- "rank_rows": 374,
+ "rank_rows": 376,
  "top_30_active": [
   [
    "SEAGIS PROPERTY GROUP",
    37,
    13
+  ],
+  [
+   "PROLOGIS",
+   33,
+   14
   ],
   [
    "SITEX GROUP",
@@ -136,13 +147,13 @@
    10
   ],
   [
-   "PROLOGIS",
-   23,
-   9
-  ],
-  [
    "SAGARD REAL ESTATE",
    21,
+   8
+  ],
+  [
+   "TERRENO REALTY",
+   20,
    8
   ],
   [
@@ -221,6 +232,11 @@
    4
   ],
   [
+   "STAG INDUSTRIAL",
+   11,
+   4
+  ],
+  [
    "BRIDGE INDUSTRIAL",
    10,
    4
@@ -231,6 +247,11 @@
    3
   ],
   [
+   "HINES",
+   10,
+   4
+  ],
+  [
    "OLIVER STREET CAPITAL",
    10,
    2
@@ -239,21 +260,6 @@
    "PROPERTY RESERVE",
    10,
    4
-  ],
-  [
-   "STRO COMPANIES",
-   10,
-   5
-  ],
-  [
-   "TERRENO REALTY",
-   10,
-   3
-  ],
-  [
-   "TREETOP COMPANIES",
-   10,
-   2
   ]
  ],
  "buyers_in_B_not_in_A": [
@@ -327,6 +333,7 @@
   "LABORATORY PLASTICS MAKER",
   "CAVALLI CABINETS",
   "CITY KNICKERBOCKER",
+  "GLADSTONE COMMERCIAL",
   "V AND S BROTHERS",
   "NINES ENTERPRISES",
   "TA REALTY",
@@ -338,6 +345,7 @@
   "JFR GLOBAL INVESTMENTS",
   "865 NJ 33 SD",
   "SKM 68",
+  "DUKE REALTY CORPORATION",
   "3 V COMPANY",
   "MEROLA SALES CO",
   "KUSHNER REAL ESTATE GROUP STRO COS",
@@ -374,14 +382,12 @@
   "SERVICE TRUCK TIRE CENTER",
   "KINGA CABINET",
   "SHEET METAL WORKERS LOCAL UNION 22",
-  "TRANSCONTINENTAL STEEL",
-  "OLD DOMINION FREIGHT LINE",
-  "SOUTH AVENUE HOLDINGS"
+  "TRANSCONTINENTAL STEEL"
  ],
- "rejected_rows": 25,
+ "rejected_rows": 26,
  "rejected_by_reason": {
   "county out of scope": 8,
-  "no address and no town": 14,
+  "no address and no town": 15,
   "excluded by later pass": 3
  }
 }
