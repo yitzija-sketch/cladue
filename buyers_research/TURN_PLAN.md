@@ -7,6 +7,13 @@ Every batch below is sized to ≈185 searches (per-agent caps via `args.search_c
 told to read its existing part file and append, and is handed the previous pass's leads
 (`parts/_runs/LEADS.json`, built by `tools/leads_from_journals.py`).
 
+**Autonomous mode (chosen by the broker 2026-10-06 ~19:00Z):** the session drives itself. After a batch's
+workflows complete it consolidates, commits, then calls `send_later` (claude-code-remote) with the message
+`AUTORUN: run TURN_PLAN batch <n+1>` 1–2 minutes out; that message arrives as a fresh user turn, which resets
+the 200-search budget, and the next batch launches. If the session dies, the next `AUTORUN` message will not
+arrive — restart by pasting `KICKOFF_PROMPT.md` into a new session (it reads this file to see which batch is next).
+Agents read their own gap list from `parts/_runs/LEADS.json` (key = part key) when `args.leads` is not passed.
+
 A batch runs when a new turn starts (a message from the user, or a scheduled `send_later` message).
 Launch command pattern (Workflow tool):
 ```
@@ -17,7 +24,7 @@ After each batch: `python3 -I buyers_research/tools/leads_from_journals.py && py
 
 | # | Status | Script | Slices (cap) | ≈searches |
 |---|---|---|---|---|
-| 1 | pending | nj-buyers-a | A3_national_pe_valueadd, A4_nynj_private_operators, A5_nj_developer_holders, A8_netlease_slb_foreign, A9_nontraded_reit_dst (30 each); A6_ios_truck, A7_cold_lastmile_smallbay (20 each) | 190 |
+| 1 | running (wf_938d72e4-de0, wf_4f284f78-7ce, wf_b8714008-eb6) | nj-buyers-a | A3_national_pe_valueadd, A4_nynj_private_operators, A5_nj_developer_holders, A8_netlease_slb_foreign, A9_nontraded_reit_dst (30 each); A6_ios_truck, A7_cold_lastmile_smallbay (20 each) | 190 |
 | 2 | pending | nj-deals-b | B_year_2021, B_year_2024 (35); B_year_2019, B_year_2020, B_year_2023 (30); B_year_2022 (25) | 185 |
 | 3 | pending | nj-deals-b | B_geo_bergen, B_geo_hudson_essex, B_geo_union_passaic, B_geo_middlesex, B_geo_somerset_morris, B_geo_mercer_monmouth_burlington (30 each) | 180 |
 | 4 | pending | nj-deals-b + nj-market-d | B_reit_industrial, B_reit_netlease_cold (30); D3_jll_kislak, D4_colliers_nai, D5_newmark_avison, D6_costar_rca_other (30) | 180 |

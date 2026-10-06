@@ -79,7 +79,7 @@ function extra(key) {
   const leads = (args && args.leads && args.leads[key]) || ''
   return '\n\nSEARCH BUDGET: you may run AT MOST ' + cap + ' WebSearch calls in total - count them. The pool is shared by every agent in this turn and exceeding your share starves the others. Plan your full query list first, run the highest-value queries first, and stop when you reach the cap or when WebSearch replies that the budget is used up - then Write your file immediately.' +
     '\n\nCONTINUING PRIOR WORK: if the output file already exists, Read it first and keep every existing row (correct only obvious errors); your final Write must contain the union of existing and new rows, deduped. Do not re-search items that already have complete rows unless they appear in the leads below.' +
-    (leads ? '\n\nLEADS / GAPS FROM THE PREVIOUS PASS (start with these): ' + leads : '')
+    (leads ? '\n\nLEADS / GAPS FROM THE PREVIOUS PASS (start with these): ' + leads : '\n\nLEADS: before searching, Read /home/user/cladue/buyers_research/parts/_runs/LEADS.json and use the entry whose key is "' + key + '" (if present) as your list of gaps, not-found items and leads from the previous pass; start with those.')
 }
 function promptFor(x) { return promptForBase(x) + extra(x.key) }
 
