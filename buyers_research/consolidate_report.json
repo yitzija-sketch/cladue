@@ -1,20 +1,20 @@
 {
- "A_raw_rows": 103,
+ "A_raw_rows": 122,
  "A_unparseable_blocks": {},
- "A_rows": 100,
+ "A_rows": 117,
  "A_with_stated_criteria": 49,
  "A_by_type": {
-  "developer-holder": 9,
-  "closed-end PE": 13,
+  "developer-holder": 19,
+  "closed-end PE": 15,
   "open-end fund": 19,
   "REIT": 28,
-  "other": 16,
+  "other": 21,
   "IOS specialist": 9,
   "owner-user": 6
  },
  "A_nj_active": {
-  "yes": 63,
-  "unknown": 29,
+  "yes": 78,
+  "unknown": 31,
   "no": 8
  },
  "B_raw_rows": 99,
@@ -97,17 +97,22 @@
   "2024": 35,
   "2025": 73
  },
- "rank_rows": 126,
+ "rank_rows": 131,
  "top_30_active": [
   [
    "SEAGIS PROPERTY GROUP",
-   12,
+   19,
    6
   ],
   [
    "SITEX GROUP",
    12,
    5
+  ],
+  [
+   "THOR EQUITIES GROUP",
+   11,
+   3
   ],
   [
    "EVERWEST REAL ESTATE INVESTORS",
@@ -135,14 +140,19 @@
    1
   ],
   [
-   "THOR EQUITIES GROUP",
+   "RIVER WALK",
    6,
-   3
+   2
   ],
   [
    "CBRE INVESTMENT MANAGEMENT",
    5,
    0
+  ],
+  [
+   "PENWOOD REAL ESTATE",
+   5,
+   1
   ],
   [
    "PROLOGIS",
@@ -175,9 +185,24 @@
    0
   ],
   [
+   "CREATION EQUITY",
+   4,
+   1
+  ],
+  [
    "CRITERION GROUP",
    4,
    0
+  ],
+  [
+   "DENHOLTZ PROPERTIES",
+   4,
+   1
+  ],
+  [
+   "DEUGEN DEVELOPMENT",
+   4,
+   1
   ],
   [
    "ELBERON DEVELOPMENT GROUP",
@@ -210,6 +235,11 @@
    0
   ],
   [
+   "MARCUS PARTNERS",
+   4,
+   1
+  ],
+  [
    "OXFORD PROPERTIES GROUP",
    4,
    0
@@ -218,62 +248,20 @@
    "PGIM REAL ESTATE",
    4,
    0
-  ],
-  [
-   "PRINCIPAL REAL ESTATE INVESTORS",
-   4,
-   0
-  ],
-  [
-   "RIVER WALK",
-   4,
-   2
-  ],
-  [
-   "TERRENO REALTY CORPORATION",
-   4,
-   0
-  ],
-  [
-   "ADVANCE REALTY INVESTORS",
-   3,
-   0
-  ],
-  [
-   "ALTERRA IOS",
-   3,
-   0
-  ],
-  [
-   "AMERICOLD REALTY TRUST",
-   3,
-   0
   ]
  ],
  "buyers_in_B_not_in_A": [
-  "SEAGIS PROPERTY GROUP",
-  "THOR EQUITIES GROUP",
   "LIBERTY PROPERTY TRUST",
   "LINK INDUSTRIAL PROPERTIES",
-  "RIVER WALK",
   "SHAWNEE TRANSPORTATION",
-  "TURNBRIDGE EQUITIES",
   "KISS PRODUCTS",
   "DAVCO GROUP SHOLOM DAVIDOWITS",
-  "DENHOLTZ PROPERTIES",
   "BENTALLGREENOAK",
   "COLUMBIA STORAGE GROUP",
-  "VELOCITY VENTURE PARTNERS",
-  "DEUGEN DEVELOPMENT",
   "REXING",
   "DUKE REALTY",
-  "TACONIC PARTNERS",
-  "PENWOOD REAL ESTATE",
   "ARES INDUSTRIAL REAL ESTATE INCOME TRUST",
-  "MARCUS PARTNERS",
   "DAYBREAK EXPRESS",
-  "CREATION EQUITY",
-  "WOODMONT INDUSTRIAL PARTNERS",
   "THOR",
   "FUJIPOLY AMERICA",
   "BRIDGE LOGISTICS PROPERTIES"
