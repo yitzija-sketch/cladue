@@ -26,10 +26,10 @@ Only 4 distinct transactions (5 rows) exist; no price disclosed on any.
 No NJ purchase price is public for 2019-2024; buildings bought run ~100,000-271,000 SF, land ~10 acres. Nearest price points: $36M for 130,000 SF North Bergen (2026 sale, ~$277/SF); $91M for 453,600 SF in Northampton, PA (2023-01) (https://www.roi-nj.com/2023/01/19/real_estate/jll-helps-rockefeller-group-trade-453000-sq-ft-warehouse-to-link-logistics-for-91m/); predecessor Colony paid $184M for 30 NJ buildings (2019) (https://www.costar.com/article/285279444/colony-buys-30-building-new-jersey-industrial-portfolio-for-184-million). **INFERRED** NJ check: $20M-$60M single asset, $75M+ portfolio. All-cash, no JV seen, brokered (JLL, C&W) rather than off-market.
 
 ## 5. Entities they buy through
-- Link Logistics Real Estate LLC (opco), 602 W. Office Center Dr, Suite 200, Fort Washington, PA 19034; was Link Industrial Properties LLC 2019-12 to 2020-06 - registry mirror, low (https://opencorporates.com/companies/us_tx/0803500451).
+- Link Logistics Real Estate LLC (opco), 602 W. Office Center Dr, Suite 200, Fort Washington, PA 19034; was Link Industrial Properties LLC until 2020-06 - registry mirror, low (https://opencorporates.com/companies/us_tx/0803500451).
 - Link Logistics Real Estate Holdco LLC and Link Logistics Real Estate Management LLC, same address - aggregator, low (https://www.dnb.com/business-directory/company-profiles/link-logistics-real-estate-holdco-llc.baf7c3eab672e5a773e03a75e26eaaa8).
-- BREIT SPVs "BREIT Industrial <Portfolio> <ST><n> LLC", Delaware, Fort Washington PA address - registry, med (https://www.breit.com/press-releases/article/blackstone-real-estate-income-trust-acquires-1-8-billion-canyon-industrial-portfolio/). **INFERRED:** NJ tax bills likely read "BREIT Industrial ... NJ... LLC" or legacy "Link Industrial Properties", c/o Fort Washington, PA 19034 - match on address.
-- No NJ property-level SPV, borrower or planning applicant found in 24 searches (pack).
+- BREIT SPVs "BREIT Industrial <Portfolio> <ST><n> LLC", Delaware, Fort Washington PA address - registry, med (https://www.breit.com/press-releases/article/blackstone-real-estate-income-trust-acquires-1-8-billion-canyon-industrial-portfolio/). **INFERRED:** expect NJ tax bills under a "BREIT Industrial ... NJ LLC" or legacy "Link Industrial Properties" name, c/o Fort Washington, PA 19034.
+- No NJ property-level SPV or borrower found in 24 searches (pack).
 
 ## 6. Key people
 - Nicholas Brady III - Managing Director, Investments; leads East Region investments (https://www.linklogistics.com/properties-for-lease/east-region/new-jersey/).
@@ -46,11 +46,11 @@ No NJ purchase price is public for 2019-2024; buildings bought run ~100,000-271,
 - Net-seller posture now, so lead with the infill story; expect a Fort Washington, PA signature block.
 
 ## 8. Five questions for the first call
-1. After $3B+ of 2026 sales and the North Bergen exit, is NJ net-buy, hold or prune for 2026-2027, and which vehicle (BREIT or BREP) funds new NJ buys?
+1. After $3B+ of 2026 sales and the North Bergen exit, is NJ net-buy, hold or prune for 2026-2027, and does BREIT or BREP fund new NJ buys?
 2. Which NJ submarkets are on the 2026 target list, and what is too small or too old?
 3. Will the Transport Properties IOS JV bid on NJ truck/trailer yards, and at what minimum acreage and zoning?
 4. Appetite for vacancy, cold storage or covered-land redevelopment versus stabilized core-plus, and what hold period?
-5. Who sources and approves NJ deals - Brady's East Region team, Walsh's NJ office or Blackstone - and how long from LOI to close?
+5. Who sources and approves NJ deals - Brady's team, Walsh's office or Blackstone - and how long from LOI to close?
 
 ## Sources
 - https://re-nj.com/link-logistics-unveils-new-164000-sq-ft-warehouse-at-kearny-redevelopment-site/
