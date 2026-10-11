@@ -20,35 +20,35 @@
  },
  "B_raw_rows": 906,
  "B_unparseable_blocks": {},
- "B_rows": 631,
+ "B_rows": 563,
  "B_portfolio_summary_rows": 64,
  "B_by_year": {
-  "2019": 54,
-  "2020": 62,
-  "2021": 79,
-  "2022": 127,
-  "2023": 77,
-  "2024": 66,
-  "n/a": 166
+  "2019": 58,
+  "2020": 77,
+  "2021": 92,
+  "2022": 143,
+  "2023": 80,
+  "2024": 77,
+  "n/a": 36
  },
  "B_by_county": {
   "blank": 13,
-  "Bergen": 118,
-  "Middlesex": 112,
-  "Hudson": 37,
-  "Essex": 49,
-  "Morris": 61,
-  "Burlington": 55,
-  "Somerset": 41,
+  "Bergen": 102,
+  "Middlesex": 89,
+  "Burlington": 54,
   "Passaic": 39,
-  "Mercer": 33,
-  "Monmouth": 21,
-  "Union": 52
+  "Monmouth": 19,
+  "Essex": 47,
+  "Union": 48,
+  "Morris": 56,
+  "Hudson": 35,
+  "Somerset": 34,
+  "Mercer": 27
  },
- "B_with_price": 300,
- "B_with_sf": 448,
+ "B_with_price": 276,
+ "B_with_sf": 401,
  "B_with_cap_rate": 5,
- "B_with_spv": 41,
+ "B_with_spv": 40,
  "C_raw_rows": 492,
  "C_unparseable_blocks": {},
  "C_rows": 479,
@@ -122,46 +122,36 @@
   "2024": 138,
   "2025": 173
  },
- "rank_rows": 413,
+ "rank_rows": 407,
  "top_30_active": [
-  [
-   "DEVLI REAL ESTATE",
-   37,
-   12
-  ],
   [
    "SEAGIS PROPERTY GROUP",
    37,
    13
   ],
   [
-   "PROLOGIS",
+   "DEVLI REAL ESTATE",
    33,
-   14
+   10
   ],
   [
-   "SITEX GROUP",
-   30,
-   14
+   "PROLOGIS",
+   29,
+   12
   ],
   [
    "FAROPOINT",
-   28,
-   10
+   26,
+   9
+  ],
+  [
+   "SITEX GROUP",
+   26,
+   12
   ],
   [
    "CENTERPOINT PROPERTIES",
    24,
-   9
-  ],
-  [
-   "LONGPOINT REALTY PARTNERS",
-   23,
-   10
-  ],
-  [
-   "SAGARD REAL ESTATE",
-   23,
    9
   ],
   [
@@ -175,14 +165,9 @@
    7
   ],
   [
-   "COMMERCE PARK INVESTORS",
-   18,
-   4
-  ],
-  [
-   "DALFEN INDUSTRIAL",
-   18,
-   6
+   "SAGARD REAL ESTATE",
+   19,
+   7
   ],
   [
    "MORGAN STANLEY REAL ESTATE INVESTING",
@@ -190,9 +175,19 @@
    8
   ],
   [
+   "LONGPOINT REALTY PARTNERS",
+   17,
+   7
+  ],
+  [
    "BROOKFIELD ASSET MANAGEMENT",
    16,
    6
+  ],
+  [
+   "DALFEN INDUSTRIAL",
+   16,
+   5
   ],
   [
    "STRO COMPANIES",
@@ -218,6 +213,11 @@
    "ARES MANAGEMENT REAL ESTATE",
    14,
    5
+  ],
+  [
+   "COMMERCE PARK INVESTORS",
+   14,
+   2
   ],
   [
    "LINK LOGISTICS REAL ESTATE",
@@ -276,27 +276,15 @@
   ]
  ],
  "buyers_in_B_not_in_A": [
-  "MORVAY",
   "DALFEN INDUSTRIAL CENTERBRIDGE PARTNERS",
-  "BROOKLYN BASED METAL MANUFACTURER",
   "130 GRAND ST REALTY",
-  "DEVELOPER",
   "NORTH BRIDGE ASSOCIATES",
-  "ALTMAN",
-  "ALTMAN LOGISTICS PROPERTIES DWS JV",
-  "JUNK REMOVAL COMPANY",
-  "ADVANCE REALTY GREEK DEVELOPMENT",
-  "NORTHEAST CAPITAL GROUP BHN ASSOCIATES",
-  "DALFEN INDUSTRIAL AND CENTERBRIDGE PARTNERS",
-  "STRO MILLSTEIN FAMILY OFFICE",
-  "TRANSWESTERN DEVELOPMENT CO QUADREAL PROPERTY GROUP",
-  "LONGTIME TENANT INVESTMENT GROUP",
-  "OLIVER STREET CAPITAL BAIN CAPITAL REAL ESTATE",
   "VENTURE ONE REAL ESTATE KOVITZ INVESTMENT GROUP",
-  "LABORATORY PLASTICS MAKER",
   "GLADSTONE COMMERCIAL",
+  "BROOKLYN BASED METAL MANUFACTURER",
   "RUSSO DEVELOPMENT FORSGATE INDUSTRIAL PARTNERS",
   "COLUMBIA STORAGE GROUP",
+  "TRANSWESTERN DEVELOPMENT CO QUADREAL PROPERTY GROUP",
   "CROW HOLDINGS INDUSTRIAL",
   "DUKE REALTY CORPORATION",
   "KUSHNER REAL ESTATE GROUP STRO COS",
@@ -305,19 +293,25 @@
   "PROVENDER PARTNERS",
   "BARINGS VISION REAL ESTATE PARTNERS",
   "CONTRACT LEASING",
+  "JUNK REMOVAL COMPANY",
   "TACONIC PARTNERS NUVEEN REAL ESTATE",
+  "STRO MILLSTEIN FAMILY OFFICE",
   "TRAMMELL CROW COMPANY CBRE INVESTMENT MANAGEMENT",
   "CONTAINER STORAGE USER",
   "CRG REALTY",
   "HOWCO MANAGEMENT",
+  "DALFEN INDUSTRIAL AND CENTERBRIDGE PARTNERS",
+  "DEVELOPER",
   "SERVICE TRUCK TIRE CENTER",
-  "COMMERCIAL REALTY GROUP NORTH JERSEY DEVELOPMENT GROUP"
+  "COMMERCIAL REALTY GROUP NORTH JERSEY DEVELOPMENT GROUP",
+  "ALTMAN",
+  "ALTMAN LOGISTICS PROPERTIES DWS JV"
  ],
- "rejected_rows": 65,
+ "rejected_rows": 133,
  "rejected_by_reason": {
   "county out of scope": 8,
   "no address and no town": 15,
   "excluded by later pass": 3,
-  "date set by verification outside 2019-2024": 39
+  "date set by verification outside 2019-2024": 107
  }
 }
