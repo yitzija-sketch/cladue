@@ -1,4 +1,4 @@
-# checkpoint 2026-10-11T06:18:35Z
+# checkpoint 2026-10-11T06:28:37Z
 # part file -> bytes / lines written so far
 buyers_research/parts/A_buyers/A1_public_reits.jsonl 55519 bytes 29 lines
 buyers_research/parts/A_buyers/A2_institutional_core.jsonl 87268 bytes 52 lines
@@ -36,6 +36,11 @@ buyers_research/parts/C_entities/C_07.jsonl 25946 bytes 24 lines
 buyers_research/parts/C_entities/C_08.jsonl 20770 bytes 21 lines
 buyers_research/parts/C_entities/C_09.jsonl 25633 bytes 29 lines
 buyers_research/parts/C_entities/C_10.jsonl 26377 bytes 25 lines
+buyers_research/parts/C_entities/C_11.jsonl 25436 bytes 28 lines
+buyers_research/parts/C_entities/C_12.jsonl 20964 bytes 17 lines
+buyers_research/parts/C_entities/C_13.jsonl 25109 bytes 21 lines
+buyers_research/parts/C_entities/C_14.jsonl 15389 bytes 12 lines
+buyers_research/parts/C_entities/C_15.jsonl 31095 bytes 31 lines
 buyers_research/parts/D_market/D1_cushman_savills.jsonl 58398 bytes 104 lines
 buyers_research/parts/D_market/D2_cbre_lee.jsonl 126073 bytes 239 lines
 buyers_research/parts/D_market/D3_jll_kislak.jsonl 26671 bytes 45 lines
