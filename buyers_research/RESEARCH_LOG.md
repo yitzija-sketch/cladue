@@ -75,3 +75,10 @@ No paywalled or login content was used. Nobody was contacted.
   empty. Re-planned into ≈185-search batches (`TURN_PLAN.md`); scripts patched with per-agent caps,
   append-to-existing-file behaviour and carry-forward leads. First CSVs produced. NOTICE file added at repo
   root confirming nothing outside `buyers_research/` was touched.
+* 2026-10-06 20:30Z — **Usage credits lapsed** mid-batch 6: two entity agents (C_02, C_05) died after their
+  half-way writes (32 and 20 rows kept); C_01/C_03/C_04 completed. Everything on disk was committed by the
+  checkpoint loop (last `e2c2f36` 20:19Z) plus a manual commit. Idle until credits were restored.
+* 2026-10-11 ~06:00Z — **Resumed** (broker: "try again"). Search budget confirmed working. Relaunched C_02 and
+  C_05 in resume mode (agents keep their partial files) together with batch 7 (C_06–C_10); checkpoint loop restarted.
+  Batches 1–5 are complete: A 377 buyers (135 with stated criteria), B 640 properties, D ~700 metric rows.
+
