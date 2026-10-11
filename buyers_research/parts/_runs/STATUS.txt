@@ -1,4 +1,4 @@
-# checkpoint 2026-10-11T06:58:44Z
+# checkpoint 2026-10-11T07:08:47Z
 # part file -> bytes / lines written so far
 buyers_research/parts/A_buyers/A1_public_reits.jsonl 55519 bytes 29 lines
 buyers_research/parts/A_buyers/A2_institutional_core.jsonl 87268 bytes 52 lines
@@ -80,4 +80,4 @@ buyers_research/parts/V_verify/V_C_15.jsonl 10197 bytes 14 lines
 buyers_research/parts/V_verify/V_C_16.jsonl 10775 bytes 19 lines
 buyers_research/parts/V_verify/V_undated_1.jsonl 18410 bytes 28 lines
 buyers_research/parts/V_verify/V_undated_2.jsonl 19877 bytes 29 lines
-buyers_research/parts/_runs/EXCLUDE_B.jsonl 1123 bytes 9 lines
+buyers_research/parts/_runs/EXCLUDE_B.jsonl 1274 bytes 10 lines
