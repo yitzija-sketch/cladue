@@ -2,7 +2,7 @@
 *Prepared 2026-10-11 from buyers_research (A/B/C files) + 7 gap-filling searches. Confidence: med overall.*
 
 ## 1. Who they are and what they do in NJ
-Private New York developer-holder founded and chaired by Joseph J. Sitt; HQ reported at 25 West 39th Street, Manhattan (pack entity row; https://therealdeal.com/2016/05/04/thor-looks-to-sell-its-hq-at-25-west-39th-street/ - 2016 report, confirm). Runs a logistics division, Thor Logis, with industrial in Georgia, Florida, Illinois, California, Texas and Western Europe (https://europe-re.com/thor-equities-launches-dedicated-logistics-division/66944; https://thorequities.com/news/thor-equities-group-continues-industrial-expansion-in-georgia/). No NJ office found in public sources; its NJ presence began with the Bridgewater life-sciences campus (https://re-nj.com/thor-equities-biopharma-firm-ink-102000-sq-ft-lease-at-bridgewater-campus/). Since 2022-01 it has bought leased infill warehouses of 112K-330K SF in the Newark port submarket, Elizabeth and Passaic, a Bogota spec site, and in 2025 a $111.0M 18-building park in Bridgewater (deal rows; https://www.roi-nj.com/2025/03/10/real_estate/bridgwaters-middlebrook-crossroads-sells-for-111-million/). Strategy reads as leveraged value-add / develop-and-hold: debt on Passaic, Newark and Bogota, with Bogota refinanced twice (pack entity notes; https://commercialobserver.com/2025/07/refi-for-new-jersey-industrial/).
+Private New York developer-holder founded and chaired by Joseph J. Sitt; HQ reported at 25 West 39th Street, Manhattan (pack entity row; https://therealdeal.com/2016/05/04/thor-looks-to-sell-its-hq-at-25-west-39th-street/ - 2016 report, confirm). Its logistics division, Thor Logis, owns industrial in Georgia, Florida, Illinois, California, Texas and Western Europe (https://europe-re.com/thor-equities-launches-dedicated-logistics-division/66944; https://thorequities.com/news/thor-equities-group-continues-industrial-expansion-in-georgia/). No NJ office found in public sources; NJ presence began with the Bridgewater life-sciences campus (https://re-nj.com/thor-equities-biopharma-firm-ink-102000-sq-ft-lease-at-bridgewater-campus/). Since 2022-01 it has bought leased infill warehouses of 112K-330K SF in Newark, Elizabeth and Passaic, a Bogota spec site, and in 2025 a $111.0M 18-building Bridgewater park (deal rows; https://www.roi-nj.com/2025/03/10/real_estate/bridgwaters-middlebrook-crossroads-sells-for-111-million/). Strategy: leveraged value-add / develop-and-hold - debt on Passaic, Newark and Bogota, Bogota refinanced twice (pack entity notes; https://commercialobserver.com/2025/07/refi-for-new-jersey-industrial/).
 
 ## 2. Stated buy box
 No published NJ criteria - pattern inferred from deals. Stated language appears only in national releases:
@@ -19,7 +19,7 @@ Only 4 distinct 2019-2024 deals found (3 pack rows are one Passaic trade); 2025 
 | 2025-03 (search) | Middlebrook Crossroads, Chimney Rock Rd, Bridgewater | ~580,000 SF, 18 bldgs, 38.6 ac | $111.0M ($191/SF) | Multi-tenant park; UPS, Lexus | Lovett Industrial-led group; Cushman & Wakefield | https://www.roi-nj.com/2025/03/10/real_estate/bridgwaters-middlebrook-crossroads-sells-for-111-million/ |
 | 2024-06 (search) | 556-600 Progress St, Elizabeth | ~112,000 SF | $18.3M ($163/SF) | Sale-leaseback | Seller not found | https://re-nj.com/tag/556-600-progress-st/ |
 | 2022-09 | 153 Linden St, Passaic | 330,000 SF, 10.7 ac | $52.0M ($158/SF) | Fully leased warehouse | Waitex Group; off-market, Lee & Associates NJ; $47M Tremont loan | https://therealdeal.com/new-york/tristate/2022/09/09/thor-completes-hat-trick-of-nj-industrial-acquisitions/ |
-| 2022-03 | 14-22 River Rd, Bogota | ~10 ac; 150,917 SF spec planned, 36' clear | ~$50.0M | Development land | Seller not found; Centennial Bank loan via JLL | https://www.jll.com/en-us/newsroom/thor-equities-acquires-industrial-facility-in-new-jersey |
+| 2022-03 | 14-22 River Rd, Bogota | ~10 ac; 150,917 SF spec planned, 36' clear | ~$50.0M | Development land | Seller not found; Centennial Bank loan via JLL | https://re-nj.com/thor-acquires-bogota-development-site-plans-150000-sq-ft-industrial-project/; https://www.jll.com/en-us/newsroom/thor-equities-acquires-industrial-facility-in-new-jersey |
 | 2022-01 | 241 Oraton St, Newark | 131,205 SF, 5 ac, 1.5-ac truck court | $32.0M ($244/SF) | Single-tenant sale-leaseback | Jewels Transportation, new long-term lease; JLL | https://www.globenewswire.com/de/news-release/2022/01/24/2371943/0/en/Thor-Equities-Group-Acquires-Key-Industrial-Property-in-Northern-New-Jersey.html |
 
 2025-2026: only other item is a $31.2M Acres Capital refi of the Bogota project (24 River Rd, 2025-07); no 2026 NJ buys or strategy statements found (https://commercialobserver.com/2025/07/refi-for-new-jersey-industrial/).
@@ -48,7 +48,7 @@ Only 4 distinct 2019-2024 deals found (3 pack rows are one Passaic trade); 2025 
 - Timing: at least one NJ buy a year since 2022; off-market intros have worked. Northern NJ vacancy was 7.3% in Q2 2025, so test appetite for vacancy (https://www.savills.us/research_articles/256536/378871-0/northern-new-jersey-q2-2025-industrial-market-report).
 
 ## 8. Five questions for the first call
-1. Is the NJ program funded from Thor's balance sheet, a Thor Logis vehicle or a JV partner (as with PFA in Los Angeles), and what uncommitted equity and hold period are you underwriting?
+1. Is the NJ program funded from Thor's balance sheet, a Thor Logis vehicle or a JV partner (as with PFA in Los Angeles), and what equity and hold period are you underwriting now?
 2. Will you buy vacant or partly vacant buildings, outdoor storage / truck parking or cold storage in NJ, or only leased product and development sites?
 3. After Bridgewater, which NJ submarkets are you targeting for 2026 - is I-287 a one-off or a new focus alongside the port?
 4. Who underwrites and approves a NJ deal - Joseph or Jack Sitt - and what is the realistic timeline from first look to hard money and closing?
@@ -61,6 +61,7 @@ Only 4 distinct 2019-2024 deals found (3 pack rows are one Passaic trade); 2025 
 - https://therealdeal.com/2016/05/04/thor-looks-to-sell-its-hq-at-25-west-39th-street/
 - https://re-nj.com/thor-acquires-330000-sq-ft-passaic-warehouse-for-52-million/
 - https://www.jll.com/en-us/newsroom/thor-equities-acquires-industrial-facility-in-new-jersey
+- https://re-nj.com/thor-acquires-bogota-development-site-plans-150000-sq-ft-industrial-project/
 - https://www.roi-nj.com/2022/02/01/real_estate_development/jll-arranges-sale-leaseback-of-131205-sq-ft-industrial-asset-within-newark-port-submarket/
 - https://dep.nj.gov/wp-content/uploads/boss/public-notices/35832-bop200001-publicnotice.pdf
 - https://www.savills.us/research_articles/256536/378871-0/northern-new-jersey-q2-2025-industrial-market-report
