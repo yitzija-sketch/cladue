@@ -1,0 +1,227 @@
+[
+ {
+  "key": "E_devli_real_estate",
+  "slug": "devli_real_estate",
+  "name": "Devli Real Estate",
+  "name_key": "DEVLI REAL ESTATE",
+  "context_file": "/home/user/cladue/buyers_research/parts/_runs/E_CONTEXT/devli_real_estate.json",
+  "deals": 13,
+  "entities": 3
+ },
+ {
+  "key": "E_seagis_property_group",
+  "slug": "seagis_property_group",
+  "name": "Seagis Property Group",
+  "name_key": "SEAGIS PROPERTY GROUP",
+  "context_file": "/home/user/cladue/buyers_research/parts/_runs/E_CONTEXT/seagis_property_group.json",
+  "deals": 14,
+  "entities": 3
+ },
+ {
+  "key": "E_prologis_inc",
+  "slug": "prologis_inc",
+  "name": "Prologis, Inc.",
+  "name_key": "PROLOGIS",
+  "context_file": "/home/user/cladue/buyers_research/parts/_runs/E_CONTEXT/prologis_inc.json",
+  "deals": 19,
+  "entities": 12
+ },
+ {
+  "key": "E_faropoint",
+  "slug": "faropoint",
+  "name": "Faropoint",
+  "name_key": "FAROPOINT",
+  "context_file": "/home/user/cladue/buyers_research/parts/_runs/E_CONTEXT/faropoint.json",
+  "deals": 11,
+  "entities": 6
+ },
+ {
+  "key": "E_longpoint_realty_partners",
+  "slug": "longpoint_realty_partners",
+  "name": "Longpoint Realty Partners",
+  "name_key": "LONGPOINT REALTY PARTNERS",
+  "context_file": "/home/user/cladue/buyers_research/parts/_runs/E_CONTEXT/longpoint_realty_partners.json",
+  "deals": 13,
+  "entities": 5
+ },
+ {
+  "key": "E_sagard_real_estate",
+  "slug": "sagard_real_estate",
+  "name": "Sagard Real Estate",
+  "name_key": "SAGARD REAL ESTATE",
+  "context_file": "/home/user/cladue/buyers_research/parts/_runs/E_CONTEXT/sagard_real_estate.json",
+  "deals": 9,
+  "entities": 8
+ },
+ {
+  "key": "E_the_stro_companies",
+  "slug": "the_stro_companies",
+  "name": "The STRO Companies",
+  "name_key": "STRO COMPANIES",
+  "context_file": "/home/user/cladue/buyers_research/parts/_runs/E_CONTEXT/the_stro_companies.json",
+  "deals": 6,
+  "entities": 4
+ },
+ {
+  "key": "E_commerce_park_investors_llc",
+  "slug": "commerce_park_investors_llc",
+  "name": "Commerce Park Investors LLC",
+  "name_key": "COMMERCE PARK INVESTORS",
+  "context_file": "/home/user/cladue/buyers_research/parts/_runs/E_CONTEXT/commerce_park_investors_llc.json",
+  "deals": 5,
+  "entities": 9
+ },
+ {
+  "key": "E_dalfen_industrial",
+  "slug": "dalfen_industrial",
+  "name": "Dalfen Industrial",
+  "name_key": "DALFEN INDUSTRIAL",
+  "context_file": "/home/user/cladue/buyers_research/parts/_runs/E_CONTEXT/dalfen_industrial.json",
+  "deals": 6,
+  "entities": 8
+ },
+ {
+  "key": "E_morgan_stanley_real_estate_investing",
+  "slug": "morgan_stanley_real_estate_investing",
+  "name": "Morgan Stanley Real Estate Investing",
+  "name_key": "MORGAN STANLEY REAL ESTATE INVESTING",
+  "context_file": "/home/user/cladue/buyers_research/parts/_runs/E_CONTEXT/morgan_stanley_real_estate_investing.json",
+  "deals": 10,
+  "entities": 9
+ },
+ {
+  "key": "E_realterm",
+  "slug": "realterm",
+  "name": "Realterm",
+  "name_key": "REALTERM",
+  "context_file": "/home/user/cladue/buyers_research/parts/_runs/E_CONTEXT/realterm.json",
+  "deals": 8,
+  "entities": 3
+ },
+ {
+  "key": "E_thor_equities_group",
+  "slug": "thor_equities_group",
+  "name": "Thor Equities Group",
+  "name_key": "THOR EQUITIES GROUP",
+  "context_file": "/home/user/cladue/buyers_research/parts/_runs/E_CONTEXT/thor_equities_group.json",
+  "deals": 5,
+  "entities": 2
+ },
+ {
+  "key": "E_venture_one_real_estate",
+  "slug": "venture_one_real_estate",
+  "name": "Venture One Real Estate",
+  "name_key": "VENTURE ONE REAL ESTATE",
+  "context_file": "/home/user/cladue/buyers_research/parts/_runs/E_CONTEXT/venture_one_real_estate.json",
+  "deals": 3,
+  "entities": 3
+ },
+ {
+  "key": "E_ambient_capital_partners",
+  "slug": "ambient_capital_partners",
+  "name": "Ambient Capital Partners",
+  "name_key": "AMBIENT CAPITAL PARTNERS",
+  "context_file": "/home/user/cladue/buyers_research/parts/_runs/E_CONTEXT/ambient_capital_partners.json",
+  "deals": 7,
+  "entities": 1
+ },
+ {
+  "key": "E_ares_management_real_estate_ares_industrial_reit",
+  "slug": "ares_management_real_estate_ares_industrial_reit",
+  "name": "Ares Management Real Estate (Ares Industrial REIT / legacy Black Creek)",
+  "name_key": "ARES MANAGEMENT REAL ESTATE",
+  "context_file": "/home/user/cladue/buyers_research/parts/_runs/E_CONTEXT/ares_management_real_estate_ares_industrial_reit.json",
+  "deals": 5,
+  "entities": 13
+ },
+ {
+  "key": "E_brookfield_asset_management_logistics",
+  "slug": "brookfield_asset_management_logistics",
+  "name": "Brookfield Asset Management (Logistics)",
+  "name_key": "BROOKFIELD ASSET MANAGEMENT",
+  "context_file": "/home/user/cladue/buyers_research/parts/_runs/E_CONTEXT/brookfield_asset_management_logistics.json",
+  "deals": 5,
+  "entities": 16
+ },
+ {
+  "key": "E_marcus_partners",
+  "slug": "marcus_partners",
+  "name": "Marcus Partners",
+  "name_key": "MARCUS PARTNERS",
+  "context_file": "/home/user/cladue/buyers_research/parts/_runs/E_CONTEXT/marcus_partners.json",
+  "deals": 8,
+  "entities": 4
+ },
+ {
+  "key": "E_velocity_venture_partners_llc",
+  "slug": "velocity_venture_partners_llc",
+  "name": "Velocity Venture Partners, LLC",
+  "name_key": "VELOCITY VENTURE PARTNERS",
+  "context_file": "/home/user/cladue/buyers_research/parts/_runs/E_CONTEXT/velocity_venture_partners_llc.json",
+  "deals": 4,
+  "entities": 1
+ },
+ {
+  "key": "E_bridge_logistics_properties",
+  "slug": "bridge_logistics_properties",
+  "name": "Bridge Logistics Properties",
+  "name_key": "BRIDGE LOGISTICS PROPERTIES",
+  "context_file": "/home/user/cladue/buyers_research/parts/_runs/E_CONTEXT/bridge_logistics_properties.json",
+  "deals": 5,
+  "entities": 4
+ },
+ {
+  "key": "E_invesco_real_estate",
+  "slug": "invesco_real_estate",
+  "name": "Invesco Real Estate",
+  "name_key": "INVESCO REAL ESTATE",
+  "context_file": "/home/user/cladue/buyers_research/parts/_runs/E_CONTEXT/invesco_real_estate.json",
+  "deals": 3,
+  "entities": 7
+ },
+ {
+  "key": "E_link_logistics_real_estate",
+  "slug": "link_logistics_real_estate",
+  "name": "Link Logistics Real Estate",
+  "name_key": "LINK LOGISTICS REAL ESTATE",
+  "context_file": "/home/user/cladue/buyers_research/parts/_runs/E_CONTEXT/link_logistics_real_estate.json",
+  "deals": 5,
+  "entities": 5
+ },
+ {
+  "key": "E_ridgecut_road",
+  "slug": "ridgecut_road",
+  "name": "Ridgecut Road",
+  "name_key": "RIDGECUT ROAD",
+  "context_file": "/home/user/cladue/buyers_research/parts/_runs/E_CONTEXT/ridgecut_road.json",
+  "deals": 4,
+  "entities": 5
+ },
+ {
+  "key": "E_stag_industrial_inc",
+  "slug": "stag_industrial_inc",
+  "name": "STAG Industrial, Inc.",
+  "name_key": "STAG INDUSTRIAL",
+  "context_file": "/home/user/cladue/buyers_research/parts/_runs/E_CONTEXT/stag_industrial_inc.json",
+  "deals": 4,
+  "entities": 5
+ },
+ {
+  "key": "E_turnbridge_equities",
+  "slug": "turnbridge_equities",
+  "name": "Turnbridge Equities",
+  "name_key": "TURNBRIDGE EQUITIES",
+  "context_file": "/home/user/cladue/buyers_research/parts/_runs/E_CONTEXT/turnbridge_equities.json",
+  "deals": 4,
+  "entities": 7
+ },
+ {
+  "key": "E_penwood_real_estate_investment_management_llc",
+  "slug": "penwood_real_estate_investment_management_llc",
+  "name": "Penwood Real Estate Investment Management, LLC",
+  "name_key": "PENWOOD REAL ESTATE INVESTMENT MANAGEMENT",
+  "context_file": "/home/user/cladue/buyers_research/parts/_runs/E_CONTEXT/penwood_real_estate_investment_management_llc.json",
+  "deals": 4,
+  "entities": 6
+ }
+]
