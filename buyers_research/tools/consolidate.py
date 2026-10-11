@@ -603,6 +603,11 @@ def consolidate():
             m['notes'] = (s(m.get('notes')) + ' | VALIDATION: ' + '; '.join(sorted(set(vn)))).strip(' |')
         apply_verification(m, ver.get('B', []), lambda r: name_key(s(r.get('address')) + ' ' + s(r.get('town'))))
         m.pop('_vnotes', None)
+        # a verifier may have dated an undated row (or re-dated a mis-dated one) outside the 2019-2024 window
+        y2 = year_of(m.get('date'))
+        if y2 and (y2 < 2019 or y2 > 2024):
+            rejected.append({'file': 'B', 'part': m.get('_parts'), 'reason': f'date set by verification outside 2019-2024 ({y2})', 'row': json.dumps({k2: s(v2) for k2, v2 in m.items()})[:800]})
+            continue
         b_rows.append(finish(m))
     b_rows.sort(key=lambda r: (s(r.get('date')), s(r.get('town')), s(r.get('address'))))
     write_csv(os.path.join(ROOT, 'deals_public_2019_2024.csv'), B_COLS, b_rows)
