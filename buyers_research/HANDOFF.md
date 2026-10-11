@@ -1,9 +1,8 @@
 # HANDOFF — NJ Industrial Buyer Research (what this is, how to use it, how to continue)
 
 Prepared 2026-10-11 for the broker (Eretz Realty) and anyone who picks this up later.
-Status at hand-off: **batches 1–5 complete, entity discovery (batch 6–9) in progress** — see "What is still
-running" below. Every number in this document is as of the snapshot date; the live files on the branch are
-newer.
+Status at hand-off: **COMPLETE (2026-10-11).** All research, verification, dossiers and the final summary
+are on the branch. See `FINAL_SUMMARY.md` for the counts, the 25 most active buyers and the ten open questions.
 
 ---
 
@@ -24,14 +23,14 @@ This is lead and buy-box research for a broker. It is not investment advice.
 
 | File | What is in it | Rows at snapshot |
 |---|---|---|
-| **`buyers_stated.csv`** | One row per buyer: who they are (HQ, website, type), their **stated** acquisition criteria (SF range, price range, product types, submarkets, hold strategy, deal structures, a verbatim quote and the URL it came from), the acquisitions head when publicly named, how active they are in NJ. | 377 buyers · 135 with sourced criteria · 262 confirmed NJ-active · 56 with a named acquisitions head |
-| **`deals_public_2019_2024.csv`** | One row per NJ industrial property sold 2019–2024 as reported in the press / broker releases / REIT filings: date, address, town, county, buyer, seller, SF, price, $/SF, cap rate (rare), brokers, deal type, the buying LLC when the article named it. Portfolio deals have a `PORTFOLIO:` summary row plus per-building rows when addresses were listed. | 640 properties · 320 with price · 368 under 250,000 SF · 230 still undated (see §5) |
-| **`buyer_entities.csv`** | One row per legal entity tied to a buyer: SPV LLCs, fund vehicles, GP/manager companies, former names, with the mailing/registered address and officer names when a public source shows them. This is the table that lets you recognise "XYZ Carlstadt LLC" on a tax bill as, say, Faropoint. | 133 entities for 25 buyers so far — 75 more buyers in progress |
+| **`buyers_stated.csv`** | One row per buyer: who they are (HQ, website, type), their **stated** acquisition criteria (SF range, price range, product types, submarkets, hold strategy, deal structures, a verbatim quote and the URL it came from), the acquisitions head when publicly named, how active they are in NJ. | 377 buyers · 135 with sourced criteria · 263 confirmed NJ-active · 56 with a named acquisitions head · 50 rows verification-tagged |
+| **`deals_public_2019_2024.csv`** | One row per NJ industrial property sold 2019–2024 as reported in the press / broker releases / REIT filings: date, address, town, county, buyer, seller, SF, price, $/SF, cap rate (rare), brokers, deal type, the buying LLC when the article named it. Portfolio deals have a `PORTFOLIO:` summary row plus per-building rows when addresses were listed. | 563 properties (64 portfolio summaries) · 527 dated / 36 undated · 276 with price · 319 under 250,000 SF · 213 rows verification-tagged (107 mis-dated rows removed) |
+| **`buyer_entities.csv`** | One row per legal entity tied to a buyer: SPV LLCs, fund vehicles, GP/manager companies, former names, with the mailing/registered address and officer names when a public source shows them. This is the table that lets you recognise "XYZ Carlstadt LLC" on a tax bill as, say, Faropoint. | 479 entities for 100 buyers (90 SPVs, 88 funds, 33 GPs, 115 managers, 125 affiliates, 28 former names) · 59 rows verification-tagged |
 | **`market_buyer_mix.csv`** | Market statistics pulled from free brokerage reports (C&W, CBRE, JLL, Colliers, NAI, Newmark, Avison Young, Lee, Savills, CoStar/CommercialEdge, Transwestern, IRR): vacancy, rents, absorption, sales volume, $/SF, cap-rate ranges, IOS land pricing, buyer-type commentary, by year/quarter/submarket. | 700 metric rows, 2019–2025 |
 | `buyer_activity_rank.csv` | Helper: every buyer scored by how many 2019–24 press deals they appear in + NJ deals seen while researching + whether they have a buyer row. Used to pick the 100 buyers for entity research and the 25 for dossiers. | ~400 |
 | `README.md` | Column-by-column dictionary for all four tables and the join-key rules. | — |
 | `RESEARCH_LOG.md` | What was searched, what was blocked, what could not be found, counts per file, time-stamped checkpoints. | — |
-| `dossier_*.md` | One-page briefs on the 25 most active buyers (**not yet written** — produced in the final batch). | — |
+| `dossier_*.md` | One-page briefs on the 25 most active buyers (strategy, stated buy box, deal table, check size, entities, people, match screen, five first-call questions). | 25 |
 
 Supporting material (you can ignore unless you want to audit or re-run):
 `parts/` = the raw rows every agent wrote (JSONL) plus each agent's own summary (`parts/_runs/*/journal.jsonl`);
@@ -101,16 +100,16 @@ Central NJ quoted at $8–10K/acre/month rent and up to $7M/acre (Moonachie) in 
   search-result excerpts (which do include sec.gov filings, PDF reports and article text) rather than full
   page reads. Consequence: some cells are blank that a full read would fill (HQ street addresses,
   acquisitions-head names, deal dates in re-nj.com articles whose URLs carry no date).
-* **230 deal rows are undated** (`date` blank, notes say `DATE UNVERIFIED`). They are real transactions
-  from the 2019–2024 window as far as the article shows, but the exact year was not in the excerpt; a
-  dating pass is scheduled in the verification batch, and your tax-roll last-sale date will resolve the
-  rest on join.
-* **Verification pass not yet run.** The `verification` column is empty until batch 10–11 runs; after it,
-  rows carry `confirmed:<field>` / `refuted-blanked:<field>` / `unverifiable:<field>` tags.
+* **Dating.** Two dating passes re-checked every reported deal that lacked a date: 127 were dated inside
+  2019–2024, 107 turned out to be 2016–2018 or 2025–2026 and were removed (`rejected_rows.csv`), and 36
+  small un-priced rows remain undated — your tax-roll last-sale date resolves those on join.
+* **Verification.** 787 skeptic verdicts (≈10% sample of buyer and entity rows plus all undated deals) are
+  applied in the `verification` column: `confirmed:` / `corrected:` / `filled:` / `unverifiable:` /
+  `refuted-blanked:` per field. Refutation rate outside dates was ~3%; dates were the weak spot.
 * **A few mis-dated deals from earlier passes were caught and removed** (e.g. Kurv's Carlstadt portfolio
   is a 2026 deal). Their keys are in `parts/_runs/EXCLUDE_B.jsonl`; if you spot another, add a line there
   and re-run the consolidator.
-* **Entity table is partial** (25 of 100 buyers at snapshot). SEC 10-K Exhibit 21 and Form D subsidiaries
+* **Entity table covers the 100 most active buyers** (479 entities). SEC 10-K Exhibit 21 and Form D subsidiaries
   were deliberately *not* re-collected because your local EDGAR sweep already has them; the agents focused
   on Schedule III property names, "affiliate of" press, loan/financing releases, Form ADV fund names,
   municipal records and naming patterns.
@@ -145,14 +144,8 @@ Central NJ quoted at $8–10K/acre/month rent and up to $7M/acre (Moonachie) in 
 
 ## 7. What is still running / what comes next
 
-| Step | Status |
-|---|---|
-| Entity discovery, buyers 26–100 (batches 7–9) | running / queued |
-| Verification: skeptic agents re-check ~10 rows per buyer file and ~8 per deal file; dating pass on undated deals; specialty deal sweeps (IOS, cold storage, sale-leaseback, land) | queued |
-| 25 one-page buyer dossiers (`dossier_<buyer>.md`) | queued (final batch) |
-| Final `RESEARCH_LOG.md` counts + summary (top-20 buyers, thin buyer types, top-10 open questions) | last step |
-
-Each step is pushed to the branch as it completes; the final zip will be sent when the last step lands.
+Nothing — the run is complete. If more coverage is wanted later, the same scripts resume where they
+stopped (see §8); the highest-value follow-ups are listed in `FINAL_SUMMARY.md` under "Ten questions".
 
 ## 8. If you need to restart it yourself
 

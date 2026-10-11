@@ -7,6 +7,8 @@ Every batch below is sized to ≈185 searches (per-agent caps via `args.search_c
 told to read its existing part file and append, and is handed the previous pass's leads
 (`parts/_runs/LEADS.json`, built by `tools/leads_from_journals.py`).
 
+**STATUS: ALL BATCHES COMPLETE (2026-10-11 08:50Z).** Kept for the record.
+
 **Autonomous mode (chosen by the broker 2026-10-06 ~19:00Z):** the session drives itself. After a batch's
 workflows complete it consolidates, commits, then calls `send_later` (claude-code-remote) with the message
 `AUTORUN: run TURN_PLAN batch <n+1>` 1–2 minutes out; that message arrives as a fresh user turn, which resets
@@ -33,7 +35,7 @@ After each batch: `python3 -I buyers_research/tools/leads_from_journals.py && py
 | 10 | done 10-11 07:20Z (16 skeptics, ~500 verdicts, 13 refutations, 10 out-of-window deals dropped) | nj-verify-v | one skeptic per A part (9 × cap 12) + 4 B samplers (cap 20) | 188 |
 | 11 | done 10-11 07:45Z (8 C samplers, 55-deal dating pass: 35 dated / 20 dropped; 43 specialty rows) | nj-verify-v + nj-deals-b | 4 C samplers (cap 25) + B specialty sweeps: IOS/truck, cold storage, sale-leaseback, industrial land (3 × 30) | 190 |
 | 12 | done 10-11 08:05Z (25 dossiers, 175 searches) | nj-dossiers-e | 25 most active buyers, cap 7 each; built mostly from the CSVs | 175 |
-| 12b | running (10-11 08:08Z, 5 dating agents cap 30 on undated_3..7) | nj-verify-v | second dating pass: ~150 remaining undated deal rows (5 agents × cap 30) | 150 |
-| 13 | pending | — | final consolidation, README.md column dictionary, RESEARCH_LOG counts, summary; no searches | 0 |
+| 12b | done 10-11 08:40Z (148 rows: 92 dated, 50 out-of-window dropped, 6 unverifiable) | nj-verify-v | second dating pass: ~150 remaining undated deal rows (5 agents × cap 30) | 150 |
+| 13 | done 10-11 08:50Z | — | final consolidation, README.md column dictionary, RESEARCH_LOG counts, summary; no searches | 0 |
 
 Progress on this table is mirrored in RESEARCH_LOG.md §4 at each checkpoint.

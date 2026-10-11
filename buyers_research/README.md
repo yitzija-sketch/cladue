@@ -76,8 +76,16 @@ Example: "The Hampshire Companies, LLC" → `HAMPSHIRE COMPANIES`.
 * `consolidate_report.json` — counts by file/year/county/type, top-30 active, buyers seen in B but missing from A.
 * `dossier_<buyer>.md` — Workstream E one-pagers (written after C/verification).
 
-## Provenance and limits
-Round 1 (2026-10-06) was search-excerpt based only: this environment blocked page fetches, and WebSearch
-was capped at 200 calls per turn, so coverage after round 1 is partial (see `RESEARCH_LOG.md` §2–3). Each
-row's `source_url` was present in the researcher's search results; the verification pass (`parts/V_verify`)
-re-checks samples and tags rows `confirmed` / `refuted` / `unverifiable` in the `verification` column.
+## Provenance and limits (final, 2026-10-11)
+Research ran 2026-10-06 and 2026-10-11 in a cloud environment that blocked direct page fetches, so every
+fact came from web-search excerpts of pages (SEC filings, PDFs, trade-press text included) and each row's
+`source_url` appeared in the researcher's results. A verification pass then re-checked ~10% of buyer and
+entity rows and every reported deal that lacked a date: 787 verdict lines in `parts/V_verify/`, applied by
+`tools/consolidate.py` into the `verification` column (`confirmed:<field>`, `corrected:<field>`,
+`filled:<field>`, `unverifiable:<field>`, `refuted-blanked:<field>`). The dating pass found that roughly
+a third of press "deals" that carried no date were actually 2016–2018 or 2025–2026 transactions; 107 such
+rows were removed to `rejected_rows.csv` and 36 deal rows remain undated (all small, un-priced; your
+tax-roll last-sale date resolves them on join). Blank cells mean "not found in a free public source",
+never a guess; emails appear only as `pattern:` when a real address at that domain was seen (2 rows).
+The repo's `cloud_context/` folder was absent, so overlap with already-local data is likely — the join
+will show it. Credits lapsed 2026-10-06 20:30Z and the run resumed 2026-10-11 with nothing lost.

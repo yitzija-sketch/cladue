@@ -5,22 +5,22 @@
 | File | Rows | Notes |
 |---|---|---|
 | buyers_stated.csv | 377 buyers | 135 with stated criteria, 56 with a named acquisitions head; NJ-active yes 263 / unknown 92 / no 22; 50 rows carry verification tags {'confirmed': 203, 'unverifiable': 33, 'corrected': 10} |
-| deals_public_2019_2024.csv | 631 properties (64 portfolio summary rows) | dated 465 / undated 166; 300 with price, 448 with SF (360 under 250K SF), 41 with buying LLC named; 97 rows carry verification tags {'unverifiable': 11, 'confirmed': 261, 'filled': 58, 'corrected': 7} |
+| deals_public_2019_2024.csv | 563 properties (64 portfolio summary rows) | dated 527 / undated 36; 276 with price, 401 with SF (319 under 250K SF), 40 with buying LLC named; 213 rows carry verification tags {'unverifiable': 35, 'confirmed': 353, 'filled': 129, 'corrected': 9} |
 | buyer_entities.csv | 479 entities for 100 buyers | roles {'manager': 115, 'affiliate': 125, 'SPV': 90, 'former name': 28, 'GP': 33, 'fund': 88}; evidence {'press': 152, 'Form D': 95, 'ownership note': 63, '8-K/loan doc': 44, 'NJ/DE filing': 33, 'Form ADV': 23, 'municipal record': 22, '10-K Schedule III': 20}; 59 rows carry verification tags {'confirmed': 115, 'unverifiable': 19, 'filled': 4, 'corrected': 3} |
 | market_buyer_mix.csv | 700 metric rows | years {'': 3, '2019': 32, '2020': 32, '2021': 73, '2022': 134, '2023': 115, '2024': 138, '2025': 173}; top metrics {'trend_statement': 77, 'asking_rent_psf': 70, 'leasing_volume_sf': 64, 'vacancy_rate': 64, 'net_absorption_sf': 45, 'avg_price_psf': 30, 'availability_rate': 28, 'sales_volume': 24, 'cap_rate': 12, 'deliveries_sf': 12} |
-| buyer_activity_rank.csv | 413 | activity score = 2 x press deals 2019-24 + NJ deals seen in A + 1 if in A |
-| dossier_*.md | 0 | one page per buyer |
-| rejected_rows.csv | 65 | {'county out of scope': 8, 'no address and no town': 15, 'excluded by later pass': 3, 'date set by verification outside 2019-2024': 39} |
+| buyer_activity_rank.csv | 407 | activity score = 2 x press deals 2019-24 + NJ deals seen in A + 1 if in A |
+| dossier_*.md | 25 | one page per buyer |
+| rejected_rows.csv | 133 | {'county out of scope': 8, 'no address and no town': 15, 'excluded by later pass': 3, 'date set by verification outside 2019-2024': 107} |
 
 ## Deals by year
 
 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024 | undated |
 |---|---|---|---|---|---|---|
-| 54 | 62 | 79 | 127 | 77 | 66 | 166 |
+| 58 | 77 | 92 | 143 | 80 | 77 | 36 |
 
 ## Deals by county
 
-Bergen 118, Middlesex 112, Morris 61, Burlington 55, Union 52, Essex 49, Somerset 41, Passaic 39, Hudson 37, Mercer 33, Monmouth 21, blank 13
+Bergen 102, Middlesex 89, Morris 56, Burlington 54, Union 48, Essex 47, Passaic 39, Hudson 35, Somerset 34, Mercer 27, Monmouth 19, blank 13
 
 ## Buyer types in buyers_stated.csv (and how much the public web says about each)
 
@@ -39,22 +39,22 @@ Bergen 118, Middlesex 112, Morris 61, Burlington 55, Union 52, Essex 49, Somerse
 
 | # | Buyer | Type | Press deal rows | NJ deals seen (A) | Entities found | Stated buy box? |
 |---|---|---|---|---|---|---|
-| 1 | Devli Real Estate | developer-holder | 12 | 12 | 3 | yes |
-| 2 | Seagis Property Group | developer-holder | 13 | 10 | 3 | yes |
-| 3 | Prologis, Inc. | REIT | 14 | 4 | 12 | no |
-| 4 | Faropoint | closed-end PE | 10 | 7 | 6 | yes |
-| 5 | Longpoint Realty Partners | closed-end PE | 10 | 2 | 5 | yes |
-| 6 | Sagard Real Estate | open-end fund | 9 | 4 | 8 | yes |
-| 7 | Realterm | closed-end PE | 7 | 5 | 3 | yes |
-| 8 | Commerce Park Investors LLC | developer-holder | 4 | 9 | 9 | no |
-| 9 | Dalfen Industrial | closed-end PE | 6 | 5 | 8 | yes |
-| 10 | Morgan Stanley Real Estate Investing | closed-end PE | 8 | 1 | 9 | no |
-| 11 | Brookfield Asset Management (Logistics) | closed-end PE | 6 | 3 | 16 | no |
-| 12 | The STRO Companies | developer-holder | 3 | 9 | 4 | yes |
-| 13 | Thor Equities Group | developer-holder | 5 | 5 | 2 | no |
-| 14 | Venture One Real Estate | closed-end PE | 3 | 9 | 3 | no |
-| 15 | Ambient Capital Partners | IOS specialist | 6 | 1 | 1 | yes |
-| 16 | Ares Management Real Estate (Ares Industrial REIT / legacy Black Creek) | open-end fund | 5 | 3 | 13 | yes |
+| 1 | Seagis Property Group | developer-holder | 13 | 10 | 3 | yes |
+| 2 | Devli Real Estate | developer-holder | 10 | 12 | 3 | yes |
+| 3 | Prologis, Inc. | REIT | 12 | 4 | 12 | no |
+| 4 | Faropoint | closed-end PE | 9 | 7 | 6 | yes |
+| 5 | Realterm | closed-end PE | 7 | 5 | 3 | yes |
+| 6 | Sagard Real Estate | open-end fund | 7 | 4 | 8 | yes |
+| 7 | Morgan Stanley Real Estate Investing | closed-end PE | 8 | 1 | 9 | no |
+| 8 | Longpoint Realty Partners | closed-end PE | 7 | 2 | 5 | yes |
+| 9 | Brookfield Asset Management (Logistics) | closed-end PE | 6 | 3 | 16 | no |
+| 10 | Dalfen Industrial | closed-end PE | 5 | 5 | 8 | yes |
+| 11 | The STRO Companies | developer-holder | 3 | 9 | 4 | yes |
+| 12 | Thor Equities Group | developer-holder | 5 | 5 | 2 | no |
+| 13 | Venture One Real Estate | closed-end PE | 3 | 9 | 3 | no |
+| 14 | Ambient Capital Partners | IOS specialist | 6 | 1 | 1 | yes |
+| 15 | Ares Management Real Estate (Ares Industrial REIT / legacy Black Creek) | open-end fund | 5 | 3 | 13 | yes |
+| 16 | Commerce Park Investors LLC | developer-holder | 2 | 9 | 9 | no |
 | 17 | Link Logistics Real Estate | open-end fund | 5 | 3 | 5 | yes |
 | 18 | Marcus Partners | closed-end PE | 5 | 3 | 4 | yes |
 | 19 | Velocity Venture Partners, LLC | closed-end PE | 4 | 4 | 1 | yes |
@@ -67,11 +67,11 @@ Bergen 118, Middlesex 112, Morris 61, Burlington 55, Union 52, Essex 49, Somerse
 
 ## Call-list buyers (deliberately low effort; shown for completeness)
 
-- Sitex Group: 14 press deal rows, 0 entities
+- Sitex Group: 12 press deal rows, 0 entities
 - CenterPoint Properties: 9 press deal rows, 0 entities
 - Terreno Realty Corporation: 7 press deal rows, 0 entities
 - Bridge Industrial: 4 press deal rows, 0 entities
-- Kurv Industrial: 4 press deal rows, 0 entities
 - Elberon Development Group: 2 press deal rows, 0 entities
 - Cabot Properties: 0 press deal rows, 0 entities
+- Kurv Industrial: 0 press deal rows, 0 entities
 
