@@ -205,7 +205,7 @@
    "source_date": "2024-10-15",
    "confidence": "high",
    "notes": "Chicago-based Ambient Capital Partners buyer; seller not named in excerpts; Ambient later tapped Blau & Berg to lease 650,000 SF industrial complex in Harrison (https://re-nj.com/ambient-capital-taps-blau-berg-to-lease-650000-sq-ft-industrial-complex-in-harrison/); also ROI-NJ, RE-NJ, REBusinessOnline, TRD (https://therealdeal.com/new-york/tristate/2024/10/18/ambient-capital-buys-49-acres-of-new-jersey-industrial-storage/) | Buyer Chicago-based Ambient Capital Partners per TRD 2024-10-18 (https://therealdeal.com/new-york/tristate/2024/10/18/ambient-capital-buys-49-acres-of-new-jersey-industrial-storage/); addresses per ROI-NJ 2024-10-15 (https://roi-nj.com/2024/10/15/real_estate/six-property-48-7-acre-industrial-outdoor-storage-portfolio-in-harrison-and-kearny-sells-for-156-3m); seller not named",
-   "verification": "",
+   "verification": "confirmed:buyer;confirmed:price;confirmed:acres;confirmed:date;confirmed:brokers",
    "source_parts": "B_geo_hudson_essex.jsonl;B_year_2024.jsonl",
    "dupes_merged": "1"
   },

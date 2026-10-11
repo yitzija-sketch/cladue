@@ -40,6 +40,40 @@
  },
  "deals_2019_2024": [
   {
+   "date": "2024-10",
+   "address": "2 Hilton Court",
+   "town": "Parsippany",
+   "county": "Morris",
+   "buyer": "Link Logistics",
+   "buyer_name_key": "LINK LOGISTICS REAL ESTATE",
+   "buyer_parent": "Blackstone",
+   "buyer_spv_named": "",
+   "seller": "",
+   "seller_name_key": "",
+   "seller_parent": "",
+   "sf": "",
+   "acres": "10.41",
+   "price": "",
+   "price_psf": "",
+   "cap_rate": "",
+   "property_type": "land",
+   "year_built": "",
+   "occupancy_at_sale": "",
+   "tenant": "",
+   "lender": "",
+   "loan_amount": "",
+   "brokers": "Listing: JLL Capital Markets",
+   "deal_type": "land",
+   "portfolio_context": "",
+   "source_url": "https://roi-nj.com/2024/10/11/real_estate/link-logistics-acquires-2-hilton-court-a-10-41-acre-property-in-infill-northern-new-jersey",
+   "source_date": "2024-10-11",
+   "confidence": "high",
+   "notes": "Gap-fill (buyer, broker) for existing master row; infill site to be redeveloped into a 123,000 SF warehouse; price not in search excerpt | 10.41-acre site to be redeveloped into 123,000 SF warehouse; buyer/seller/price not in excerpt | JLL release: 10.41-acre warehouse-ready site in the SED-10 zone near the I-80/I-287 interchange, to be redeveloped into a 123,000 SF warehouse; Oct 2024 date per B_year_2024 sweep of same release. Buyer/seller/price not in excerpt.",
+   "verification": "",
+   "source_parts": "B_geo_somerset_morris.jsonl;B_spec_slb_land.jsonl;B_year_2024.jsonl",
+   "dupes_merged": "2"
+  },
+  {
    "date": "2021-03",
    "address": "Lincoln Highway (former Talbot Hall Rehabilitation Center)",
    "town": "Kearny",
@@ -171,7 +205,7 @@
    "source_date": "2019-11",
    "confidence": "high",
    "notes": "Summary row. Price not disclosed in excerpt. Link = Blackstone logistics platform (general knowledge, not stated in source) | Summary row. Price not disclosed in excerpt. Link Industrial Properties is Blackstone's logistics platform (general knowledge, not stated in source).",
-   "verification": "",
+   "verification": "confirmed:buyer;confirmed:price;confirmed:sf;confirmed:date;confirmed:brokers",
    "source_parts": "B_geo_union_passaic.jsonl;B_year_2019.jsonl",
    "dupes_merged": "1"
   },
@@ -303,9 +337,9 @@
   "buyer_name": "Link Logistics Real Estate",
   "buyer_type": "open-end fund",
   "in_buyers_stated": "yes",
-  "press_deal_rows_2019_2024": "4",
+  "press_deal_rows_2019_2024": "5",
   "nj_deal_count_seen_A": "3",
   "entities_found": "5",
-  "activity_score": "12"
+  "activity_score": "14"
  }
 }

@@ -190,7 +190,7 @@
    "evidence_url": "https://re-nj.com/terreno-venture-one-ink-17-8-million-trade-of-west-caldwell-industrial-building/",
    "confidence": "med",
    "notes": "RE-NJ: Venture One 'purchased the building through a vehicle listed as VK Industrial VI LP' - 1 Dodge Drive, West Caldwell (93,000 SF, $17.8M, Dec 2023, seller Terreno Realty). Fund co-sponsored by Venture One Real Estate and Kovitz Investment Group; $255M final close (IREI); PitchBook lists domicile Delaware. Deed grantee for 1 Dodge Drive may be this LP or a sub-SPV. SEC lease exhibit (sec.gov/Archives/edgar/data/719135/000071913523000012/leaseagreement.htm) gives VK Industrial VI's management address as 9500 Bryn Mawr, Suite 340, Rosemont, IL 60018. njpropertyrecords.com/property/0721_1002_37 shows a 02/07/2026 deed on 1 Dodge Drive at $36,000,000 (owner name obfuscated in excerpt) - possible 2026 resale; verify locally.",
-   "verification": "",
+   "verification": "confirmed:entity_name;confirmed:notes",
    "source_parts": "C_03.jsonl",
    "dupes_merged": "0"
   }

@@ -326,7 +326,7 @@
    "evidence_url": "https://www.sec.gov/Archives/edgar/data/1768238/000176823820000001/xslFormDX08/primary_doc.xml",
    "confidence": "high",
    "notes": "Form D (2020). 260 Franklin Street Suite 620 was the firm's earlier mailing address - use for 2020-2022 vintage tax-bill matching.",
-   "verification": "",
+   "verification": "confirmed:buyer_name;confirmed:mailing_or_registered_address;unverifiable:signatory_or_officer_names",
    "source_parts": "C_04.jsonl",
    "dupes_merged": "0"
   },

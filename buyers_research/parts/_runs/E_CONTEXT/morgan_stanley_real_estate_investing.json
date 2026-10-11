@@ -327,7 +327,7 @@
    "acres": "",
    "price": "217500000",
    "price_psf": "181",
-   "cap_rate": "",
+   "cap_rate": "4.9",
    "property_type": "industrial",
    "year_built": "",
    "occupancy_at_sale": "100",
@@ -341,7 +341,7 @@
    "source_date": "2023-11",
    "confidence": "high",
    "notes": "Largest NJ industrial sale of 2023 per JLL; 7 buildings at 901, 903-906, 601 Murray Rd and 151 Ridgedale Ave; 13 tenants, fully occupied; avg 21-ft clear; 945 parking; Urban Edge (NYSE: UE) seller; also ROI-NJ 2023-11-02 https://www.roi-nj.com/2023/11/02/real_estate_development/217-5m-deal-jll-helps-trade-7-building-1-2m-sq-ft-industrial-portfolio-in-east-hanover/ and re-nj; psf computed",
-   "verification": "",
+   "verification": "confirmed:buyer;confirmed:buyer_spv_named;confirmed:seller;confirmed:price;confirmed:sf;confirmed:date;confirmed:cap_rate;filled:cap_rate",
    "source_parts": "B_year_2023.jsonl",
    "dupes_merged": "0"
   },
@@ -361,7 +361,7 @@
    "acres": "",
    "price": "217500000",
    "price_psf": "178",
-   "cap_rate": "",
+   "cap_rate": "4.9",
    "property_type": "industrial",
    "year_built": "",
    "occupancy_at_sale": "100",
@@ -375,7 +375,7 @@
    "source_date": "2023-11-02",
    "confidence": "high",
    "notes": "Average clear height 21 ft, 945 parking spaces. Also ROI-NJ 2023-11-02, RE-NJ, NJBIZ. Summary row.; psf computed",
-   "verification": "",
+   "verification": "confirmed:buyer;confirmed:buyer_spv_named;confirmed:seller;confirmed:price;confirmed:sf;confirmed:date;confirmed:cap_rate;filled:cap_rate",
    "source_parts": "B_geo_somerset_morris.jsonl",
    "dupes_merged": "0"
   }
@@ -394,7 +394,7 @@
    "evidence_url": "https://property.compstak.com/904-Murray-Road-East-Hanover/p/1963314",
    "confidence": "low",
    "notes": "CompStak comps page for 904 Murray Rd, East Hanover lists '901 Murray Owner LLC' as buyer in the 2023 sale (price band $200M-$300M) - i.e. the MSREI/Saxum East Hanover portfolio (901, 903-906, 601 Murray Rd; 151 Ridgedale Ave). Aggregator source, not a deed. INFERRED: sibling '<No.> Murray Owner LLC' / '151 Ridgedale Owner LLC' entities likely for the other six buildings - verify on Morris County deeds.",
-   "verification": "",
+   "verification": "unverifiable:entity_name;confirmed:notes",
    "source_parts": "C_02.jsonl",
    "dupes_merged": "0"
   },

@@ -34,7 +34,7 @@
   "nj_active": "yes",
   "nj_deal_count_seen": "3",
   "source_url": "https://www.businesswire.com/news/home/20220718005322/en",
-  "verification": "",
+  "verification": "unverifiable:stated_criteria_quote;confirmed:acquisitions_head_name;unverifiable:acquisitions_head_title;confirmed:nj_active",
   "source_parts": "AX_1_deal_buyers_institutional.jsonl",
   "dupes_merged": "0"
  },
@@ -69,7 +69,7 @@
    "source_date": "2023-05",
    "confidence": "med",
    "notes": "Off-market; 202,000 SF warehouse plus half-acre parking lot; seller not in excerpt; Bridge Logistics Properties (Bridge Investment Group) is NOT the call-list buyer Bridge Industrial/Kurv; also NJBIZ roundup https://njbiz.com/new-jersey-commercial-real-estate-deals-multifamily-office-industrial/; psf computed",
-   "verification": "",
+   "verification": "confirmed:buyer;confirmed:price;confirmed:sf;confirmed:date",
    "source_parts": "B_year_2023.jsonl",
    "dupes_merged": "0"
   },
@@ -198,14 +198,14 @@
    "tenant": "",
    "lender": "",
    "loan_amount": "",
-   "brokers": "",
+   "brokers": "Leo Josephs & Co. Inc. (Leo Josephs, Joshua Meisner)",
    "deal_type": "portfolio",
    "portfolio_context": "2-warehouse, 170,000 SF, $89.5M Tremley Point Road, Linden acquisition by BLP (July 2022)",
    "source_url": "https://re-nj.com/industrial-buyer-adds-two-building-170000-sq-ft-linden-warehouse-portfolio/",
    "source_date": "2022-07",
    "confidence": "med",
    "notes": "Call-list buyer family (Bridge Industrial affiliate BLP); Connect CRE separately reports 'Bridge Logistics Properties Buys NJ Industrial Warehouse for $45M' (https://www.connectcre.com/stories/bridge-logistics-properties-buys-industrial-warehouse-in-nj/) - possibly one of these buildings, not confirmed; psf computed; re-nj: combined 14.65 acres with large excess-land component; Class A building (36-ft clear, some cold storage) plus Class B warehouse (dock-high and grade doors); re-nj describes the purchase as September 2022 while traded.co shows July 2022 closing - CoStar-reported price $89.5M; REBusinessOnline also covers (https://rebusinessonline.com/bridge-logistics-properties-buys-170000-sf-industrial-complex-in-northern-new-jersey/) | Call-list buyer family (Bridge). Connect CRE: 170,000 SF on 14.65 acres with large excess land (https://www.connectcre.com/stories/bridge-logistics-properties-acquires-two-warehouses-and-excess-land-in-linden/); traded.co: $89.5M, ~$526/SF, 'about 4 years ago' (https://traded.co/deals/new-jersey/industrial/sale/3301-tremley-point-road/). $526/SF portfolio-level, psf not computed on summary row by rule but equals 526",
-   "verification": "",
+   "verification": "confirmed:buyer;confirmed:price;confirmed:sf;confirmed:date;confirmed:brokers;filled:brokers",
    "source_parts": "B_geo_union_passaic.jsonl;B_year_2022.jsonl",
    "dupes_merged": "1"
   }

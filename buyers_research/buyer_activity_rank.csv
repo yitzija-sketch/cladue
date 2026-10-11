@@ -4,25 +4,26 @@ SEAGIS PROPERTY GROUP,Seagis Property Group,developer-holder,yes,13,10,3,37
 PROLOGIS,"Prologis, Inc.",REIT,yes,14,4,12,33
 SITEX GROUP,Sitex Group,developer-holder,yes,14,1,0,30
 FAROPOINT,Faropoint,closed-end PE,yes,10,7,6,28
+CENTERPOINT PROPERTIES,CenterPoint Properties,developer-holder,yes,9,5,0,24
 LONGPOINT REALTY PARTNERS,Longpoint Realty Partners,closed-end PE,yes,10,2,5,23
 SAGARD REAL ESTATE,Sagard Real Estate,open-end fund,yes,9,4,8,23
-CENTERPOINT PROPERTIES,CenterPoint Properties,developer-holder,yes,8,5,0,22
+REALTERM,Realterm,closed-end PE,yes,7,5,3,20
 TERRENO REALTY,Terreno Realty Corporation,REIT,yes,7,5,0,20
 COMMERCE PARK INVESTORS,Commerce Park Investors LLC,developer-holder,yes,4,9,9,18
 DALFEN INDUSTRIAL,Dalfen Industrial,closed-end PE,yes,6,5,8,18
 MORGAN STANLEY REAL ESTATE INVESTING,Morgan Stanley Real Estate Investing,closed-end PE,yes,8,1,9,18
-REALTERM,Realterm,closed-end PE,yes,6,5,3,18
+BROOKFIELD ASSET MANAGEMENT,Brookfield Asset Management (Logistics),closed-end PE,yes,6,3,16,16
 STRO COMPANIES,The STRO Companies,developer-holder,yes,3,9,4,16
 THOR EQUITIES GROUP,Thor Equities Group,developer-holder,yes,5,5,2,16
 VENTURE ONE REAL ESTATE,Venture One Real Estate,closed-end PE,yes,3,9,3,16
 AMBIENT CAPITAL PARTNERS,Ambient Capital Partners,IOS specialist,yes,6,1,1,14
 ARES MANAGEMENT REAL ESTATE,Ares Management Real Estate (Ares Industrial REIT / legacy Black Creek),open-end fund,yes,5,3,13,14
-BROOKFIELD ASSET MANAGEMENT,Brookfield Asset Management (Logistics),closed-end PE,yes,5,3,16,14
+LINK LOGISTICS REAL ESTATE,Link Logistics Real Estate,open-end fund,yes,5,3,5,14
 MARCUS PARTNERS,Marcus Partners,closed-end PE,yes,5,3,4,14
 VELOCITY VENTURE PARTNERS,"Velocity Venture Partners, LLC",closed-end PE,yes,4,4,1,13
 BRIDGE LOGISTICS PROPERTIES,Bridge Logistics Properties,closed-end PE,yes,4,3,4,12
 INVESCO REAL ESTATE,Invesco Real Estate,open-end fund,yes,3,5,7,12
-LINK LOGISTICS REAL ESTATE,Link Logistics Real Estate,open-end fund,yes,4,3,5,12
+RIDGECUT ROAD,Ridgecut Road,IOS specialist,yes,4,3,5,12
 STAG INDUSTRIAL,"STAG Industrial, Inc.",REIT,yes,4,3,5,12
 TREETOP COMPANIES,Treetop Companies,family office,yes,3,5,1,12
 PENWOOD REAL ESTATE INVESTMENT MANAGEMENT,"Penwood Real Estate Investment Management, LLC",closed-end PE,yes,4,2,6,11
@@ -32,7 +33,6 @@ HINES,Hines,closed-end PE,yes,4,1,6,10
 KURV INDUSTRIAL,Kurv Industrial,other,yes,4,1,0,10
 OLIVER STREET CAPITAL,Oliver Street Capital,closed-end PE,yes,2,5,5,10
 PROPERTY RESERVE,"Property Reserve, Inc.",other,yes,4,1,2,10
-RIDGECUT ROAD,Ridgecut Road,IOS specialist,yes,3,3,5,10
 TURNBRIDGE EQUITIES,Turnbridge Equities,developer-holder,yes,3,3,7,10
 BRENTWOOD REALTY,Brentwood Realty,other,yes,3,2,3,9
 DORA S NATURALS,Dora's Naturals,owner-user,yes,3,2,1,9
@@ -48,6 +48,7 @@ DERMODY PROPERTIES,Dermody Properties,developer-holder,yes,2,2,8,7
 DIVERSIFIED PROPERTIES,Diversified Properties LLC,developer-holder,yes,2,2,1,7
 GLP CAPITAL PARTNERS,GLP Capital Partners (GCP),closed-end PE,yes,2,2,9,7
 LINCOLN EQUITIES GROUP,Lincoln Equities Group,developer-holder,yes,3,0,6,7
+MAPLETREE INVESTMENTS,Mapletree Investments,developer-holder,yes,2,2,6,7
 SAADIA GROUP,Saadia Group LLC,other,yes,2,2,1,7
 AAA WHOLESALE,AAA Wholesale,owner-user,yes,2,1,3,6
 BAIN CAPITAL REAL ESTATE,Bain Capital Real Estate,closed-end PE,yes,0,5,6,6
@@ -55,10 +56,13 @@ BGO,BGO (BentallGreenOak),open-end fund,yes,2,1,13,6
 BLACKROCK,BlackRock Realty Advisors,other,yes,2,1,3,6
 CBRE INVESTMENT MANAGEMENT,CBRE Investment Management,open-end fund,yes,1,3,4,6
 CRITERION GROUP,Criterion Group LLC,IOS specialist,yes,1,3,3,6
+DAYBREAK EXPRESS,"Daybreak Express, Inc.",owner-user,yes,2,1,0,6
+DEUGEN DEVELOPMENT,Deugen Development,developer-holder,yes,1,3,3,6
 EAGLE CLIFF REAL ESTATE PARTNERS,Eagle Cliff Real Estate Partners,other,yes,2,1,1,6
 ELBERON DEVELOPMENT GROUP,Elberon Development Group,developer-holder,yes,2,1,0,6
 ELION PARTNERS,Elion Partners,closed-end PE,yes,2,1,7,6
 GBD INTERNATIONAL,GBD International Inc.,owner-user,yes,2,1,1,6
+HARTZ MOUNTAIN INDUSTRIES,"Hartz Mountain Industries, Inc.",developer-holder,yes,2,1,0,6
 INNOVATIVE INDUSTRIAL PROPERTIES,"Innovative Industrial Properties, Inc.",REIT,yes,1,3,5,6
 JADIAN IOS,Jadian IOS (JIOS),IOS specialist,yes,2,1,7,6
 LEGACY CAPITAL,Legacy Capital,other,yes,2,1,1,6
@@ -80,7 +84,6 @@ B AND D HOLDINGS,B&D Holdings,developer-holder,yes,1,2,4,5
 CABOT PROPERTIES,Cabot Properties,closed-end PE,yes,0,4,0,5
 FORSGATE INDUSTRIAL PARTNERS,Forsgate Industrial Partners,developer-holder,yes,1,2,8,5
 HAMPSHIRE COMPANIES,The Hampshire Companies,closed-end PE,yes,2,0,14,5
-MAPLETREE INVESTMENTS,Mapletree Investments,developer-holder,yes,1,2,6,5
 STONEMONT FINANCIAL GROUP,Stonemont Financial Group,closed-end PE,yes,1,2,6,5
 TOSH WOLFE,Tosh Wolfe (WDG Logistic Partners),developer-holder,yes,1,2,5,5
 3 V COMPANY,"3 V Company, Inc.",owner-user,yes,1,1,2,4
@@ -101,10 +104,9 @@ CENTERBRIDGE PARTNERS,Centerbridge Partners,closed-end PE,yes,0,3,9,4
 CITY KNICKERBOCKER,City Knickerbocker,owner-user,yes,1,1,2,4
 CLASS 1 RAILROAD,Class 1 Railroad,owner-user,yes,1,1,1,4
 CREATION EQUITY,Creation Equity,developer-holder,yes,1,1,2,4
+DALFEN INDUSTRIAL CENTERBRIDGE PARTNERS,,,no,2,0,0,4
 DAVCO GROUP,Davco Group,other,yes,1,1,4,4
-DAYBREAK EXPRESS,"Daybreak Express, Inc.",owner-user,yes,1,1,0,4
 DEKO INTERNATIONAL,Deko International,owner-user,yes,1,1,0,4
-DEUGEN DEVELOPMENT,Deugen Development,developer-holder,yes,0,3,3,4
 DH PROPERTY HOLDINGS,"DH Property Holdings, LLC (DHPH)",developer-holder,yes,1,1,6,4
 DHOLAKIA PROPERTIES,Dholakia Properties LLC,owner-user,yes,1,1,0,4
 EDGEWOOD PROPERTIES,Edgewood Properties,developer-holder,yes,1,1,0,4
@@ -116,7 +118,6 @@ FEDERAL BUSINESS CENTERS,Federal Business Centers,developer-holder,yes,1,1,0,4
 GLENDALE WAREHOUSE AND DISTRIBUTION,Glendale Warehouse and Distribution Corp.,owner-user,yes,1,1,0,4
 GOODMAN GROUP,Goodman Group (Goodman North America),developer-holder,yes,1,1,5,4
 GOURMET NUT,"Gourmet Nut, Inc.",owner-user,yes,1,1,0,4
-HARTZ MOUNTAIN INDUSTRIES,"Hartz Mountain Industries, Inc.",developer-holder,yes,1,1,0,4
 HEAVEN INVESTMENTS,Heaven Investments LLC,other,yes,1,1,0,4
 INDUSTRIAL OUTDOOR VENTURES,Industrial Outdoor Ventures,IOS specialist,yes,1,1,3,4
 ISTAR REALTY,iStar Realty LLC,owner-user,yes,1,1,0,4
@@ -200,6 +201,8 @@ SAXUM REAL ESTATE,Saxum Real Estate,developer-holder,yes,1,0,0,3
 SCANNELL PROPERTIES,Scannell Properties,developer-holder,yes,0,2,0,3
 TRANSWESTERN DEVELOPMENT COMPANY,Transwestern Development Company,developer-holder,yes,0,2,0,3
 XEBEC REALTY,Xebec Realty,developer-holder,yes,0,2,0,3
+130 GRAND ST REALTY,,,no,1,0,0,2
+ADVANCE REALTY GREEK DEVELOPMENT,,,no,1,0,0,2
 AEW CAPITAL MANAGEMENT,AEW Capital Management,open-end fund,yes,0,1,0,2
 ALTI CONSTRUCTION,Alti Construction,owner-user,yes,0,1,0,2
 ALTMAN,,,no,1,0,0,2
@@ -217,6 +220,7 @@ COLUMBIA STORAGE GROUP,,,no,1,0,0,2
 COMMERCIAL REALTY GROUP,Commercial Realty Group,developer-holder,yes,0,1,0,2
 COMMERCIAL REALTY GROUP NORTH JERSEY DEVELOPMENT GROUP,,,no,1,0,0,2
 CONTAINER STORAGE USER,,,no,1,0,0,2
+CONTRACT LEASING,,,no,1,0,0,2
 CPP INVESTMENTS,CPP Investments,other,yes,0,1,0,2
 CRG REALTY,,,no,1,0,0,2
 CROW HOLDINGS INDUSTRIAL,,,no,1,0,0,2
@@ -259,10 +263,13 @@ NORTH BRIDGE ASSOCIATES,,,no,1,0,0,2
 NORTHEAST CAPITAL GROUP,Northeast Capital Group,other,yes,0,1,0,2
 NORTHEAST CAPITAL GROUP BHN ASSOCIATES,,,no,1,0,0,2
 NORTHPATH INVESTMENTS,Northpath Investments,other,yes,0,1,0,2
+OLIVER STREET CAPITAL BAIN CAPITAL REAL ESTATE,,,no,1,0,0,2
 ONYX EQUITIES,Onyx Equities,developer-holder,yes,0,1,0,2
 PCCP,"PCCP, LLC",closed-end PE,yes,0,1,0,2
 PEAKSTONE REALTY TRUST,Peakstone Realty Trust,REIT,yes,0,1,0,2
 PGIM PRIVATE REAL ESTATE FUND,"PGIM Private Real Estate Fund, Inc.",REIT,yes,0,1,0,2
+PORTEX,,,no,1,0,0,2
+PROVENDER PARTNERS,,,no,1,0,0,2
 PSE AND G,PSE&G,owner-user,yes,0,1,0,2
 PSP INVESTMENTS,PSP Investments,other,yes,0,1,0,2
 RACHEL SCHMIED,Rachel Schmied,other,yes,0,1,0,2

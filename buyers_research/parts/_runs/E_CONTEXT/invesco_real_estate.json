@@ -69,7 +69,7 @@
    "source_date": "2024-02-28",
    "confidence": "med",
    "notes": "Cross-dock, 33 loading doors, 30-ft clear (Connect CRE); seller/price per year-2024 slice; psf computed | Cross-dock, 33 loading doors, 30' clear, Exit 8A submarket; terms undisclosed; buyer reported as Invesco Real Estate (lead says INREIT - vehicle not confirmed in excerpt); also re-nj, NJBIZ, REBusinessOnline, IREI",
-   "verification": "",
+   "verification": "confirmed:buyer;confirmed:sf;confirmed:date;confirmed:price;confirmed:seller",
    "source_parts": "B_geo_middlesex.jsonl;B_reit_industrial.jsonl",
    "dupes_merged": "1"
   },
@@ -103,7 +103,7 @@
    "source_date": "2024-02-28",
    "confidence": "med",
    "notes": "Cross-dock, 33 loading doors, 30-ft clear; JLL arranged sale Feb 27 2024 per NJBIZ; price $55M and seller per NJBIZ Q1 2024 roundup (https://njbiz.com/q1-2024-north-central-new-jersey-industrial-market-top-deals-and-sales/) and traded.co; JLL release https://www.jll.com/en-us/newsroom/jll-closes-sale-of-nj-industrial-warehouse; psf computed",
-   "verification": "",
+   "verification": "confirmed:buyer;confirmed:sf;confirmed:date;confirmed:price;confirmed:seller",
    "source_parts": "B_year_2024.jsonl",
    "dupes_merged": "0"
   },
@@ -137,7 +137,7 @@
    "source_date": "2023-05-31",
    "confidence": "med",
    "notes": "Newly built redevelopment of former CIT Bank HQ; 36' clear, 54 docks, 2 drive-ins; traded.co $98.5M (https://traded.co/deals/new-jersey/industrial/sale/8-peach-tree-hill-rd/); RE-NJ: https://re-nj.com/developers-sell-newly-built-294000-sq-ft-industrial-building-in-livingston-cw-says/; ROI-NJ 2023-05-31; NJBIZ: https://njbiz.com/sale-of-new-livingston-logistics-site-signals-successful-redevelopment/; psf computed",
-   "verification": "",
+   "verification": "confirmed:buyer;confirmed:seller;confirmed:sf;confirmed:price;confirmed:date",
    "source_parts": "B_geo_hudson_essex.jsonl",
    "dupes_merged": "0"
   }
@@ -156,7 +156,7 @@
    "evidence_url": "https://www.sec.gov/Archives/edgar/data/1305319/000130531920000001/primary_doc.xml",
    "confidence": "high",
    "notes": "Open-ended core fund (ICRE) established Sept 2004, ~$9.5B assets; GPs IRI Core I, L.P. and IRI Core GP, LLC. Likely vehicle for core NJ industrial buys (152 Ridge Road South Brunswick $55M, closed 2/29/2024; 8 Peach Tree Hill Road / West Essex Logistics Center, Livingston, 293,887 SF, $98.5M, May 2023) but press names only 'Invesco Real Estate'. CPE also reports an 'Invesco JV' obtaining financing on a New Jersey warehouse (https://www.commercialsearch.com/news/invesco-jv-lands-financing-for-new-jersey-warehouse/) - borrower LLC not in excerpt.",
-   "verification": "",
+   "verification": "confirmed:buyer_name;confirmed:mailing_or_registered_address;confirmed:state_of_formation",
    "source_parts": "C_04.jsonl",
    "dupes_merged": "0"
   },
@@ -258,7 +258,7 @@
    "evidence_url": "https://livingstonnj.org/DocumentCenter/View/12151/8-Peach-Tree-Hill-Road---Planning-Completness-Review--07-15-2021",
    "confidence": "med",
    "notes": "Site-plan applicant for 8 Peach Tree Hill Road, Livingston (Block 6100, Lots 12 & 13; RL zone / Peach Tree Hill Overlay) - 293,887 SF warehouse (283,887 SF warehouse + 10,000 SF office, 54 docks, 56 trailer spaces), July 2021. This is the developer-side (Bluewater Property Group / Affinius Capital) entity; Invesco Real Estate bought the completed West Essex Logistics Center for $98.5M in May 2023 (C&W). Confirm whether Invesco took a deed from this LLC or acquired the LLC itself; Developer's Agreement with Township also attaches to this entity.",
-   "verification": "",
+   "verification": "confirmed:entity_name;unverifiable:buyer_name",
    "source_parts": "C_04.jsonl",
    "dupes_merged": "0"
   }

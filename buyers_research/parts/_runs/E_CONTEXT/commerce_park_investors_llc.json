@@ -241,7 +241,7 @@
    "evidence_url": "https://commerceparkventures.com/projects/commerce-park-investors-ii/",
    "confidence": "med",
    "notes": "Holds 273 Franklin Rd, Randolph, NJ (approx. 26,070-28,000 sf warehouse, $4.5M). Name as shown on sponsor's project page; LLC suffix not shown in excerpt.",
-   "verification": "",
+   "verification": "confirmed:entity_name;confirmed:notes",
    "source_parts": "C_02.jsonl",
    "dupes_merged": "0"
   },
@@ -309,7 +309,7 @@
    "evidence_url": "https://commerceparkventures.com/projects/commerce-park-ventures-ix/",
    "confidence": "med",
    "notes": "Holds 611 Union Boulevard, Totowa, NJ per sponsor project page (JV with Legacy Real Estate Developers, bought Feb 2026; press reports resale to Noor Food Manufacturing Oct 2026 - ownership may have changed).",
-   "verification": "",
+   "verification": "confirmed:entity_name;confirmed:notes",
    "source_parts": "C_02.jsonl",
    "dupes_merged": "0"
   },

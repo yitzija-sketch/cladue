@@ -18,37 +18,37 @@
   "unknown": 92,
   "no": 22
  },
- "B_raw_rows": 877,
+ "B_raw_rows": 906,
  "B_unparseable_blocks": {},
- "B_rows": 612,
+ "B_rows": 631,
  "B_portfolio_summary_rows": 64,
  "B_by_year": {
   "2019": 54,
   "2020": 62,
-  "2021": 76,
-  "2022": 121,
-  "2023": 76,
-  "2024": 62,
-  "n/a": 161
+  "2021": 79,
+  "2022": 127,
+  "2023": 77,
+  "2024": 66,
+  "n/a": 166
  },
  "B_by_county": {
   "blank": 13,
-  "Bergen": 116,
-  "Middlesex": 108,
-  "Hudson": 35,
-  "Essex": 46,
-  "Morris": 60,
-  "Burlington": 53,
-  "Somerset": 40,
+  "Bergen": 118,
+  "Middlesex": 112,
+  "Hudson": 37,
+  "Essex": 49,
+  "Morris": 61,
+  "Burlington": 55,
+  "Somerset": 41,
   "Passaic": 39,
   "Mercer": 33,
   "Monmouth": 21,
-  "Union": 48
+  "Union": 52
  },
- "B_with_price": 293,
- "B_with_sf": 442,
+ "B_with_price": 300,
+ "B_with_sf": 448,
  "B_with_cap_rate": 5,
- "B_with_spv": 40,
+ "B_with_spv": 41,
  "C_raw_rows": 492,
  "C_unparseable_blocks": {},
  "C_rows": 479,
@@ -122,7 +122,7 @@
   "2024": 138,
   "2025": 173
  },
- "rank_rows": 406,
+ "rank_rows": 413,
  "top_30_active": [
   [
    "DEVLI REAL ESTATE",
@@ -150,6 +150,11 @@
    10
   ],
   [
+   "CENTERPOINT PROPERTIES",
+   24,
+   9
+  ],
+  [
    "LONGPOINT REALTY PARTNERS",
    23,
    10
@@ -160,9 +165,9 @@
    9
   ],
   [
-   "CENTERPOINT PROPERTIES",
-   22,
-   8
+   "REALTERM",
+   20,
+   7
   ],
   [
    "TERRENO REALTY",
@@ -185,8 +190,8 @@
    8
   ],
   [
-   "REALTERM",
-   18,
+   "BROOKFIELD ASSET MANAGEMENT",
+   16,
    6
   ],
   [
@@ -215,7 +220,7 @@
    5
   ],
   [
-   "BROOKFIELD ASSET MANAGEMENT",
+   "LINK LOGISTICS REAL ESTATE",
    14,
    5
   ],
@@ -240,7 +245,7 @@
    3
   ],
   [
-   "LINK LOGISTICS REAL ESTATE",
+   "RIDGECUT ROAD",
    12,
    4
   ],
@@ -268,26 +273,25 @@
    "DENHOLTZ PROPERTIES",
    10,
    3
-  ],
-  [
-   "HINES",
-   10,
-   4
   ]
  ],
  "buyers_in_B_not_in_A": [
   "MORVAY",
+  "DALFEN INDUSTRIAL CENTERBRIDGE PARTNERS",
   "BROOKLYN BASED METAL MANUFACTURER",
+  "130 GRAND ST REALTY",
   "DEVELOPER",
   "NORTH BRIDGE ASSOCIATES",
   "ALTMAN",
   "ALTMAN LOGISTICS PROPERTIES DWS JV",
   "JUNK REMOVAL COMPANY",
+  "ADVANCE REALTY GREEK DEVELOPMENT",
   "NORTHEAST CAPITAL GROUP BHN ASSOCIATES",
   "DALFEN INDUSTRIAL AND CENTERBRIDGE PARTNERS",
   "STRO MILLSTEIN FAMILY OFFICE",
   "TRANSWESTERN DEVELOPMENT CO QUADREAL PROPERTY GROUP",
   "LONGTIME TENANT INVESTMENT GROUP",
+  "OLIVER STREET CAPITAL BAIN CAPITAL REAL ESTATE",
   "VENTURE ONE REAL ESTATE KOVITZ INVESTMENT GROUP",
   "LABORATORY PLASTICS MAKER",
   "GLADSTONE COMMERCIAL",
@@ -296,8 +300,11 @@
   "CROW HOLDINGS INDUSTRIAL",
   "DUKE REALTY CORPORATION",
   "KUSHNER REAL ESTATE GROUP STRO COS",
+  "PORTEX",
   "LOGISTICS PROPERTY CO",
+  "PROVENDER PARTNERS",
   "BARINGS VISION REAL ESTATE PARTNERS",
+  "CONTRACT LEASING",
   "TACONIC PARTNERS NUVEEN REAL ESTATE",
   "TRAMMELL CROW COMPANY CBRE INVESTMENT MANAGEMENT",
   "CONTAINER STORAGE USER",

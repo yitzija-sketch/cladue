@@ -34,7 +34,7 @@
   "nj_active": "yes",
   "nj_deal_count_seen": "2",
   "source_url": "https://penwoodre.com/investment-strategy/",
-  "verification": "",
+  "verification": "confirmed:stated_criteria_quote;confirmed:min_price;confirmed:nj_active;confirmed:notes",
   "source_parts": "A3_national_pe_valueadd.jsonl;A4_nynj_private_operators.jsonl",
   "dupes_merged": "1"
  },
@@ -69,7 +69,7 @@
    "source_date": "2023-02-21",
    "confidence": "med",
    "notes": "JLL arranged $19.56M acquisition financing for a 109,775 SF warehouse/distribution facility in Carlstadt (Meadowlands); lender, seller and price not in excerpt; also NJBIZ https://njbiz.com/meadowlands-warehouse-secures-19-56m-in-acquisition-financing/",
-   "verification": "",
+   "verification": "confirmed:date",
    "source_parts": "B_year_2023.jsonl",
    "dupes_merged": "0"
   },
@@ -81,11 +81,11 @@
    "buyer": "Penwood Real Estate Investment Management",
    "buyer_name_key": "PENWOOD REAL ESTATE INVESTMENT MANAGEMENT",
    "buyer_parent": "",
-   "buyer_spv_named": "",
+   "buyer_spv_named": "Penwood Select Industrial Fund VI LP",
    "seller": "",
    "seller_name_key": "",
    "seller_parent": "",
-   "sf": "",
+   "sf": "96583",
    "acres": "",
    "price": "31250000",
    "price_psf": "",
@@ -96,14 +96,14 @@
    "tenant": "",
    "lender": "",
    "loan_amount": "",
-   "brokers": "",
+   "brokers": "McBride Corporate Real Estate (Jim McNerney, John D'Amato) represented buyer and undisclosed seller",
    "deal_type": "sale",
    "portfolio_context": "",
    "source_url": "https://traded.co/deals/new-jersey/industrial/sale/1-caesar-place-2/",
    "source_date": "",
    "confidence": "low",
    "notes": "traded.co: sold 2023-01-11 for $31,250,000. Probably the same deal as the Feb-2023 JLL-arranged $19.56M acquisition financing for Penwood's 109,775 SF Meadowlands warehouse (ROI-NJ 2023-02-21, recorded in B_year_2023 as Carlstadt) - if so sf=109,775 and the town is Moonachie; not confirmed. Seller not in excerpt",
-   "verification": "",
+   "verification": "confirmed:buyer;confirmed:buyer_spv_named;filled:buyer_spv_named;confirmed:price;confirmed:date;confirmed:sf;filled:sf;confirmed:brokers;filled:brokers",
    "source_parts": "B_geo_bergen.jsonl",
    "dupes_merged": "0"
   },
@@ -207,7 +207,7 @@
    "evidence_url": "https://www.sec.gov/Archives/edgar/data/1848049/000184804921000001/xslFormDX01/primary_doc.xml",
    "confidence": "high",
    "notes": "General Partner of Penwood Select Industrial Fund VI, L.P. per the fund's SEC Form D; likely signatory entity on deeds/mortgages for Fund VI's NJ SPVs (Moonachie, Bordentown, Carlstadt).",
-   "verification": "",
+   "verification": "confirmed:row",
    "source_parts": "C_05.jsonl",
    "dupes_merged": "0"
   },
@@ -224,7 +224,7 @@
    "evidence_url": "https://fintrx.com/firms/firm/penwood-real-estate-investment-management-llc-130289",
    "confidence": "low",
    "notes": "SEC-registered investment adviser, CRD #130289, organized 2005; acts as sponsor, general partner and managing member of its pooled funds; ~$1.47B RAUM, 18 employees; notice-filed in Connecticut and New Jersey; manages 6 private funds with ~$1.5B gross assets (Form ADV Schedule D mirror at https://privatefunddata.com/fund-companies/penwood-real-estate-investment-management-llc/). Address corroborated by the SEC Form D of Penwood Select Industrial Fund VI (officer names from that filing). Aggregator mirror of Form ADV = low confidence; NJ tax bills for fund assets likely mailed c/o this West Hartford address. re-nj/JLL name 'Penwood Real Estate Investment Management LLC' as borrower of the $40M acquisition loan for 201 Elizabeth Street, Bordentown (33.9-acre site) - https://re-nj.com/jll-penwood-snags-40-million-acquisition-loan-for-274000-sq-ft-bordentown-warehouse/.",
-   "verification": "",
+   "verification": "confirmed:mailing_or_registered_address",
    "source_parts": "C_05.jsonl",
    "dupes_merged": "0"
   },
@@ -241,7 +241,7 @@
    "evidence_url": "https://www.sec.gov/Archives/edgar/data/1848049/000184804921000001/xslFormDX01/primary_doc.xml",
    "confidence": "high",
    "notes": "SEC Form D (CIK 1848049): total offering $381,500,000, fully sold; General Partner Penwood Fund VI GP LLC at same address; phone 860-218-6530. Vehicle named in press as acquirer of NJ assets: 1 Caesar Place, Moonachie (97,000 SF, $31.25M, 2023; re-nj); 201 Elizabeth Street, Bordentown (274,197-276,000 SF, $60M, 2022, $40M JLL-arranged acquisition loan); 305 Veterans Blvd, Carlstadt (109,775 SF, 2023, $19.56M 3-yr floating acquisition loan from TriState Capital Bank arranged by JLL - https://www.roi-nj.com/2023/02/21/real_estate/jll-secures-19-56m-financing-for-penwood-real-estate-to-acquire-industrial-warehouse-in-meadowlands/). Prior sweep recorded the name as 'Penwood Select Industrial Partners VI'; the registered name is Penwood Select Industrial Fund VI, L.P. (Form ADV mirror shows $431.1M gross). State of formation inferred DE from Form D jurisdiction field not visible in excerpt - treat as unverified. NJBIZ names 'Penwood Select Industrial Fund VI LP' as the borrower on the 305 Veterans Blvd Carlstadt acquisition loan (https://njbiz.com/meadowlands-warehouse-secures-19-56m-in-acquisition-financing/); Penwood's own release says the acquisition was made 'through its sixth value-added investment vehicle, Penwood Select Industrial Fund VI, L.P.' (https://www.marejournal.com/post/penwood-announces-the-acquisition-of-305-veterans-blvd-in-carlstadt-nj). re-nj tag page for the fund (https://re-nj.com/tag/penwood-select-industrial-fund-vi-lp/) carries the C&W announcement that Penwood acquired 201 Elizabeth St, Bordentown (275,631 SF, $60M) 'through its sixth value-added investment vehicle, Penwood Select Industrial Fund VI, L.P.'",
-   "verification": "",
+   "verification": "confirmed:row;confirmed:state_of_formation;confirmed:mailing_or_registered_address;confirmed:notes;confirmed:notes;confirmed:notes;unverifiable:notes",
    "source_parts": "C_05.jsonl",
    "dupes_merged": "0"
   },
@@ -258,7 +258,7 @@
    "evidence_url": "https://penwoodre.com/wp-content/uploads/2022/12/East-Linden-Sale-Press-Release.pdf",
    "confidence": "high",
    "notes": "Penwood's own news release (West Hartford, 2019-10-04): 'through its fourth value-added investment vehicle, Penwood Select Industrial Partners IV, L.P.' Penwood sold an 83,220 SF industrial building at 2401 East Linden Avenue, Linden, NJ (buyer per locally recorded C&W release: Link Industrial Properties). re-nj tag page (https://re-nj.com/tag/penwood-real-estate-investment-management-llc/) reports Penwood had acquired 2401 E. Linden Ave from 265 Pennsylvania Realty, LLC and 1501 West Blancke Street, Linden from Tulfra Real Estate - fund for the Blancke parcel not stated. Fund IV is a prior-vintage vehicle, so current NJ holdings are more likely in Fund VI / Partners VII.",
-   "verification": "",
+   "verification": "confirmed:row;confirmed:notes;confirmed:notes;confirmed:mailing_or_registered_address",
    "source_parts": "C_05.jsonl",
    "dupes_merged": "0"
   },
@@ -275,7 +275,7 @@
    "evidence_url": "https://privatefunddata.com/fund-companies/penwood-real-estate-investment-management-llc/",
    "confidence": "low",
    "notes": "Listed among Penwood's 6 private funds in Form ADV Schedule D mirror (~$459.9M gross assets) - the successor value-add vehicle to Fund VI; any NJ acquisitions after ~2023-2024 are likely held through this fund. Aggregator mirror.",
-   "verification": "",
+   "verification": "confirmed:row",
    "source_parts": "C_05.jsonl",
    "dupes_merged": "0"
   }

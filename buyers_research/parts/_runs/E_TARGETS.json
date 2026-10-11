@@ -23,7 +23,7 @@
   "name": "Prologis, Inc.",
   "name_key": "PROLOGIS",
   "context_file": "/home/user/cladue/buyers_research/parts/_runs/E_CONTEXT/prologis_inc.json",
-  "deals": 19,
+  "deals": 16,
   "entities": 12
  },
  {
@@ -50,17 +50,17 @@
   "name": "Sagard Real Estate",
   "name_key": "SAGARD REAL ESTATE",
   "context_file": "/home/user/cladue/buyers_research/parts/_runs/E_CONTEXT/sagard_real_estate.json",
-  "deals": 9,
+  "deals": 10,
   "entities": 8
  },
  {
-  "key": "E_the_stro_companies",
-  "slug": "the_stro_companies",
-  "name": "The STRO Companies",
-  "name_key": "STRO COMPANIES",
-  "context_file": "/home/user/cladue/buyers_research/parts/_runs/E_CONTEXT/the_stro_companies.json",
-  "deals": 6,
-  "entities": 4
+  "key": "E_realterm",
+  "slug": "realterm",
+  "name": "Realterm",
+  "name_key": "REALTERM",
+  "context_file": "/home/user/cladue/buyers_research/parts/_runs/E_CONTEXT/realterm.json",
+  "deals": 9,
+  "entities": 3
  },
  {
   "key": "E_commerce_park_investors_llc",
@@ -90,13 +90,22 @@
   "entities": 9
  },
  {
-  "key": "E_realterm",
-  "slug": "realterm",
-  "name": "Realterm",
-  "name_key": "REALTERM",
-  "context_file": "/home/user/cladue/buyers_research/parts/_runs/E_CONTEXT/realterm.json",
-  "deals": 8,
-  "entities": 3
+  "key": "E_brookfield_asset_management_logistics",
+  "slug": "brookfield_asset_management_logistics",
+  "name": "Brookfield Asset Management (Logistics)",
+  "name_key": "BROOKFIELD ASSET MANAGEMENT",
+  "context_file": "/home/user/cladue/buyers_research/parts/_runs/E_CONTEXT/brookfield_asset_management_logistics.json",
+  "deals": 6,
+  "entities": 16
+ },
+ {
+  "key": "E_the_stro_companies",
+  "slug": "the_stro_companies",
+  "name": "The STRO Companies",
+  "name_key": "STRO COMPANIES",
+  "context_file": "/home/user/cladue/buyers_research/parts/_runs/E_CONTEXT/the_stro_companies.json",
+  "deals": 4,
+  "entities": 4
  },
  {
   "key": "E_thor_equities_group",
@@ -135,13 +144,13 @@
   "entities": 13
  },
  {
-  "key": "E_brookfield_asset_management_logistics",
-  "slug": "brookfield_asset_management_logistics",
-  "name": "Brookfield Asset Management (Logistics)",
-  "name_key": "BROOKFIELD ASSET MANAGEMENT",
-  "context_file": "/home/user/cladue/buyers_research/parts/_runs/E_CONTEXT/brookfield_asset_management_logistics.json",
-  "deals": 5,
-  "entities": 16
+  "key": "E_link_logistics_real_estate",
+  "slug": "link_logistics_real_estate",
+  "name": "Link Logistics Real Estate",
+  "name_key": "LINK LOGISTICS REAL ESTATE",
+  "context_file": "/home/user/cladue/buyers_research/parts/_runs/E_CONTEXT/link_logistics_real_estate.json",
+  "deals": 6,
+  "entities": 5
  },
  {
   "key": "E_marcus_partners",
@@ -180,15 +189,6 @@
   "entities": 7
  },
  {
-  "key": "E_link_logistics_real_estate",
-  "slug": "link_logistics_real_estate",
-  "name": "Link Logistics Real Estate",
-  "name_key": "LINK LOGISTICS REAL ESTATE",
-  "context_file": "/home/user/cladue/buyers_research/parts/_runs/E_CONTEXT/link_logistics_real_estate.json",
-  "deals": 5,
-  "entities": 5
- },
- {
   "key": "E_ridgecut_road",
   "slug": "ridgecut_road",
   "name": "Ridgecut Road",
@@ -207,13 +207,13 @@
   "entities": 5
  },
  {
-  "key": "E_turnbridge_equities",
-  "slug": "turnbridge_equities",
-  "name": "Turnbridge Equities",
-  "name_key": "TURNBRIDGE EQUITIES",
-  "context_file": "/home/user/cladue/buyers_research/parts/_runs/E_CONTEXT/turnbridge_equities.json",
-  "deals": 4,
-  "entities": 7
+  "key": "E_treetop_companies",
+  "slug": "treetop_companies",
+  "name": "Treetop Companies",
+  "name_key": "TREETOP COMPANIES",
+  "context_file": "/home/user/cladue/buyers_research/parts/_runs/E_CONTEXT/treetop_companies.json",
+  "deals": 5,
+  "entities": 1
  },
  {
   "key": "E_penwood_real_estate_investment_management_llc",
