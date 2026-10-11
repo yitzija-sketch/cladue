@@ -1,4 +1,4 @@
-# checkpoint 2026-10-11T06:48:41Z
+# checkpoint 2026-10-11T06:58:44Z
 # part file -> bytes / lines written so far
 buyers_research/parts/A_buyers/A1_public_reits.jsonl 55519 bytes 29 lines
 buyers_research/parts/A_buyers/A2_institutional_core.jsonl 87268 bytes 52 lines
@@ -20,6 +20,8 @@ buyers_research/parts/B_deals/B_geo_somerset_morris.jsonl 63001 bytes 64 lines
 buyers_research/parts/B_deals/B_geo_union_passaic.jsonl 72313 bytes 80 lines
 buyers_research/parts/B_deals/B_reit_industrial.jsonl 32545 bytes 32 lines
 buyers_research/parts/B_deals/B_reit_netlease_cold.jsonl 16907 bytes 13 lines
+buyers_research/parts/B_deals/B_spec_ios_cold.jsonl 19880 bytes 19 lines
+buyers_research/parts/B_deals/B_spec_slb_land.jsonl 23593 bytes 24 lines
 buyers_research/parts/B_deals/B_year_2019.jsonl 43722 bytes 44 lines
 buyers_research/parts/B_deals/B_year_2020.jsonl 36923 bytes 36 lines
 buyers_research/parts/B_deals/B_year_2021.jsonl 46647 bytes 51 lines
@@ -68,4 +70,14 @@ buyers_research/parts/V_verify/V_B_geo_middlesex.jsonl 17121 bytes 34 lines
 buyers_research/parts/V_verify/V_B_year_2022.jsonl 13929 bytes 31 lines
 buyers_research/parts/V_verify/V_B_year_2023.jsonl 15913 bytes 33 lines
 buyers_research/parts/V_verify/V_B_year_2024.jsonl 13593 bytes 30 lines
+buyers_research/parts/V_verify/V_C_02.jsonl 8111 bytes 12 lines
+buyers_research/parts/V_verify/V_C_04.jsonl 9072 bytes 14 lines
+buyers_research/parts/V_verify/V_C_05.jsonl 14417 bytes 26 lines
+buyers_research/parts/V_verify/V_C_07.jsonl 10472 bytes 19 lines
+buyers_research/parts/V_verify/V_C_09.jsonl 9941 bytes 16 lines
+buyers_research/parts/V_verify/V_C_10.jsonl 8705 bytes 15 lines
+buyers_research/parts/V_verify/V_C_15.jsonl 10197 bytes 14 lines
+buyers_research/parts/V_verify/V_C_16.jsonl 10775 bytes 19 lines
+buyers_research/parts/V_verify/V_undated_1.jsonl 18410 bytes 28 lines
+buyers_research/parts/V_verify/V_undated_2.jsonl 19877 bytes 29 lines
 buyers_research/parts/_runs/EXCLUDE_B.jsonl 1123 bytes 9 lines
