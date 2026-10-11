@@ -20,21 +20,21 @@
  },
  "B_raw_rows": 863,
  "B_unparseable_blocks": {},
- "B_rows": 630,
- "B_portfolio_summary_rows": 65,
+ "B_rows": 624,
+ "B_portfolio_summary_rows": 64,
  "B_by_year": {
   "2019": 51,
-  "2020": 57,
+  "2020": 58,
   "2021": 68,
   "2022": 109,
   "2023": 69,
   "2024": 57,
-  "n/a": 219
+  "n/a": 212
  },
  "B_by_county": {
   "blank": 13,
   "Bergen": 116,
-  "Middlesex": 120,
+  "Middlesex": 114,
   "Hudson": 34,
   "Essex": 54,
   "Morris": 60,
@@ -45,8 +45,8 @@
   "Mercer": 30,
   "Monmouth": 21
  },
- "B_with_price": 310,
- "B_with_sf": 459,
+ "B_with_price": 308,
+ "B_with_sf": 453,
  "B_with_cap_rate": 5,
  "B_with_spv": 40,
  "C_raw_rows": 492,
@@ -135,14 +135,14 @@
    13
   ],
   [
-   "PROLOGIS",
-   33,
-   14
-  ],
-  [
    "SITEX GROUP",
    30,
    14
+  ],
+  [
+   "PROLOGIS",
+   29,
+   12
   ],
   [
    "FAROPOINT",
@@ -301,11 +301,11 @@
   "SERVICE TRUCK TIRE CENTER",
   "COMMERCIAL REALTY GROUP NORTH JERSEY DEVELOPMENT GROUP"
  ],
- "rejected_rows": 36,
+ "rejected_rows": 42,
  "rejected_by_reason": {
   "county out of scope": 8,
   "no address and no town": 15,
   "excluded by later pass": 3,
-  "date set by verification outside 2019-2024": 10
+  "date set by verification outside 2019-2024": 16
  }
 }

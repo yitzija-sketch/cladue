@@ -30,8 +30,8 @@ After each batch: `python3 -I buyers_research/tools/leads_from_journals.py && py
 | 4 | done 20:05Z (REIT slices 45 rows; D3-D6 319 rows) | nj-deals-b + nj-market-d | B_reit_industrial, B_reit_netlease_cold (30); D3_jll_kislak, D4_colliers_nai, D5_newmark_avison, D6_costar_rca_other (30) | 180 |
 | 5 | done 20:25Z (A: ~370 buyers; D: ~750 raw rows) | nj-buyers-a (custom groups) + nj-market-d | AX_1..AX_3 = buyers appearing in B deal rows but missing from A (from `consolidate_report.json: buyers_in_B_not_in_A`) (30 each); A1_public_reits, A2_institutional_core top-ups (25); D1, D2 top-ups (25) | 190 |
 | 6–9 | done 10-11 07:00Z (C_01–C_20, 100 buyers, ~480 raw entity rows) | nj-entities-c | top-100 of `buyer_activity_rank.csv`, 5 buyers per agent, 5 agents per turn, cap 36 (≈7 searches/buyer) | 180 × 4 |
-| 10 | running (10-11 07:05Z) | nj-verify-v | one skeptic per A part (9 × cap 12) + 4 B samplers (cap 20) | 188 |
-| 11 | pending | nj-verify-v + nj-deals-b | 4 C samplers (cap 25) + B specialty sweeps: IOS/truck, cold storage, sale-leaseback, industrial land (3 × 30) | 190 |
+| 10 | done 10-11 07:20Z (16 skeptics, ~500 verdicts, 13 refutations, 10 out-of-window deals dropped) | nj-verify-v | one skeptic per A part (9 × cap 12) + 4 B samplers (cap 20) | 188 |
+| 11 | running (10-11 07:25Z: 8 C samplers cap 10; 2 dating agents cap 30; 2 specialty sweeps cap 25) | nj-verify-v + nj-deals-b | 4 C samplers (cap 25) + B specialty sweeps: IOS/truck, cold storage, sale-leaseback, industrial land (3 × 30) | 190 |
 | 12 | pending | dossiers (inline Agent calls or a small workflow) | 25 most active buyers, cap 7 each; built mostly from the CSVs | 175 |
 | 13 | pending | — | final consolidation, README.md column dictionary, RESEARCH_LOG counts, summary; no searches | 0 |
 

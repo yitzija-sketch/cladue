@@ -1,8 +1,8 @@
 name_key,buyer_name,buyer_type,in_buyers_stated,press_deal_rows_2019_2024,nj_deal_count_seen_A,entities_found,activity_score
 DEVLI REAL ESTATE,Devli Real Estate,developer-holder,yes,12,12,3,37
 SEAGIS PROPERTY GROUP,Seagis Property Group,developer-holder,yes,13,10,3,37
-PROLOGIS,"Prologis, Inc.",REIT,yes,14,4,12,33
 SITEX GROUP,Sitex Group,developer-holder,yes,14,1,0,30
+PROLOGIS,"Prologis, Inc.",REIT,yes,12,4,12,29
 FAROPOINT,Faropoint,closed-end PE,yes,10,7,6,28
 CENTERPOINT PROPERTIES,CenterPoint Properties,developer-holder,yes,9,5,0,24
 LONGPOINT REALTY PARTNERS,Longpoint Realty Partners,closed-end PE,yes,10,2,5,23
@@ -43,7 +43,6 @@ HIGH STREET LOGISTICS PROPERTIES,High Street Logistics Properties,closed-end PE,
 IDI LOGISTICS,IDI Logistics,developer-holder,yes,2,3,2,8
 JOHNSON DEVELOPMENT ASSOCIATES,"Johnson Development Associates, Inc.",developer-holder,yes,3,1,3,8
 PRINCIPAL REAL ESTATE INVESTORS,Principal Real Estate Investors,open-end fund,yes,2,3,3,8
-BARINGS REAL ESTATE,Barings Real Estate,open-end fund,yes,2,2,7,7
 CAMBER REAL ESTATE PARTNERS,Camber Real Estate Partners,closed-end PE,yes,1,4,5,7
 COHEN ASSET MANAGEMENT,"Cohen Asset Management, Inc.",closed-end PE,yes,1,4,10,7
 DERMODY PROPERTIES,Dermody Properties,developer-holder,yes,2,2,8,7
@@ -182,11 +181,11 @@ WELLINGTON MANOR DESIGN,Wellington Manor Design LLC,owner-user,yes,1,1,0,4
 WORLD CLASS SALES,World Class Sales LLC,owner-user,yes,1,1,0,4
 YARON GOHAR,Yaron Gohar,other,yes,1,1,0,4
 ZEV HALPERT,Zev Halpert,other,yes,1,1,0,4
-ZURICH ALTERNATIVE ASSET MANAGEMENT,Zurich Alternative Asset Management LLC,other,yes,1,1,0,4
 ADVANCE REALTY INVESTORS,Advance Realty Investors,developer-holder,yes,0,2,0,3
 ALTERRA IOS,Alterra IOS,IOS specialist,yes,0,2,0,3
 ALTMAN LOGISTICS PROPERTIES,Altman Logistics Properties,developer-holder,yes,0,2,0,3
 ASB REAL ESTATE INVESTMENTS,ASB Real Estate Investments,open-end fund,yes,0,2,0,3
+BARINGS REAL ESTATE,Barings Real Estate,open-end fund,yes,0,2,7,3
 BROADSTONE NET LEASE,"Broadstone Net Lease, Inc.",REIT,yes,1,0,0,3
 CROW HOLDINGS INDUSTRIAL CROW HOLDINGS DEVELOPMENT,Crow Holdings Industrial / Crow Holdings Development,developer-holder,yes,0,2,0,3
 DEALS FOR LESS,Deals For Less,owner-user,yes,1,0,0,3
@@ -280,6 +279,7 @@ VISION REAL ESTATE PARTNERS,Vision Real Estate Partners,developer-holder,yes,0,1
 W P CAREY,W. P. Carey Inc.,REIT,yes,0,1,0,2
 WALTON STREET CAPITAL,Walton Street Capital,closed-end PE,yes,0,1,0,2
 WESTBROOK PARTNERS,Westbrook Partners,closed-end PE,yes,0,1,0,2
+ZURICH ALTERNATIVE ASSET MANAGEMENT,Zurich Alternative Asset Management LLC,other,yes,0,1,0,2
 ABU DHABI INVESTMENT AUTHORITY,Abu Dhabi Investment Authority (ADIA),other,yes,0,0,0,1
 ADLER DEVELOPMENT,Adler Development,developer-holder,yes,0,0,0,1
 AFFINIUS CAPITAL,Affinius Capital,other,yes,0,0,0,1
