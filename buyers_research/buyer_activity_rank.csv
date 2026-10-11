@@ -1,32 +1,32 @@
 name_key,buyer_name,buyer_type,in_buyers_stated,press_deal_rows_2019_2024,nj_deal_count_seen_A,entities_found,activity_score
-DEVLI REAL ESTATE,Devli Real Estate,developer-holder,yes,12,12,0,37
-SEAGIS PROPERTY GROUP,Seagis Property Group,developer-holder,yes,13,10,0,37
-PROLOGIS,"Prologis, Inc.",REIT,yes,14,4,0,33
+DEVLI REAL ESTATE,Devli Real Estate,developer-holder,yes,12,12,3,37
+SEAGIS PROPERTY GROUP,Seagis Property Group,developer-holder,yes,13,10,3,37
+PROLOGIS,"Prologis, Inc.",REIT,yes,14,4,12,33
 SITEX GROUP,Sitex Group,developer-holder,yes,14,1,0,30
-FAROPOINT,Faropoint,closed-end PE,yes,10,7,0,28
+FAROPOINT,Faropoint,closed-end PE,yes,10,7,6,28
 CENTERPOINT PROPERTIES,CenterPoint Properties,developer-holder,yes,9,5,0,24
-LONGPOINT REALTY PARTNERS,Longpoint Realty Partners,closed-end PE,yes,10,2,0,23
+LONGPOINT REALTY PARTNERS,Longpoint Realty Partners,closed-end PE,yes,10,2,5,23
 TERRENO REALTY,Terreno Realty Corporation,REIT,yes,8,5,0,22
-SAGARD REAL ESTATE,Sagard Real Estate,open-end fund,yes,8,4,0,21
-STRO COMPANIES,The STRO Companies,developer-holder,yes,5,9,0,20
-COMMERCE PARK INVESTORS,Commerce Park Investors LLC,developer-holder,yes,4,9,0,18
-DALFEN INDUSTRIAL,Dalfen Industrial,closed-end PE,yes,6,5,0,18
-MORGAN STANLEY REAL ESTATE INVESTING,Morgan Stanley Real Estate Investing,closed-end PE,yes,8,1,0,18
-REALTERM,Realterm,closed-end PE,yes,6,5,0,18
-THOR EQUITIES GROUP,Thor Equities Group,developer-holder,yes,5,5,0,16
-VENTURE ONE REAL ESTATE,Venture One Real Estate,closed-end PE,yes,3,9,0,16
-AMBIENT CAPITAL PARTNERS,Ambient Capital Partners,IOS specialist,yes,6,1,0,14
-ARES MANAGEMENT REAL ESTATE,Ares Management Real Estate (Ares Industrial REIT / legacy Black Creek),open-end fund,yes,5,3,0,14
-BROOKFIELD ASSET MANAGEMENT,Brookfield Asset Management (Logistics),closed-end PE,yes,5,3,0,14
-MARCUS PARTNERS,Marcus Partners,closed-end PE,yes,5,3,0,14
-VELOCITY VENTURE PARTNERS,"Velocity Venture Partners, LLC",closed-end PE,yes,4,4,0,13
-BRIDGE LOGISTICS PROPERTIES,Bridge Logistics Properties,closed-end PE,yes,4,3,0,12
-INVESCO REAL ESTATE,Invesco Real Estate,open-end fund,yes,3,5,0,12
-LINK LOGISTICS REAL ESTATE,Link Logistics Real Estate,open-end fund,yes,4,3,0,12
-RIDGECUT ROAD,Ridgecut Road,IOS specialist,yes,4,3,0,12
-STAG INDUSTRIAL,"STAG Industrial, Inc.",REIT,yes,4,3,0,12
-TURNBRIDGE EQUITIES,Turnbridge Equities,developer-holder,yes,4,3,0,12
-PENWOOD REAL ESTATE INVESTMENT MANAGEMENT,"Penwood Real Estate Investment Management, LLC",closed-end PE,yes,4,2,0,11
+SAGARD REAL ESTATE,Sagard Real Estate,open-end fund,yes,8,4,7,21
+STRO COMPANIES,The STRO Companies,developer-holder,yes,5,9,2,20
+COMMERCE PARK INVESTORS,Commerce Park Investors LLC,developer-holder,yes,4,9,8,18
+DALFEN INDUSTRIAL,Dalfen Industrial,closed-end PE,yes,6,5,6,18
+MORGAN STANLEY REAL ESTATE INVESTING,Morgan Stanley Real Estate Investing,closed-end PE,yes,8,1,8,18
+REALTERM,Realterm,closed-end PE,yes,6,5,3,18
+THOR EQUITIES GROUP,Thor Equities Group,developer-holder,yes,5,5,2,16
+VENTURE ONE REAL ESTATE,Venture One Real Estate,closed-end PE,yes,3,9,3,16
+AMBIENT CAPITAL PARTNERS,Ambient Capital Partners,IOS specialist,yes,6,1,1,14
+ARES MANAGEMENT REAL ESTATE,Ares Management Real Estate (Ares Industrial REIT / legacy Black Creek),open-end fund,yes,5,3,13,14
+BROOKFIELD ASSET MANAGEMENT,Brookfield Asset Management (Logistics),closed-end PE,yes,5,3,16,14
+MARCUS PARTNERS,Marcus Partners,closed-end PE,yes,5,3,4,14
+VELOCITY VENTURE PARTNERS,"Velocity Venture Partners, LLC",closed-end PE,yes,4,4,1,13
+BRIDGE LOGISTICS PROPERTIES,Bridge Logistics Properties,closed-end PE,yes,4,3,4,12
+INVESCO REAL ESTATE,Invesco Real Estate,open-end fund,yes,3,5,7,12
+LINK LOGISTICS REAL ESTATE,Link Logistics Real Estate,open-end fund,yes,4,3,4,12
+RIDGECUT ROAD,Ridgecut Road,IOS specialist,yes,4,3,4,12
+STAG INDUSTRIAL,"STAG Industrial, Inc.",REIT,yes,4,3,3,12
+TURNBRIDGE EQUITIES,Turnbridge Equities,developer-holder,yes,4,3,3,12
+PENWOOD REAL ESTATE INVESTMENT MANAGEMENT,"Penwood Real Estate Investment Management, LLC",closed-end PE,yes,4,2,5,11
 BRIDGE INDUSTRIAL,Bridge Industrial,developer-holder,yes,4,1,0,10
 DENHOLTZ PROPERTIES,Denholtz Properties,developer-holder,yes,3,3,0,10
 HINES,Hines,closed-end PE,yes,4,1,0,10
