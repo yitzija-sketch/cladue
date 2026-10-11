@@ -408,6 +408,11 @@ def apply_verification(row, vrows, key_fn):
         elif verdict == 'refuted':
             if field and field in row:
                 if not blank(corrected):
+                    if field in ('date', 'source_date', 'criteria_date'):
+                        corrected, _ = norm_date(corrected)
+                    elif field in ('sf', 'acres', 'price', 'price_psf', 'cap_rate', 'year_built', 'occupancy_at_sale',
+                                   'loan_amount', 'min_sf', 'max_sf', 'min_price', 'max_price', 'nj_deal_count_seen'):
+                        corrected, _ = to_number(corrected, field)
                     row[field] = corrected
                     tags.append(f'corrected:{field}')
                 else:
@@ -420,6 +425,12 @@ def apply_verification(row, vrows, key_fn):
                 row['notes'] = (s(row.get('notes')) + f' | VERIFY: {note}').strip(' |')
         elif verdict == 'unverifiable':
             tags.append(f'unverifiable:{field or "row"}')
+        # a 'confirmed' verdict that nonetheless supplies a corrected value (e.g. a found sale date) fills blanks
+        if verdict == 'confirmed' and field and field in row and blank(row.get(field)) and not blank(corrected):
+            if field in ('date', 'source_date', 'criteria_date'):
+                corrected, _ = norm_date(corrected)
+            row[field] = corrected
+            tags.append(f'filled:{field}')
     row['verification'] = ';'.join(tags)
     return row
 

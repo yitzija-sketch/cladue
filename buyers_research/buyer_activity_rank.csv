@@ -35,6 +35,7 @@ OLIVER STREET CAPITAL,Oliver Street Capital,closed-end PE,yes,2,5,5,10
 PROPERTY RESERVE,"Property Reserve, Inc.",other,yes,4,1,2,10
 TREETOP COMPANIES,Treetop Companies,family office,yes,2,5,1,10
 BRENTWOOD REALTY,Brentwood Realty,other,yes,3,2,3,9
+CABOT PROPERTIES,Cabot Properties,closed-end PE,yes,2,4,0,9
 DORA S NATURALS,Dora's Naturals,owner-user,yes,3,2,1,9
 KOVITZ INVESTMENT GROUP,Kovitz Investment Group,closed-end PE,yes,0,8,5,9
 CLARION PARTNERS,Clarion Partners (Lion Industrial Trust),open-end fund,yes,2,3,10,8
@@ -45,7 +46,6 @@ JOHNSON DEVELOPMENT ASSOCIATES,"Johnson Development Associates, Inc.",developer-
 PRINCIPAL REAL ESTATE INVESTORS,Principal Real Estate Investors,open-end fund,yes,2,3,3,8
 BARINGS REAL ESTATE,Barings Real Estate,open-end fund,yes,2,2,7,7
 CAMBER REAL ESTATE PARTNERS,Camber Real Estate Partners,closed-end PE,yes,1,4,5,7
-CBRE INVESTMENT MANAGEMENT,CBRE Investment Management,open-end fund,yes,1,4,4,7
 COHEN ASSET MANAGEMENT,"Cohen Asset Management, Inc.",closed-end PE,yes,1,4,10,7
 DERMODY PROPERTIES,Dermody Properties,developer-holder,yes,2,2,8,7
 DIVERSIFIED PROPERTIES,Diversified Properties LLC,developer-holder,yes,2,2,1,7
@@ -56,6 +56,7 @@ AAA WHOLESALE,AAA Wholesale,owner-user,yes,2,1,3,6
 BAIN CAPITAL REAL ESTATE,Bain Capital Real Estate,closed-end PE,yes,0,5,6,6
 BGO,BGO (BentallGreenOak),open-end fund,yes,2,1,13,6
 BLACKROCK,BlackRock Realty Advisors,other,yes,2,1,3,6
+CBRE INVESTMENT MANAGEMENT,CBRE Investment Management,open-end fund,yes,1,3,4,6
 CRITERION GROUP,Criterion Group LLC,IOS specialist,yes,1,3,3,6
 DEUGEN DEVELOPMENT,Deugen Development,developer-holder,yes,1,3,3,6
 DH PROPERTY HOLDINGS,"DH Property Holdings, LLC (DHPH)",developer-holder,yes,2,1,6,6
@@ -82,7 +83,6 @@ WHARTON INDUSTRIAL,Wharton Industrial (Wharton Equity Partners),closed-end PE,ye
 WOODMONT INDUSTRIAL PARTNERS,Woodmont Industrial Partners,developer-holder,yes,1,3,10,6
 AMERICOLD REALTY TRUST,"Americold Realty Trust, Inc.",REIT,yes,1,2,8,5
 B AND D HOLDINGS,B&D Holdings,developer-holder,yes,1,2,4,5
-CABOT PROPERTIES,Cabot Properties,closed-end PE,yes,2,0,0,5
 FORSGATE INDUSTRIAL PARTNERS,Forsgate Industrial Partners,developer-holder,yes,1,2,8,5
 HAMPSHIRE COMPANIES,The Hampshire Companies,closed-end PE,yes,2,0,14,5
 MAPLETREE INVESTMENTS,Mapletree Investments,developer-holder,yes,1,2,6,5
