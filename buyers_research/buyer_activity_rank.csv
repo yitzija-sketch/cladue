@@ -7,11 +7,11 @@ FAROPOINT,Faropoint,closed-end PE,yes,10,7,6,28
 CENTERPOINT PROPERTIES,CenterPoint Properties,developer-holder,yes,9,5,0,24
 LONGPOINT REALTY PARTNERS,Longpoint Realty Partners,closed-end PE,yes,10,2,5,23
 TERRENO REALTY,Terreno Realty Corporation,REIT,yes,8,5,0,22
-SAGARD REAL ESTATE,Sagard Real Estate,open-end fund,yes,8,4,7,21
-STRO COMPANIES,The STRO Companies,developer-holder,yes,5,9,2,20
-COMMERCE PARK INVESTORS,Commerce Park Investors LLC,developer-holder,yes,4,9,8,18
-DALFEN INDUSTRIAL,Dalfen Industrial,closed-end PE,yes,6,5,6,18
-MORGAN STANLEY REAL ESTATE INVESTING,Morgan Stanley Real Estate Investing,closed-end PE,yes,8,1,8,18
+SAGARD REAL ESTATE,Sagard Real Estate,open-end fund,yes,8,4,8,21
+STRO COMPANIES,The STRO Companies,developer-holder,yes,5,9,4,20
+COMMERCE PARK INVESTORS,Commerce Park Investors LLC,developer-holder,yes,4,9,9,18
+DALFEN INDUSTRIAL,Dalfen Industrial,closed-end PE,yes,6,5,8,18
+MORGAN STANLEY REAL ESTATE INVESTING,Morgan Stanley Real Estate Investing,closed-end PE,yes,8,1,9,18
 REALTERM,Realterm,closed-end PE,yes,6,5,3,18
 THOR EQUITIES GROUP,Thor Equities Group,developer-holder,yes,5,5,2,16
 VENTURE ONE REAL ESTATE,Venture One Real Estate,closed-end PE,yes,3,9,3,16
@@ -22,38 +22,38 @@ MARCUS PARTNERS,Marcus Partners,closed-end PE,yes,5,3,4,14
 VELOCITY VENTURE PARTNERS,"Velocity Venture Partners, LLC",closed-end PE,yes,4,4,1,13
 BRIDGE LOGISTICS PROPERTIES,Bridge Logistics Properties,closed-end PE,yes,4,3,4,12
 INVESCO REAL ESTATE,Invesco Real Estate,open-end fund,yes,3,5,7,12
-LINK LOGISTICS REAL ESTATE,Link Logistics Real Estate,open-end fund,yes,4,3,4,12
-RIDGECUT ROAD,Ridgecut Road,IOS specialist,yes,4,3,4,12
-STAG INDUSTRIAL,"STAG Industrial, Inc.",REIT,yes,4,3,3,12
-TURNBRIDGE EQUITIES,Turnbridge Equities,developer-holder,yes,4,3,3,12
-PENWOOD REAL ESTATE INVESTMENT MANAGEMENT,"Penwood Real Estate Investment Management, LLC",closed-end PE,yes,4,2,5,11
+LINK LOGISTICS REAL ESTATE,Link Logistics Real Estate,open-end fund,yes,4,3,5,12
+RIDGECUT ROAD,Ridgecut Road,IOS specialist,yes,4,3,5,12
+STAG INDUSTRIAL,"STAG Industrial, Inc.",REIT,yes,4,3,5,12
+TURNBRIDGE EQUITIES,Turnbridge Equities,developer-holder,yes,4,3,7,12
+PENWOOD REAL ESTATE INVESTMENT MANAGEMENT,"Penwood Real Estate Investment Management, LLC",closed-end PE,yes,4,2,6,11
 BRIDGE INDUSTRIAL,Bridge Industrial,developer-holder,yes,4,1,0,10
-DENHOLTZ PROPERTIES,Denholtz Properties,developer-holder,yes,3,3,0,10
-HINES,Hines,closed-end PE,yes,4,1,0,10
+DENHOLTZ PROPERTIES,Denholtz Properties,developer-holder,yes,3,3,4,10
+HINES,Hines,closed-end PE,yes,4,1,6,10
 KURV INDUSTRIAL,Kurv Industrial,other,yes,4,1,0,10
-OLIVER STREET CAPITAL,Oliver Street Capital,closed-end PE,yes,2,5,0,10
-PROPERTY RESERVE,"Property Reserve, Inc.",other,yes,4,1,0,10
-TREETOP COMPANIES,Treetop Companies,family office,yes,2,5,0,10
-BRENTWOOD REALTY,Brentwood Realty,other,yes,3,2,0,9
-DORA S NATURALS,Dora's Naturals,owner-user,yes,3,2,0,9
-KOVITZ INVESTMENT GROUP,Kovitz Investment Group,closed-end PE,yes,0,8,0,9
-CLARION PARTNERS,Clarion Partners (Lion Industrial Trust),open-end fund,yes,2,3,0,8
-GOODMAN GROUP,Goodman Group (Goodman North America),developer-holder,yes,3,1,0,8
-HIGH STREET LOGISTICS PROPERTIES,High Street Logistics Properties,closed-end PE,yes,2,3,0,8
-IDI LOGISTICS,IDI Logistics,developer-holder,yes,2,3,0,8
-JOHNSON DEVELOPMENT ASSOCIATES,"Johnson Development Associates, Inc.",developer-holder,yes,3,1,0,8
-PRINCIPAL REAL ESTATE INVESTORS,Principal Real Estate Investors,open-end fund,yes,2,3,0,8
-BARINGS REAL ESTATE,Barings Real Estate,open-end fund,yes,2,2,0,7
-CAMBER REAL ESTATE PARTNERS,Camber Real Estate Partners,closed-end PE,yes,1,4,0,7
-CBRE INVESTMENT MANAGEMENT,CBRE Investment Management,open-end fund,yes,1,4,0,7
-COHEN ASSET MANAGEMENT,"Cohen Asset Management, Inc.",closed-end PE,yes,1,4,0,7
-DERMODY PROPERTIES,Dermody Properties,developer-holder,yes,2,2,0,7
-DIVERSIFIED PROPERTIES,Diversified Properties LLC,developer-holder,yes,2,2,0,7
-GLP CAPITAL PARTNERS,GLP Capital Partners (GCP),closed-end PE,yes,2,2,0,7
-LINCOLN EQUITIES GROUP,Lincoln Equities Group,developer-holder,yes,3,0,0,7
-SAADIA GROUP,Saadia Group LLC,other,yes,2,2,0,7
-AAA WHOLESALE,AAA Wholesale,owner-user,yes,2,1,0,6
-BAIN CAPITAL REAL ESTATE,Bain Capital Real Estate,closed-end PE,yes,0,5,0,6
+OLIVER STREET CAPITAL,Oliver Street Capital,closed-end PE,yes,2,5,5,10
+PROPERTY RESERVE,"Property Reserve, Inc.",other,yes,4,1,2,10
+TREETOP COMPANIES,Treetop Companies,family office,yes,2,5,1,10
+BRENTWOOD REALTY,Brentwood Realty,other,yes,3,2,3,9
+DORA S NATURALS,Dora's Naturals,owner-user,yes,3,2,1,9
+KOVITZ INVESTMENT GROUP,Kovitz Investment Group,closed-end PE,yes,0,8,5,9
+CLARION PARTNERS,Clarion Partners (Lion Industrial Trust),open-end fund,yes,2,3,10,8
+GOODMAN GROUP,Goodman Group (Goodman North America),developer-holder,yes,3,1,5,8
+HIGH STREET LOGISTICS PROPERTIES,High Street Logistics Properties,closed-end PE,yes,2,3,6,8
+IDI LOGISTICS,IDI Logistics,developer-holder,yes,2,3,2,8
+JOHNSON DEVELOPMENT ASSOCIATES,"Johnson Development Associates, Inc.",developer-holder,yes,3,1,3,8
+PRINCIPAL REAL ESTATE INVESTORS,Principal Real Estate Investors,open-end fund,yes,2,3,3,8
+BARINGS REAL ESTATE,Barings Real Estate,open-end fund,yes,2,2,7,7
+CAMBER REAL ESTATE PARTNERS,Camber Real Estate Partners,closed-end PE,yes,1,4,5,7
+CBRE INVESTMENT MANAGEMENT,CBRE Investment Management,open-end fund,yes,1,4,4,7
+COHEN ASSET MANAGEMENT,"Cohen Asset Management, Inc.",closed-end PE,yes,1,4,10,7
+DERMODY PROPERTIES,Dermody Properties,developer-holder,yes,2,2,8,7
+DIVERSIFIED PROPERTIES,Diversified Properties LLC,developer-holder,yes,2,2,1,7
+GLP CAPITAL PARTNERS,GLP Capital Partners (GCP),closed-end PE,yes,2,2,9,7
+LINCOLN EQUITIES GROUP,Lincoln Equities Group,developer-holder,yes,3,0,6,7
+SAADIA GROUP,Saadia Group LLC,other,yes,2,2,1,7
+AAA WHOLESALE,AAA Wholesale,owner-user,yes,2,1,3,6
+BAIN CAPITAL REAL ESTATE,Bain Capital Real Estate,closed-end PE,yes,0,5,6,6
 BGO,BGO (BentallGreenOak),open-end fund,yes,2,1,0,6
 BLACKROCK,BlackRock Realty Advisors,other,yes,2,1,0,6
 CRITERION GROUP,Criterion Group LLC,IOS specialist,yes,1,3,0,6
