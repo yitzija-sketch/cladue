@@ -63,6 +63,27 @@
   "selection": "Select rows that carry a stated buy box or a person: any of min_sf, max_sf, min_price, max_price, stated_criteria_quote, acquisitions_head_name non-empty; prefer confidence \"high\"/\"med\" rows and rows whose nj_active is \"yes\". For each, check: the quote wording exists on the cited domain (search the quoted phrase in quotes with allowed_domains set to that domain); the SF/price band matches; the named person holds that title at that firm; nj_active is supported by at least one NJ deal."
  },
  {
+  "key": "V_AX_1_deal_buyers_institutional",
+  "workstream": "A",
+  "source": "/home/user/cladue/buyers_research/parts/A_buyers/AX_1_deal_buyers_institutional.jsonl",
+  "sample": 10,
+  "selection": "Select rows that carry a stated buy box or a person: any of min_sf, max_sf, min_price, max_price, stated_criteria_quote, acquisitions_head_name non-empty; prefer confidence \"high\"/\"med\" rows and rows whose nj_active is \"yes\". For each, check: the quote wording exists on the cited domain (search the quoted phrase in quotes with allowed_domains set to that domain); the SF/price band matches; the named person holds that title at that firm; nj_active is supported by at least one NJ deal."
+ },
+ {
+  "key": "V_AX_2_owner_users",
+  "workstream": "A",
+  "source": "/home/user/cladue/buyers_research/parts/A_buyers/AX_2_owner_users.jsonl",
+  "sample": 10,
+  "selection": "Select rows that carry a stated buy box or a person: any of min_sf, max_sf, min_price, max_price, stated_criteria_quote, acquisitions_head_name non-empty; prefer confidence \"high\"/\"med\" rows and rows whose nj_active is \"yes\". For each, check: the quote wording exists on the cited domain (search the quoted phrase in quotes with allowed_domains set to that domain); the SF/price band matches; the named person holds that title at that firm; nj_active is supported by at least one NJ deal."
+ },
+ {
+  "key": "V_AX_3_private_individuals_small_llcs",
+  "workstream": "A",
+  "source": "/home/user/cladue/buyers_research/parts/A_buyers/AX_3_private_individuals_small_llcs.jsonl",
+  "sample": 10,
+  "selection": "Select rows that carry a stated buy box or a person: any of min_sf, max_sf, min_price, max_price, stated_criteria_quote, acquisitions_head_name non-empty; prefer confidence \"high\"/\"med\" rows and rows whose nj_active is \"yes\". For each, check: the quote wording exists on the cited domain (search the quoted phrase in quotes with allowed_domains set to that domain); the SF/price band matches; the named person holds that title at that firm; nj_active is supported by at least one NJ deal."
+ },
+ {
   "key": "V_B_geo_bergen",
   "workstream": "B",
   "source": "/home/user/cladue/buyers_research/parts/B_deals/B_geo_bergen.jsonl",
@@ -159,5 +180,145 @@
   "source": "/home/user/cladue/buyers_research/parts/B_deals/B_year_2024.jsonl",
   "sample": 8,
   "selection": "Select rows in this priority order: price >= 10000000; then rows with cap_rate or buyer_spv_named; then rows whose notes say DATE UNVERIFIED and price >= 3000000 (for these the main job is to find the sale year: search the address + town + \"sold\"/\"acquires\" and record field \"date\" with corrected_value = the year or full date when a source states it). For each, check buyer, price, sf and year against the cited domain and one independent source."
+ },
+ {
+  "key": "V_C_01",
+  "workstream": "C",
+  "source": "/home/user/cladue/buyers_research/parts/C_entities/C_01.jsonl",
+  "sample": 8,
+  "selection": "Select rows with entity_role \"SPV\" or \"fund\" first (these are the ones the broker will join to tax records), then \"manager\"/\"GP\". For each, check that the entity is tied to that buyer on the cited domain (search the exact entity name in quotes with allowed_domains set to that domain, then an open search of the entity name + \"LLC\" + New Jersey) and that the address/state, if given, appear in a source."
+ },
+ {
+  "key": "V_C_02",
+  "workstream": "C",
+  "source": "/home/user/cladue/buyers_research/parts/C_entities/C_02.jsonl",
+  "sample": 8,
+  "selection": "Select rows with entity_role \"SPV\" or \"fund\" first (these are the ones the broker will join to tax records), then \"manager\"/\"GP\". For each, check that the entity is tied to that buyer on the cited domain (search the exact entity name in quotes with allowed_domains set to that domain, then an open search of the entity name + \"LLC\" + New Jersey) and that the address/state, if given, appear in a source."
+ },
+ {
+  "key": "V_C_03",
+  "workstream": "C",
+  "source": "/home/user/cladue/buyers_research/parts/C_entities/C_03.jsonl",
+  "sample": 8,
+  "selection": "Select rows with entity_role \"SPV\" or \"fund\" first (these are the ones the broker will join to tax records), then \"manager\"/\"GP\". For each, check that the entity is tied to that buyer on the cited domain (search the exact entity name in quotes with allowed_domains set to that domain, then an open search of the entity name + \"LLC\" + New Jersey) and that the address/state, if given, appear in a source."
+ },
+ {
+  "key": "V_C_04",
+  "workstream": "C",
+  "source": "/home/user/cladue/buyers_research/parts/C_entities/C_04.jsonl",
+  "sample": 8,
+  "selection": "Select rows with entity_role \"SPV\" or \"fund\" first (these are the ones the broker will join to tax records), then \"manager\"/\"GP\". For each, check that the entity is tied to that buyer on the cited domain (search the exact entity name in quotes with allowed_domains set to that domain, then an open search of the entity name + \"LLC\" + New Jersey) and that the address/state, if given, appear in a source."
+ },
+ {
+  "key": "V_C_05",
+  "workstream": "C",
+  "source": "/home/user/cladue/buyers_research/parts/C_entities/C_05.jsonl",
+  "sample": 8,
+  "selection": "Select rows with entity_role \"SPV\" or \"fund\" first (these are the ones the broker will join to tax records), then \"manager\"/\"GP\". For each, check that the entity is tied to that buyer on the cited domain (search the exact entity name in quotes with allowed_domains set to that domain, then an open search of the entity name + \"LLC\" + New Jersey) and that the address/state, if given, appear in a source."
+ },
+ {
+  "key": "V_C_06",
+  "workstream": "C",
+  "source": "/home/user/cladue/buyers_research/parts/C_entities/C_06.jsonl",
+  "sample": 8,
+  "selection": "Select rows with entity_role \"SPV\" or \"fund\" first (these are the ones the broker will join to tax records), then \"manager\"/\"GP\". For each, check that the entity is tied to that buyer on the cited domain (search the exact entity name in quotes with allowed_domains set to that domain, then an open search of the entity name + \"LLC\" + New Jersey) and that the address/state, if given, appear in a source."
+ },
+ {
+  "key": "V_C_07",
+  "workstream": "C",
+  "source": "/home/user/cladue/buyers_research/parts/C_entities/C_07.jsonl",
+  "sample": 8,
+  "selection": "Select rows with entity_role \"SPV\" or \"fund\" first (these are the ones the broker will join to tax records), then \"manager\"/\"GP\". For each, check that the entity is tied to that buyer on the cited domain (search the exact entity name in quotes with allowed_domains set to that domain, then an open search of the entity name + \"LLC\" + New Jersey) and that the address/state, if given, appear in a source."
+ },
+ {
+  "key": "V_C_08",
+  "workstream": "C",
+  "source": "/home/user/cladue/buyers_research/parts/C_entities/C_08.jsonl",
+  "sample": 8,
+  "selection": "Select rows with entity_role \"SPV\" or \"fund\" first (these are the ones the broker will join to tax records), then \"manager\"/\"GP\". For each, check that the entity is tied to that buyer on the cited domain (search the exact entity name in quotes with allowed_domains set to that domain, then an open search of the entity name + \"LLC\" + New Jersey) and that the address/state, if given, appear in a source."
+ },
+ {
+  "key": "V_C_09",
+  "workstream": "C",
+  "source": "/home/user/cladue/buyers_research/parts/C_entities/C_09.jsonl",
+  "sample": 8,
+  "selection": "Select rows with entity_role \"SPV\" or \"fund\" first (these are the ones the broker will join to tax records), then \"manager\"/\"GP\". For each, check that the entity is tied to that buyer on the cited domain (search the exact entity name in quotes with allowed_domains set to that domain, then an open search of the entity name + \"LLC\" + New Jersey) and that the address/state, if given, appear in a source."
+ },
+ {
+  "key": "V_C_10",
+  "workstream": "C",
+  "source": "/home/user/cladue/buyers_research/parts/C_entities/C_10.jsonl",
+  "sample": 8,
+  "selection": "Select rows with entity_role \"SPV\" or \"fund\" first (these are the ones the broker will join to tax records), then \"manager\"/\"GP\". For each, check that the entity is tied to that buyer on the cited domain (search the exact entity name in quotes with allowed_domains set to that domain, then an open search of the entity name + \"LLC\" + New Jersey) and that the address/state, if given, appear in a source."
+ },
+ {
+  "key": "V_C_11",
+  "workstream": "C",
+  "source": "/home/user/cladue/buyers_research/parts/C_entities/C_11.jsonl",
+  "sample": 8,
+  "selection": "Select rows with entity_role \"SPV\" or \"fund\" first (these are the ones the broker will join to tax records), then \"manager\"/\"GP\". For each, check that the entity is tied to that buyer on the cited domain (search the exact entity name in quotes with allowed_domains set to that domain, then an open search of the entity name + \"LLC\" + New Jersey) and that the address/state, if given, appear in a source."
+ },
+ {
+  "key": "V_C_12",
+  "workstream": "C",
+  "source": "/home/user/cladue/buyers_research/parts/C_entities/C_12.jsonl",
+  "sample": 8,
+  "selection": "Select rows with entity_role \"SPV\" or \"fund\" first (these are the ones the broker will join to tax records), then \"manager\"/\"GP\". For each, check that the entity is tied to that buyer on the cited domain (search the exact entity name in quotes with allowed_domains set to that domain, then an open search of the entity name + \"LLC\" + New Jersey) and that the address/state, if given, appear in a source."
+ },
+ {
+  "key": "V_C_13",
+  "workstream": "C",
+  "source": "/home/user/cladue/buyers_research/parts/C_entities/C_13.jsonl",
+  "sample": 8,
+  "selection": "Select rows with entity_role \"SPV\" or \"fund\" first (these are the ones the broker will join to tax records), then \"manager\"/\"GP\". For each, check that the entity is tied to that buyer on the cited domain (search the exact entity name in quotes with allowed_domains set to that domain, then an open search of the entity name + \"LLC\" + New Jersey) and that the address/state, if given, appear in a source."
+ },
+ {
+  "key": "V_C_14",
+  "workstream": "C",
+  "source": "/home/user/cladue/buyers_research/parts/C_entities/C_14.jsonl",
+  "sample": 8,
+  "selection": "Select rows with entity_role \"SPV\" or \"fund\" first (these are the ones the broker will join to tax records), then \"manager\"/\"GP\". For each, check that the entity is tied to that buyer on the cited domain (search the exact entity name in quotes with allowed_domains set to that domain, then an open search of the entity name + \"LLC\" + New Jersey) and that the address/state, if given, appear in a source."
+ },
+ {
+  "key": "V_C_15",
+  "workstream": "C",
+  "source": "/home/user/cladue/buyers_research/parts/C_entities/C_15.jsonl",
+  "sample": 8,
+  "selection": "Select rows with entity_role \"SPV\" or \"fund\" first (these are the ones the broker will join to tax records), then \"manager\"/\"GP\". For each, check that the entity is tied to that buyer on the cited domain (search the exact entity name in quotes with allowed_domains set to that domain, then an open search of the entity name + \"LLC\" + New Jersey) and that the address/state, if given, appear in a source."
+ },
+ {
+  "key": "V_C_16",
+  "workstream": "C",
+  "source": "/home/user/cladue/buyers_research/parts/C_entities/C_16.jsonl",
+  "sample": 8,
+  "selection": "Select rows with entity_role \"SPV\" or \"fund\" first (these are the ones the broker will join to tax records), then \"manager\"/\"GP\". For each, check that the entity is tied to that buyer on the cited domain (search the exact entity name in quotes with allowed_domains set to that domain, then an open search of the entity name + \"LLC\" + New Jersey) and that the address/state, if given, appear in a source."
+ },
+ {
+  "key": "V_C_17",
+  "workstream": "C",
+  "source": "/home/user/cladue/buyers_research/parts/C_entities/C_17.jsonl",
+  "sample": 8,
+  "selection": "Select rows with entity_role \"SPV\" or \"fund\" first (these are the ones the broker will join to tax records), then \"manager\"/\"GP\". For each, check that the entity is tied to that buyer on the cited domain (search the exact entity name in quotes with allowed_domains set to that domain, then an open search of the entity name + \"LLC\" + New Jersey) and that the address/state, if given, appear in a source."
+ },
+ {
+  "key": "V_C_18",
+  "workstream": "C",
+  "source": "/home/user/cladue/buyers_research/parts/C_entities/C_18.jsonl",
+  "sample": 8,
+  "selection": "Select rows with entity_role \"SPV\" or \"fund\" first (these are the ones the broker will join to tax records), then \"manager\"/\"GP\". For each, check that the entity is tied to that buyer on the cited domain (search the exact entity name in quotes with allowed_domains set to that domain, then an open search of the entity name + \"LLC\" + New Jersey) and that the address/state, if given, appear in a source."
+ },
+ {
+  "key": "V_C_19",
+  "workstream": "C",
+  "source": "/home/user/cladue/buyers_research/parts/C_entities/C_19.jsonl",
+  "sample": 8,
+  "selection": "Select rows with entity_role \"SPV\" or \"fund\" first (these are the ones the broker will join to tax records), then \"manager\"/\"GP\". For each, check that the entity is tied to that buyer on the cited domain (search the exact entity name in quotes with allowed_domains set to that domain, then an open search of the entity name + \"LLC\" + New Jersey) and that the address/state, if given, appear in a source."
+ },
+ {
+  "key": "V_C_20",
+  "workstream": "C",
+  "source": "/home/user/cladue/buyers_research/parts/C_entities/C_20.jsonl",
+  "sample": 8,
+  "selection": "Select rows with entity_role \"SPV\" or \"fund\" first (these are the ones the broker will join to tax records), then \"manager\"/\"GP\". For each, check that the entity is tied to that buyer on the cited domain (search the exact entity name in quotes with allowed_domains set to that domain, then an open search of the entity name + \"LLC\" + New Jersey) and that the address/state, if given, appear in a source."
  }
 ]
