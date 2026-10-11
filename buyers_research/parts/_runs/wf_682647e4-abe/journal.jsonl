@@ -1,0 +1,3 @@
+{"type":"launched"}
+{"type":"started","key":"v2:34ba3fc01d9d8c702d9cc98cc3905d37964f2513a08741a56f97edd3647e6b30","agentId":"a1d6ea826166cb841","label":"V:V_A7_cold_lastmile_smallbay","phase":"Verify"}
+{"type":"started","key":"v2:dd76296ecff36d239810ecee0cf2a75cf50986ca7984a47df867e14f875009c1","agentId":"a50797604c5a9b280","label":"V:V_A8_netlease_slb_foreign","phase":"Verify"}
