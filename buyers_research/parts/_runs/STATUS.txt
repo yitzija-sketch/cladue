@@ -1,4 +1,4 @@
-# checkpoint 2026-10-11T06:38:39Z
+# checkpoint 2026-10-11T06:48:41Z
 # part file -> bytes / lines written so far
 buyers_research/parts/A_buyers/A1_public_reits.jsonl 55519 bytes 29 lines
 buyers_research/parts/A_buyers/A2_institutional_core.jsonl 87268 bytes 52 lines
@@ -52,4 +52,20 @@ buyers_research/parts/D_market/D3_jll_kislak.jsonl 26671 bytes 45 lines
 buyers_research/parts/D_market/D4_colliers_nai.jsonl 75214 bytes 137 lines
 buyers_research/parts/D_market/D5_newmark_avison.jsonl 43124 bytes 84 lines
 buyers_research/parts/D_market/D6_costar_rca_other.jsonl 52402 bytes 100 lines
+buyers_research/parts/V_verify/V_A1_public_reits.jsonl 12627 bytes 29 lines
+buyers_research/parts/V_verify/V_A2_institutional_core.jsonl 14479 bytes 25 lines
+buyers_research/parts/V_verify/V_A3_national_pe_valueadd.jsonl 15292 bytes 27 lines
+buyers_research/parts/V_verify/V_A4_nynj_private_operators.jsonl 12516 bytes 21 lines
+buyers_research/parts/V_verify/V_A5_nj_developer_holders.jsonl 12812 bytes 21 lines
+buyers_research/parts/V_verify/V_A6_ios_truck.jsonl 14366 bytes 27 lines
+buyers_research/parts/V_verify/V_A7_cold_lastmile_smallbay.jsonl 17040 bytes 26 lines
+buyers_research/parts/V_verify/V_A8_netlease_slb_foreign.jsonl 13254 bytes 22 lines
+buyers_research/parts/V_verify/V_A9_nontraded_reit_dst.jsonl 11270 bytes 24 lines
+buyers_research/parts/V_verify/V_AX_1_deal_buyers_institutional.jsonl 11578 bytes 24 lines
+buyers_research/parts/V_verify/V_B_geo_bergen.jsonl 15889 bytes 34 lines
+buyers_research/parts/V_verify/V_B_geo_hudson_essex.jsonl 18466 bytes 35 lines
+buyers_research/parts/V_verify/V_B_geo_middlesex.jsonl 17121 bytes 34 lines
+buyers_research/parts/V_verify/V_B_year_2022.jsonl 13929 bytes 31 lines
+buyers_research/parts/V_verify/V_B_year_2023.jsonl 15913 bytes 33 lines
+buyers_research/parts/V_verify/V_B_year_2024.jsonl 13593 bytes 30 lines
 buyers_research/parts/_runs/EXCLUDE_B.jsonl 1123 bytes 9 lines
